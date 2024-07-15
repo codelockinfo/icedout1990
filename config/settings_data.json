@@ -496,10 +496,22 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "cat_HBYHQc": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_10b8b145-1cee-4510-8755-b6d54b654a1d.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "rolex-watches-for-men-1",
+              "title": "WATCHES",
+              "col": "4"
+            }
           }
         },
         "block_order": [
-          "simple_L9fxHh"
+          "simple_L9fxHh",
+          "cat_HBYHQc"
         ],
         "settings": {
           "height": 70,
