@@ -570,6 +570,19 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "simple_kG9wD4": {
+            "type": "simple",
+            "settings": {
+              "title": "REVIEWS",
+              "url": "shopify:\/\/pages\/reviews",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -579,7 +592,8 @@
           "link_yR98UQ",
           "cat_GHQfaQ",
           "simple_qB49jk",
-          "simple_AC4nCc"
+          "simple_AC4nCc",
+          "simple_kG9wD4"
         ],
         "settings": {
           "height": 70,
