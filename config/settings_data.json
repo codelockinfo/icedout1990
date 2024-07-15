@@ -557,6 +557,19 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "simple_AC4nCc": {
+            "type": "simple",
+            "settings": {
+              "title": "BLOGS",
+              "url": "shopify:\/\/blogs\/news",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -565,7 +578,8 @@
           "link_r3wTBD",
           "link_yR98UQ",
           "cat_GHQfaQ",
-          "simple_qB49jk"
+          "simple_qB49jk",
+          "simple_AC4nCc"
         ],
         "settings": {
           "height": 70,
