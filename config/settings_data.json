@@ -562,6 +562,16 @@
               "cus_wid": 1200
             }
           },
+          "link_RaYfrB": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "RING",
+              "url": "shopify:\/\/collections\/925-sterling-silver-moissanite-ring-for-engagement",
+              "open_link": "_self",
+              "menu": "plain-watches",
+              "col": "4"
+            }
+          },
           "mega_KtwzH7": {
             "type": "mega",
             "settings": {
@@ -626,6 +636,7 @@
           "link_yR98UQ",
           "cat_GHQfaQ",
           "mega_HPJfN9",
+          "link_RaYfrB",
           "mega_KtwzH7",
           "simple_qB49jk",
           "simple_AC4nCc",
