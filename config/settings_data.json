@@ -640,6 +640,16 @@
               "cus_wid": 1200
             }
           },
+          "link_Ac9yCt": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Ready To Ship Jewelry",
+              "url": "shopify:\/\/collections\/ready-to-ship-jewelry",
+              "open_link": "_self",
+              "menu": "ready-to-ship-jewelry",
+              "col": "2"
+            }
+          },
           "simple_qB49jk": {
             "type": "simple",
             "settings": {
@@ -694,6 +704,7 @@
           "link_EkTW3k",
           "cat_Eb4iyb",
           "mega_KtwzH7",
+          "link_Ac9yCt",
           "simple_qB49jk",
           "simple_AC4nCc",
           "simple_kG9wD4"
