@@ -523,12 +523,23 @@
               "menu": "iced-out-watches",
               "col": "4"
             }
+          },
+          "link_yR98UQ": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Plain Watches",
+              "url": "shopify:\/\/collections\/audemars-piguet-moissanite-watches-for-men",
+              "open_link": "_self",
+              "menu": "plain-watches",
+              "col": "4"
+            }
           }
         },
         "block_order": [
           "simple_L9fxHh",
           "mega_XjkEfX",
-          "link_r3wTBD"
+          "link_r3wTBD",
+          "link_yR98UQ"
         ],
         "settings": {
           "height": 70,
