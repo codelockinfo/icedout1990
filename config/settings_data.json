@@ -507,11 +507,22 @@
               "title": "WATCHES",
               "col": "4"
             }
+          },
+          "link_r3wTBD": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Iced Out Watches",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "col": "4"
+            }
           }
         },
         "block_order": [
           "simple_L9fxHh",
-          "cat_HBYHQc"
+          "cat_HBYHQc",
+          "link_r3wTBD"
         ],
         "settings": {
           "height": 70,
