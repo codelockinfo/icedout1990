@@ -488,9 +488,9 @@
             "type": "cat",
             "settings": {
               "cat_design": "1",
-              "hoverz": true,
-              "collection": "clothing",
-              "title": "WOMEN",
+              "hoverz": false,
+              "collection": "",
+              "title": "HOME",
               "col": "4"
             }
           },
