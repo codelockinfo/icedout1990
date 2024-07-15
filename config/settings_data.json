@@ -518,9 +518,9 @@
             "type": "link",
             "settings": {
               "tt_hd": "Iced Out Watches",
-              "url": "",
+              "url": "shopify:\/\/collections\/branded-moissanite-iced-out-watches",
               "open_link": "_self",
-              "menu": "",
+              "menu": "iced-out-watches",
               "col": "4"
             }
           }
