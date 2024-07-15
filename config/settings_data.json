@@ -612,6 +612,17 @@
               "col": "2"
             }
           },
+          "cat_Eb4iyb": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MG_7408_50dee858-4653-47f9-a3c0-77d16372d16b.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-diamond-hip-hop-chain",
+              "title": "",
+              "col": "2"
+            }
+          },
           "mega_KtwzH7": {
             "type": "mega",
             "settings": {
@@ -681,6 +692,7 @@
           "link_7PemE7",
           "link_rDU7J8",
           "link_EkTW3k",
+          "cat_Eb4iyb",
           "mega_KtwzH7",
           "simple_qB49jk",
           "simple_AC4nCc",
