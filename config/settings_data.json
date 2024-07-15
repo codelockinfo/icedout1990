@@ -533,13 +533,25 @@
               "menu": "plain-watches",
               "col": "4"
             }
+          },
+          "cat_GHQfaQ": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_a113df8b-ed67-490d-8ee0-b6132f6af841.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "",
+              "title": "",
+              "col": "4"
+            }
           }
         },
         "block_order": [
           "simple_L9fxHh",
           "mega_XjkEfX",
           "link_r3wTBD",
-          "link_yR98UQ"
+          "link_yR98UQ",
+          "cat_GHQfaQ"
         ],
         "settings": {
           "height": 70,
