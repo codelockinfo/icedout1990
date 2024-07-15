@@ -562,6 +562,23 @@
               "cus_wid": 1200
             }
           },
+          "mega_KtwzH7": {
+            "type": "mega",
+            "settings": {
+              "title": "READY TO SHIP",
+              "url": "shopify:\/\/collections\/earrings",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
           "simple_qB49jk": {
             "type": "simple",
             "settings": {
@@ -609,6 +626,7 @@
           "link_yR98UQ",
           "cat_GHQfaQ",
           "mega_HPJfN9",
+          "mega_KtwzH7",
           "simple_qB49jk",
           "simple_AC4nCc",
           "simple_kG9wD4"
