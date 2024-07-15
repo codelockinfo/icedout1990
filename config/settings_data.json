@@ -647,7 +647,29 @@
               "url": "shopify:\/\/collections\/ready-to-ship-jewelry",
               "open_link": "_self",
               "menu": "ready-to-ship-jewelry",
-              "col": "2"
+              "col": "4"
+            }
+          },
+          "cat_iAmLrh": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/02_667d3a73-92c9-44a2-8c9e-09b4f0a3d8c4.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "rolex-watches-for-men-1",
+              "title": "",
+              "col": "4"
+            }
+          },
+          "cat_Uigq93": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MG_7407_dbe40612-68e0-4d21-9161-fa3500c8d36e.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-bracelet-for-women",
+              "title": "",
+              "col": "4"
             }
           },
           "simple_qB49jk": {
@@ -705,6 +727,8 @@
           "cat_Eb4iyb",
           "mega_KtwzH7",
           "link_Ac9yCt",
+          "cat_iAmLrh",
+          "cat_Uigq93",
           "simple_qB49jk",
           "simple_AC4nCc",
           "simple_kG9wD4"
