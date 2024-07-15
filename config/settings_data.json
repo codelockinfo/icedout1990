@@ -484,143 +484,22 @@
       "header_3": {
         "type": "header_3",
         "blocks": {
-          "1600074809609": {
-            "type": "cat",
+          "simple_L9fxHh": {
+            "type": "simple",
             "settings": {
-              "cat_design": "1",
-              "hoverz": false,
-              "collection": "",
               "title": "HOME",
-              "col": "4"
-            }
-          },
-          "1585641269506": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "clothing",
-              "title": "MEN",
-              "col": "4"
-            }
-          },
-          "1585641558196": {
-            "type": "mega",
-            "settings": {
-              "title": "PRODUCT",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "\/",
               "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "HOT",
-              "lb_cl": "#ff3e11",
-              "lazy_mn": true,
-              "pos": "center",
-              "wid": "cus",
-              "cus_wid": 1050
-            }
-          },
-          "1585651740816": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT LAYOUT",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "1585641594950": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT DETAIL",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "1600078264778": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT SWATCH",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "1600078266941": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "1585641802325": {
-            "type": "dropdown",
-            "settings": {
-              "title": "PORTFOLIO",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
-            }
-          },
-          "1585641835304": {
-            "type": "dropdown",
-            "settings": {
-              "title": "LOOKBOOK",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
-            }
-          },
-          "1585641843539": {
-            "type": "dropdown",
-            "settings": {
-              "title": "BLOG",
-              "url": "shopify:\/\/blogs\/life-style",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "left"
+              "lb_cl": ""
             }
           }
         },
         "block_order": [
-          "1600074809609",
-          "1585641269506",
-          "1585641558196",
-          "1585651740816",
-          "1585641594950",
-          "1600078264778",
-          "1600078266941",
-          "1585641802325",
-          "1585641835304",
-          "1585641843539"
+          "simple_L9fxHh"
         ],
         "settings": {
           "height": 70,
