@@ -579,7 +579,7 @@
               "url": "shopify:\/\/collections\/moissanite-diamond-earrings",
               "open_link": "_self",
               "menu": "earrings",
-              "col": "2"
+              "col": "3"
             }
           },
           "link_7PemE7": {
@@ -599,7 +599,7 @@
               "url": "shopify:\/\/collections\/moissanite-bracelet-for-women",
               "open_link": "_self",
               "menu": "bracelets",
-              "col": "2"
+              "col": "3"
             }
           },
           "link_EkTW3k": {
@@ -614,6 +614,7 @@
           },
           "cat_Eb4iyb": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/MG_7408_50dee858-4653-47f9-a3c0-77d16372d16b.jpg",
               "cat_design": "1",
