@@ -592,6 +592,16 @@
               "col": "4"
             }
           },
+          "link_rDU7J8": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "BRACELETS",
+              "url": "shopify:\/\/collections\/moissanite-bracelet-for-women",
+              "open_link": "_self",
+              "menu": "bracelets",
+              "col": "4"
+            }
+          },
           "mega_KtwzH7": {
             "type": "mega",
             "settings": {
@@ -659,6 +669,7 @@
           "link_RaYfrB",
           "link_a3AdGN",
           "link_7PemE7",
+          "link_rDU7J8",
           "mega_KtwzH7",
           "simple_qB49jk",
           "simple_AC4nCc",
