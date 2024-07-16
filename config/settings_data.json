@@ -779,41 +779,12 @@
               "cl_tb": "6",
               "cl_mb": "12"
             }
-          },
-          "1581507840818": {
-            "type": "menu",
-            "settings": {
-              "title": "USEFUL LINKS",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507835369": {
-            "type": "mail",
-            "settings": {
-              "newl_des": "1",
-              "btn_icon": false,
-              "title": "NEWSLETTER SIGNUP",
-              "sub_title": "Subscribe to our newsletter and get 10% off your first purchase",
-              "source": "1",
-              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-              "height": 30,
-              "order": "1",
-              "cl": "3",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
           }
         },
         "block_order": [
           "1581507819652",
           "1581507824602",
-          "1581507828337",
-          "1581507840818",
-          "1581507835369"
+          "1581507828337"
         ],
         "settings": {
           "sticky": false,
