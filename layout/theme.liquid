@@ -37,6 +37,7 @@
     endcapture -%}
 
     {{ content_for_header }}
+    <link rel="stylesheet" href="{{ 'icedout.css' |  asset_url }}"/>
 </head>
 <body {{class_body_theme | strip_newlines-}}>
   {%- render 'lazypreload' -%}
