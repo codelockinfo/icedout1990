@@ -271,7 +271,7 @@ h3.product-title, h3.product-title>a, h1.product_title.entry-title, .widget .pro
 }
 .price ins,.price_range ins,.order-discount,.sticky_atc_price,.kl_fbt_price,.grouped-pr-list-item__price ins,
 .widget .product_list_widget ins {
- color: #ec0101;
+ color: #6B6B78 !important;
 }
 .widget .product_list_widget del,
 .price del,.price_range del,.sticky_atc_price del,.kl_fbt_wrap del {

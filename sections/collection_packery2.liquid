@@ -36,7 +36,7 @@
   <div class="nt_se_{{sid}} {{layout}}{%- if image != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if image != blank %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
     {{-html_layout[0]-}}
     {%- render 'section_title',section:section -%}
-    <div class="js_packery nt_packery products nt_products_holder row fl_center row_pr_{{inc_pr}} cdt_des_{{se_stts.cdt_des}} round_cd_{{se_stts.round_cd}} {{se_stts.image_size}} {{se_stts.image_ratio}} position_{{se_stts.image_position}} space_{{se_stts.space}}{%- if sett_equal %} equal_nt{%- endif -%}" data-packery='{ "itemSelector": ".pr_grid_item","gutter": 0,"percentPosition": true,"originLeft": {{ltr}} }'>
+    <div class="js_packery nt_packery products nt_products_holder   row fl_center row_pr_{{inc_pr}} cdt_des_{{se_stts.cdt_des}} round_cd_{{se_stts.round_cd}} {{se_stts.image_size}} {{se_stts.image_ratio}} position_{{se_stts.image_position}} space_{{se_stts.space}}{%- if sett_equal %} equal_nt{%- endif -%}" data-packery='{ "itemSelector": ".pr_grid_item","gutter": 0,"percentPosition": true,"originLeft": {{ltr}} }'>
         {%- if section.blocks.size > 0 -%}
           {%- for block in section.blocks %}
             {%- liquid
