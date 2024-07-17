@@ -3274,8 +3274,9 @@
           "text_MQxQcJ": {
             "type": "text",
             "settings": {
-              "collection_text": "",
-              "collection_url": ""
+              "bg_img": "shopify:\/\/shop_images\/Rectangle_98.png",
+              "collection_text": "Earrings",
+              "collection_url": "shopify:\/\/collections\/moissanite-diamond-earrings"
             }
           },
           "text_66dFFt": {
