@@ -3130,10 +3130,10 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004569_1.png",
-              "sub_text": "",
+              "sub_text": "CATEGORIES",
               "category_name": "",
-              "category_btns": "",
-              "category_url": ""
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
             }
           },
           "text_j9kzFH": {
