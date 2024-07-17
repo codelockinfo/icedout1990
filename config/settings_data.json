@@ -3263,6 +3263,14 @@
       "hip_hop_collection_GzPMVX": {
         "type": "hip-hop-collection",
         "blocks": {
+          "text_kbtYGW": {
+            "type": "text",
+            "settings": {
+              "bg_img": "shopify:\/\/shop_images\/Rectangle_101.png",
+              "collection_text": "Chains",
+              "collection_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
+            }
+          },
           "text_XQfatd": {
             "type": "text",
             "settings": {
@@ -3294,22 +3302,14 @@
               "collection_text": "Bracelets",
               "collection_url": "shopify:\/\/collections\/moissanite-bracelet-for-women"
             }
-          },
-          "text_kbtYGW": {
-            "type": "text",
-            "settings": {
-              "bg_img": "shopify:\/\/shop_images\/Rectangle_101.png",
-              "collection_text": "Chains",
-              "collection_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
-            }
           }
         },
         "block_order": [
+          "text_kbtYGW",
           "text_XQfatd",
           "text_MQxQcJ",
           "text_66dFFt",
-          "text_c6Q48A",
-          "text_kbtYGW"
+          "text_c6Q48A"
         ],
         "settings": {
           "bg_color": "#ebeff1",
@@ -3326,8 +3326,8 @@
       "collection_slider_section_WcKXc6",
       "category_slider_QxJpWe",
       "1581505838591",
-      "featured_collection_thYkKt",
-      "hip_hop_collection_GzPMVX"
+      "hip_hop_collection_GzPMVX",
+      "featured_collection_thYkKt"
     ]
   }
 }
