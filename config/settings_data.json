@@ -1368,7 +1368,7 @@
             "type": "txt",
             "settings": {
               "title": "This discount is available for all customer, Use this code at checkout.",
-              "color": "#fff",
+              "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 16,
               "lh_text": 0,
@@ -3092,10 +3092,75 @@
         ],
         "settings": {
         }
+      },
+      "categori_slider_section_JDnNyD": {
+        "type": "categori-slider-section",
+        "blocks": {
+          "text_m7GAkN": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
+              "sub_text": "CATEGORIES",
+              "category_name": "ICED OUT WATCH",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
+            }
+          },
+          "text_VhTVrK": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
+              "sub_text": "CATEGORIES",
+              "category_name": "DESIGNER RING",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
+            }
+          },
+          "text_mPcAA9": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004568_1.png",
+              "sub_text": "CATEGORIES",
+              "category_name": "CUSTOM NAMEPLATES",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/moissanite-diamond-custom-nameplate-pendant"
+            }
+          },
+          "text_MbmEFr": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004569_1.png",
+              "sub_text": "CATEGORIES",
+              "category_name": "MIAMI  CUBAN CHAIN",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
+            }
+          },
+          "text_j9kzFH": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
+              "sub_text": "CATEGORIES",
+              "category_name": "ICED OUT WATCH",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
+            }
+          }
+        },
+        "block_order": [
+          "text_m7GAkN",
+          "text_VhTVrK",
+          "text_mPcAA9",
+          "text_MbmEFr",
+          "text_j9kzFH"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
+      "categori_slider_section_JDnNyD",
       "1581505838591"
     ]
   }
