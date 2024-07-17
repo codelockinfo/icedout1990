@@ -3184,10 +3184,86 @@
         "settings": {
           "headingtext": ""
         }
+      },
+      "collection_slider_section_WcKXc6": {
+        "type": "collection-slider-section",
+        "blocks": {
+          "text_4GxKwQ": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
+              "sub_text": "",
+              "category_name": "",
+              "category_btns": "",
+              "category_url": ""
+            }
+          },
+          "text_pYmHYx": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
+              "sub_text": "",
+              "category_name": "",
+              "category_btns": "",
+              "category_url": ""
+            }
+          },
+          "text_JhVjXM": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004568_1.png",
+              "sub_text": "",
+              "category_name": "",
+              "category_btns": "",
+              "category_url": ""
+            }
+          },
+          "text_FBARcN": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004569_1.png",
+              "sub_text": "",
+              "category_name": "",
+              "category_btns": "",
+              "category_url": ""
+            }
+          },
+          "text_8gxzpY": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
+              "sub_text": "",
+              "category_name": "",
+              "category_btns": "",
+              "category_url": ""
+            }
+          },
+          "text_G7V99Y": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
+              "sub_text": "",
+              "category_name": "",
+              "category_btns": "",
+              "category_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_4GxKwQ",
+          "text_pYmHYx",
+          "text_JhVjXM",
+          "text_FBARcN",
+          "text_8gxzpY",
+          "text_G7V99Y"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
+      "collection_slider_section_WcKXc6",
       "category_slider_QxJpWe",
       "1581505838591",
       "featured_collection_thYkKt"
