@@ -1301,7 +1301,7 @@
           "image_position": "8",
           "hidden": false,
           "cp_code": false,
-          "layout": "container",
+          "layout": "wrap",
           "cl_bg": "",
           "mg": ",,90px,",
           "pd": "70px,0",
