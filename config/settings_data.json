@@ -1343,22 +1343,6 @@
               "br_pd_mb": 10
             }
           },
-          "1585640443284": {
-            "type": "subhd",
-            "settings": {
-              "font": "f_body",
-              "title": "MEGA SUMMER SALE",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 20,
-              "lh_text": 0,
-              "ls_text": 2,
-              "fs_mb_text": 15,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0,
-              "hide": false
-            }
-          },
           "1585640460694": {
             "type": "space",
             "settings": {
@@ -1378,6 +1362,21 @@
               "fs_mb_text": 25,
               "lh_mb_text": 0,
               "ls_mb_text": 0
+            }
+          },
+          "txt_GC9Mrh": {
+            "type": "txt",
+            "settings": {
+              "title": "This discount is available for all customer, Use this code at checkout.",
+              "color": "#fff",
+              "fw_text": 400,
+              "fs_text": 16,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
             }
           },
           "1585640466340": {
@@ -1411,9 +1410,9 @@
         },
         "block_order": [
           "1585640154849",
-          "1585640443284",
           "1585640460694",
           "1585640447349",
+          "txt_GC9Mrh",
           "1585640466340",
           "1585640453760"
         ],
