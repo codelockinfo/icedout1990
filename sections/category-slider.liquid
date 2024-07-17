@@ -1,0 +1,262 @@
+<div class="category-grid-section">
+    <div class="width-container">
+        <div class="Main-Coll category-cls">
+            {%- for block in section.blocks -%}
+            <div class="Category_box_2 ">
+                {% if block.settings.category_img != blank %}
+                <div class="category_img_box">
+                    <img src="{{block.settings.category_img | img_url:'master'}}" alt="">
+                </div>
+            {% endif %}
+            </div>     
+          {% endfor %}      
+        </div>
+       <div class="news__arrows"></div>
+    </div>
+</div>
+
+
+
+
+{% schema %}
+    {
+      "name": "category slider Section",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "headingtext",
+          "label": "Heading text"
+        }
+      ],
+      "blocks": [
+          {
+            "name": "Block",
+            "type": "img",
+            "settings": [
+              {
+              "type": "image_picker",
+              "id": "category_img",
+              "label": "category img"
+            }
+            ]
+          }
+        ],
+      "presets": [
+        {
+          "name": "category slider section"
+        }
+      ]
+    }
+    {% endschema %}
+    
+<style>
+  .category-grid-section {   
+	padding-top:60px;
+	padding-bottom:80px;
+	position: relative;
+}
+
+.Category_box_2 {
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.category-grid-section .slick-slider {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	margin: 0 20px;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.category-grid-section .slick-list {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.category-grid-section .slick-list:focus {
+	outline: none;
+}
+
+.category-grid-section .slick-list.dragging {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.category-grid-section .slick-slider .slick-track,
+.category-grid-section .slick-slider .slick-list {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.category-grid-section .slick-track {
+	position: relative;
+	left: 0;
+	top: 0;
+	display: block;
+}
+
+.category-grid-section .slick-track:before,
+.category-grid-section .slick-track:after {
+	content: "";
+	display: table;
+}
+
+.category-grid-section .slick-track:after {
+	clear: both;
+}
+
+.category-grid-section .slick-loading .slick-track {
+	visibility: hidden;
+}
+
+.category-grid-section .slick-slide {
+	float: left;
+	height: 100%;
+	min-height: 1px;
+	display: flex;
+}
+
+[dir="rtl"] .category-grid-section .slick-slide {
+	float: right;
+}
+
+.category-grid-section .slick-slide img {
+	display: block;
+}
+
+.category-grid-section .slick-slide.slick-loading img {
+	display: none;
+}
+
+.category-grid-section .slick-slide.dragging img {
+	pointer-events: none;
+}
+
+.category-grid-section .slick-initialized .slick-slide {
+	display: block;
+}
+
+.category-grid-section .slick-loading .slick-slide {
+	visibility: hidden;
+}
+
+.category-grid-section .slick-vertical .slick-slide {
+	display: block;
+	height: auto;
+	border: 1px solid transparent;
+}
+
+.category-grid-section .slick-arrow.slick-hidden {
+	display: none;
+}
+
+/*================ Slick Slider Theme ================*/
+.category-grid-section .slick-loading .slick-list {
+	background: #fff var(--slick-img-url) center center no-repeat;
+}
+
+.news__arrows {
+	width: 50px;
+	margin: 0 auto;
+	/* position: absolute; */
+	/* left:46.5%; */
+	right: 47.5%;
+	top: 90%;
+}
+.category-grid-section .slick-next{
+	width: 40px;
+	height: 40px;
+	background-color: #D9D9D9;
+	text-align: center;
+	border-radius: 100% !important;
+}
+.category-grid-section .slick-prev{
+	width: 40px;
+	height: 40px;
+	background-color: #D9D9D9;
+	text-align: center;
+	border-radius: 100% !important;
+}
+ 
+ 
+.category-grid-section .slick-next:before,.slick-prev:before{
+	color: #000 !important;
+}
+.category-grid-section .slick-next {
+  right: -56px !important;
+}
+.category-grid-section .slick-prev {
+  left: -56px !important;
+}
+[dir="rtl"] .category-grid-section .slick-next {
+	left: -56px;
+	right: auto;
+}
+
+.category-grid-section .slick-next:before {
+	content: "\276F";
+	font-weight: 600;
+	line-height: 0.5;
+}
+
+[dir="rtl"] .category-grid-section .slick-next:before {
+	content: "\276E";
+}
+.category-grid-section .slick-prev:before {
+	content: "\276E";
+	font-weight: 600;
+	line-height: 0.5;
+}
+
+[dir="rtl"] .category-grid-section .slick-prev:before {
+	content: "\276F";
+}
+
+</style>
+
+<script>
+  $('.category-cls').slick({
+        infinite: true,
+        loop:true,
+        arrows: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        // appendArrows: $('.news__arrows'),
+        prevArrow: "<button type='button' class='slick-prev pull-left arrowidth'>&#8592;</button>",
+        nextArrow: "<button type='button' class='slick-next pull-right arrowidth'>&#8592;</button>",
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    });
+  </script>
