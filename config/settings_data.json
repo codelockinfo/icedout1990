@@ -3093,70 +3093,6 @@
         "settings": {
         }
       },
-      "categori_slider_section_JDnNyD": {
-        "type": "categori-slider-section",
-        "blocks": {
-          "text_m7GAkN": {
-            "type": "text",
-            "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "ICED OUT WATCH",
-              "category_btns": "Go to Categories",
-              "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
-            }
-          },
-          "text_VhTVrK": {
-            "type": "text",
-            "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "DESIGNER RING",
-              "category_btns": "Go to Categories",
-              "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
-            }
-          },
-          "text_mPcAA9": {
-            "type": "text",
-            "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004568_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "CUSTOM NAMEPLATES",
-              "category_btns": "Go to Categories",
-              "category_url": "shopify:\/\/collections\/moissanite-diamond-custom-nameplate-pendant"
-            }
-          },
-          "text_MbmEFr": {
-            "type": "text",
-            "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004569_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "MIAMI  CUBAN CHAIN",
-              "category_btns": "Go to Categories",
-              "category_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
-            }
-          },
-          "text_j9kzFH": {
-            "type": "text",
-            "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "ICED OUT WATCH",
-              "category_btns": "Go to Categories",
-              "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
-            }
-          }
-        },
-        "block_order": [
-          "text_m7GAkN",
-          "text_VhTVrK",
-          "text_mPcAA9",
-          "text_MbmEFr",
-          "text_j9kzFH"
-        ],
-        "settings": {
-        }
-      },
       "featured_collection_thYkKt": {
         "type": "featured_collection",
         "settings": {
@@ -3196,13 +3132,65 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "category_slider_QxJpWe": {
+        "type": "category-slider",
+        "blocks": {
+          "img_BnMPrD": {
+            "type": "img",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004575.png"
+            }
+          },
+          "img_RQQPzj": {
+            "type": "img",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004576.png"
+            }
+          },
+          "img_MpicHX": {
+            "type": "img",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004577.png"
+            }
+          },
+          "img_nK7RWr": {
+            "type": "img",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004578.png"
+            }
+          },
+          "img_7gwyLX": {
+            "type": "img",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004575.png"
+            }
+          },
+          "img_FByQyT": {
+            "type": "img",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004576.png"
+            }
+          }
+        },
+        "block_order": [
+          "img_BnMPrD",
+          "img_RQQPzj",
+          "img_MpicHX",
+          "img_nK7RWr",
+          "img_7gwyLX",
+          "img_FByQyT"
+        ],
+        "settings": {
+          "headingtext": ""
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
-      "categori_slider_section_JDnNyD",
       "1581505838591",
-      "featured_collection_thYkKt"
+      "featured_collection_thYkKt",
+      "category_slider_QxJpWe"
     ]
   }
 }
