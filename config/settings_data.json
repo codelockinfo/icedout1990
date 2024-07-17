@@ -3259,6 +3259,17 @@
         ],
         "settings": {
         }
+      },
+      "hip_hop_collection_GzPMVX": {
+        "type": "hip-hop-collection",
+        "settings": {
+          "bg_color": "#ebeff1",
+          "title": "Collection Grid",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_10"
+        }
       }
     },
     "content_for_index": [
@@ -3266,7 +3277,8 @@
       "collection_slider_section_WcKXc6",
       "category_slider_QxJpWe",
       "1581505838591",
-      "featured_collection_thYkKt"
+      "featured_collection_thYkKt",
+      "hip_hop_collection_GzPMVX"
     ]
   }
 }
