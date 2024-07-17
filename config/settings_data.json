@@ -3120,10 +3120,10 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004568_1.png",
-              "sub_text": "",
-              "category_name": "",
-              "category_btns": "",
-              "category_url": ""
+              "sub_text": "CATEGORIES",
+              "category_name": "CUSTOM NAMEPLATES",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/moissanite-diamond-custom-nameplate-pendant"
             }
           },
           "text_MbmEFr": {
