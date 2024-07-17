@@ -1304,7 +1304,7 @@
           "layout": "container",
           "cl_bg": "",
           "mg": ",,90px,",
-          "pd": "",
+          "pd": "70px,0",
           "mg_mb": ",,60px,",
           "pd_mb": ""
         }
