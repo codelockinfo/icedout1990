@@ -3096,24 +3096,24 @@
       "categori_slider_section_JDnNyD": {
         "type": "categori-slider-section",
         "blocks": {
-          "text_j9kzFH": {
+          "text_m7GAkN": {
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
-              "sub_text": "",
-              "category_name": "",
-              "category_btns": "",
-              "category_url": ""
+              "sub_text": "CATEGORIES",
+              "category_name": "ICED OUT WATCH",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
             }
           },
           "text_VhTVrK": {
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
-              "sub_text": "",
-              "category_name": "",
-              "category_btns": "",
-              "category_url": ""
+              "sub_text": "CATEGORIES",
+              "category_name": "DESIGNER RING",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
             }
           },
           "text_mPcAA9": {
@@ -3136,23 +3136,23 @@
               "category_url": ""
             }
           },
-          "text_m7GAkN": {
+          "text_j9kzFH": {
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "ICED OUT WATCH",
-              "category_btns": "Go to CATEGORIES",
-              "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
+              "sub_text": "",
+              "category_name": "",
+              "category_btns": "",
+              "category_url": ""
             }
           }
         },
         "block_order": [
-          "text_j9kzFH",
+          "text_m7GAkN",
           "text_VhTVrK",
           "text_mPcAA9",
           "text_MbmEFr",
-          "text_m7GAkN"
+          "text_j9kzFH"
         ],
         "settings": {
         }
