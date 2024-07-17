@@ -3298,8 +3298,9 @@
           "text_kbtYGW": {
             "type": "text",
             "settings": {
-              "collection_text": "",
-              "collection_url": ""
+              "bg_img": "shopify:\/\/shop_images\/Rectangle_101.png",
+              "collection_text": "Chains",
+              "collection_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
             }
           }
         },
