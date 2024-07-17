@@ -3044,7 +3044,7 @@ html.wf-fontawesome5free-n4-loading .fas:before {opacity: 0}
       position: relative;
       background-repeat: no-repeat;
       background-size: cover;   
-      border-radius: 25px ;   
+      /* border-radius: 25px ;    */
   }
   .p-thumb.equal_nt .nt_bg_lz {height: auto}
   .pr_lazy_img{background-position: center center} 
@@ -5033,7 +5033,7 @@ i.dn.title_6 {
       opacity: 1;
       width: 50px;
       height: 50px;
-      border-radius: 25px;
+      /* border-radius: 25px; */
       position: relative;
       margin: 0 auto;
       padding: 5px;
