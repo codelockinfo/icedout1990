@@ -3290,6 +3290,7 @@
           "text_c6Q48A": {
             "type": "text",
             "settings": {
+              "bg_img": "shopify:\/\/shop_images\/Rectangle_100.png",
               "collection_text": "Bracelets",
               "collection_url": "shopify:\/\/collections\/moissanite-bracelet-for-women"
             }
