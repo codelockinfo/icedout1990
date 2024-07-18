@@ -3330,7 +3330,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/0de1b5e39580eb8416c7642709e89955.jpg",
               "pos_img": "center center",
-              "size_img": "cover",
+              "size_img": "contain",
               "link_img1": "",
               "open_link": "_blank",
               "caption_w": "2",
