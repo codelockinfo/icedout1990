@@ -3359,11 +3359,37 @@
               "lh_mb_text": 0,
               "ls_mb_text": 0
             }
+          },
+          "txt_TjY7K4": {
+            "type": "txt",
+            "settings": {
+              "title": "the mesmerizing world of Radiant <br>Treasures, where gemstone delights <br> await. Our collection showcases an <br> array of exquisite gemstones.",
+              "content_pd": "",
+              "content_pd_mb": "",
+              "color": "#fff",
+              "fw_text": 400,
+              "fs_text": 14,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "space_FPdbrr": {
+            "type": "space",
+            "settings": {
+              "sp": 40,
+              "sp_mb": 10
+            }
           }
         },
         "block_order": [
           "img_axHqhW",
-          "hd_dz393k"
+          "hd_dz393k",
+          "txt_TjY7K4",
+          "space_FPdbrr"
         ],
         "settings": {
           "title": "Featured Products",
