@@ -3396,6 +3396,107 @@
           "dot_owl": "1",
           "dot_color": "1"
         }
+      },
+      "image_text_overlay_x64TQD": {
+        "type": "image_text_overlay",
+        "blocks": {
+          "1_nifPqe": {
+            "type": "1",
+            "settings": {
+              "title": "Best shopify theme 2020",
+              "color": "#fff",
+              "fw_text": 600,
+              "fs_text": 30,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 15,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "6_K7bx7K": {
+            "type": "6",
+            "settings": {
+              "sp": 10,
+              "sp_mb": 10
+            }
+          },
+          "2_cHFdG6": {
+            "type": "2",
+            "settings": {
+              "font": "f__libre",
+              "title": "Kalles v1",
+              "color": "#fff",
+              "fw_text": 400,
+              "fs_text": 14,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "6_wzwfhj": {
+            "type": "6",
+            "settings": {
+              "sp": 10,
+              "sp_mb": 10
+            }
+          },
+          "3_4f7QLN": {
+            "type": "3",
+            "settings": {
+              "title": "Shop Now",
+              "btn_link": "",
+              "open_link": "_blank",
+              "title2": "Shop Now 2",
+              "btn_link2": "",
+              "open_link2": "_blank",
+              "btn_round": true,
+              "btn_icon": false,
+              "cl_txt": "#fff",
+              "cl_bg": "#222",
+              "cl_bd": "#222",
+              "fs_text": 14,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "h_mb": 40,
+              "ls_mb_text": 0
+            }
+          }
+        },
+        "block_order": [
+          "1_nifPqe",
+          "6_K7bx7K",
+          "2_cHFdG6",
+          "6_wzwfhj",
+          "3_4f7QLN"
+        ],
+        "settings": {
+          "se_height": "full",
+          "use_custom_h": "1",
+          "h_des": "600px",
+          "h_tb": "500px",
+          "h_mb": "350px",
+          "use_pr": false,
+          "img_align": "center",
+          "caption_w": "2",
+          "cap_v_pos": 50,
+          "cap_h_pos": 50,
+          "txt_align": "tc",
+          "use_shadow": false,
+          "cl_overlay": "#000",
+          "cl_opacity": 0,
+          "layout": "nt_full",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -3405,6 +3506,7 @@
       "1581505838591",
       "hip_hop_collection_GzPMVX",
       "banner_collection_F8CiwD",
+      "image_text_overlay_x64TQD",
       "featured_collection_thYkKt"
     ]
   }
