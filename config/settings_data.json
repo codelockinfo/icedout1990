@@ -3383,13 +3383,35 @@
               "sp": 40,
               "sp_mb": 10
             }
+          },
+          "btn_WhjfWi": {
+            "type": "btn",
+            "settings": {
+              "title": "View All",
+              "btn_link": "shopify:\/\/collections\/925-sterling-silver-moissanite-ring-for-engagement",
+              "title2": "Shop Now",
+              "btn_link2": "",
+              "btn_round": true,
+              "btn_icon": false,
+              "cl_txt": "#fff",
+              "cl_bg": "#222",
+              "cl_bd": "#222",
+              "fs_text": 14,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "h_mb": 40,
+              "ls_mb_text": 0
+            }
           }
         },
         "block_order": [
           "img_axHqhW",
           "hd_dz393k",
           "txt_TjY7K4",
-          "space_FPdbrr"
+          "space_FPdbrr",
+          "btn_WhjfWi"
         ],
         "settings": {
           "title": "Featured Products",
