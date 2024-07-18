@@ -3467,13 +3467,13 @@
           "1_nifPqe": {
             "type": "1",
             "settings": {
-              "title": "Best shopify theme 2020",
+              "title": "Iced Out 1990",
               "color": "#ffffff",
-              "fw_text": 600,
-              "fs_text": 30,
+              "fw_text": 800,
+              "fs_text": 64,
               "lh_text": 0,
               "ls_text": 0,
-              "fs_mb_text": 15,
+              "fs_mb_text": 30,
               "lh_mb_text": 0,
               "ls_mb_text": 0
             }
@@ -3551,11 +3551,11 @@
           "caption_w": "2",
           "cap_v_pos": 50,
           "cap_h_pos": 50,
-          "txt_align": "tc",
+          "txt_align": "tl",
           "use_shadow": false,
           "cl_overlay": "#000000",
           "cl_opacity": 0,
-          "layout": "nt_full",
+          "layout": "container",
           "cl_bg": "",
           "mg": "50px,,50px,",
           "pd": "",
