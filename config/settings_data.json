@@ -3496,7 +3496,7 @@
               "lh_text": 26,
               "ls_text": 0,
               "fs_mb_text": 14,
-              "lh_mb_text": 0,
+              "lh_mb_text": 10,
               "ls_mb_text": 0,
               "hide": false
             }
@@ -3511,8 +3511,8 @@
           "3_4f7QLN": {
             "type": "3",
             "settings": {
-              "title": "Shop Now",
-              "btn_link": "",
+              "title": "About us",
+              "btn_link": "shopify:\/\/pages\/about-us",
               "open_link": "_blank",
               "title2": "Shop Now 2",
               "btn_link2": "",
