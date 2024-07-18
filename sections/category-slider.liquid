@@ -1,4 +1,4 @@
-<div class="category-grid-section">
+<div class="category-grid-section" style="background-color: {{section.settings.Bg_color}};">
     <div class="container">
         <div class="Main-Coll category-cls">
             {%- for block in section.blocks -%}
@@ -26,6 +26,11 @@
           "type": "richtext",
           "id": "headingtext",
           "label": "Heading text"
+        },
+        {
+          "type": "color",
+          "id": "Bg_color",
+          "label": "Background color"
         }
       ],
       "blocks": [
@@ -180,6 +185,7 @@
 	background-color: #D9D9D9;
 	text-align: center;
 	border-radius: 100% !important;
+  right: -56px !important;
 }
 .category-grid-section .slick-prev{
 	width: 40px;
@@ -187,18 +193,14 @@
 	background-color: #D9D9D9;
 	text-align: center;
 	border-radius: 100% !important;
+  left: -56px !important;
 }
  
  
 .category-grid-section .slick-next:before,.slick-prev:before{
 	color: #000 !important;
 }
-.category-grid-section .slick-next {
-  right: -56px !important;
-}
-.category-grid-section .slick-prev {
-  left: -56px !important;
-}
+
 [dir="rtl"] .category-grid-section .slick-next {
 	left: -56px;
 	right: auto;
@@ -223,6 +225,26 @@
 	content: "\276F";
 }
 
+@media (max-width:1220px) {
+  .category-grid-section .slick-next{
+	width: 35px;
+	height: 30px;
+  right: -30px !important;
+}
+.category-grid-section .slick-prev{
+	width: 35px;
+	height: 30px;
+  left: -30px !important;
+  
+}
+.category-grid-section .slick-prev:before{
+  font-size: 18px;
+}
+.category-grid-section .slick-next:before{
+  font-size: 18px;
+}
+}
+
 </style>
 
 <script>
@@ -231,7 +253,7 @@
         loop:true,
         arrows: true,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 1,  
         // appendArrows: $('.news__arrows'),
         prevArrow: "<button type='button' class='slick-prev pull-left arrowidth'>&#8592;</button>",
         nextArrow: "<button type='button' class='slick-next pull-right arrowidth'>&#8592;</button>",

@@ -235,7 +235,20 @@
 	left: 0;
 } */
 
+/* banner collection  */
+#b_btn_XnBzat {
+	border-radius: 100px !important;
+}
 
+/* img width text section  */
+.banner_collection_wrap {
+	margin-bottom: -163px;
+    position: relative;
+    z-index: 9;
+}
+.banner_collection_wrap .collection_box{
+	background-color: #EBEFF1	!important;
+}
 /* media query  */
 @media (max-width:768px) {
 	.cp {
@@ -246,6 +259,11 @@
 	.cp2 {
 		font-size: 50px !important;
 		line-height: normal !important;
+	}
+}
+@media (min-width:768px) {
+	.pa_txts.h_pos39{
+		left: 5% !important;
 	}
 }
 
@@ -260,3 +278,5 @@
 		line-height: normal !important;
 	}
 }
+
+
