@@ -3182,7 +3182,8 @@
           "img_FByQyT"
         ],
         "settings": {
-          "headingtext": ""
+          "headingtext": "",
+          "Bg_color": ""
         }
       },
       "collection_slider_section_WcKXc6": {
@@ -3258,6 +3259,7 @@
           "text_G7V99Y"
         ],
         "settings": {
+          "Bg_color": ""
         }
       },
       "hip_hop_collection_GzPMVX": {
@@ -3337,7 +3339,7 @@
               "cap_v_pos_mb": 50,
               "cap_h_pos_mb": 50,
               "txt_align_mb": "tl",
-              "cl_overlay": "#000",
+              "cl_overlay": "#000000",
               "cl_opacity": 0,
               "ani_img": "none",
               "ani_txt": "none"
@@ -3348,18 +3350,18 @@
           "img_axHqhW"
         ],
         "settings": {
-          "title": "",
+          "title": "Featured Products",
           "sub_title": "",
           "sub_font": "2",
-          "btn_title": "See all products",
-          "style_title": "title_1",
+          "btn_title": "View All",
+          "style_title": "title_10",
           "ic_tt": "gem",
           "show_clpr": false,
-          "collection": "",
-          "limit": 4,
+          "collection": "moissanite-diamond-earrings",
+          "limit": 2,
           "space": 30,
           "col_pr": "6",
-          "col_pr_tb": "3",
+          "col_pr_tb": "6",
           "col_pr_mb": "6",
           "pr_des": "1",
           "show_vendor": false,
