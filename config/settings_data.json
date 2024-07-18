@@ -3345,10 +3345,25 @@
               "ani_img": "none",
               "ani_txt": "none"
             }
+          },
+          "hd_dz393k": {
+            "type": "hd",
+            "settings": {
+              "title": "Timeless icedout1990 <br>for Every Occasion",
+              "color": "#a1baeb",
+              "fw_text": 800,
+              "fs_text": 30,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 15,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
           }
         },
         "block_order": [
-          "img_axHqhW"
+          "img_axHqhW",
+          "hd_dz393k"
         ],
         "settings": {
           "title": "Featured Products",
