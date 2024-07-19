@@ -3355,7 +3355,7 @@
               "fs_text": 30,
               "lh_text": 0,
               "ls_text": 0,
-              "fs_mb_text": 15,
+              "fs_mb_text": 24,
               "lh_mb_text": 0,
               "ls_mb_text": 0
             }
@@ -3371,7 +3371,7 @@
               "fs_text": 14,
               "lh_text": 0,
               "ls_text": 0,
-              "fs_mb_text": 14,
+              "fs_mb_text": 12,
               "lh_mb_text": 0,
               "ls_mb_text": 0,
               "hide": false
