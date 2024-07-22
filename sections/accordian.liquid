@@ -1,0 +1,180 @@
+<!-- Contenedor -->
+<div class="accordian-section">
+  <div class="container">
+    {%- render 'section_title', url: collection.url -%}
+    <div class="accordian_main_box">
+      <div class="accordian_1">
+        <ul id="accordion" class="accordion">
+          {%- for block in section.blocks -%}
+          <li class="">
+            <div class="link">What is Iced Out Jewelry?<i class="fas fa-caret-up"></i></div>
+            <ul class="accordian_ul">
+              <li class="accordian_li">
+                <a href="#"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam ipsa error, voluptatum
+                  totam ut!</a
+                >
+              </li>
+            </ul>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "accordian section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Section bg color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Collection Grid"
+    },
+    {
+      "type": "textarea",
+      "id": "sub_title",
+      "label": "Sub Text"
+    },
+    {
+      "type": "select",
+      "id": "sub_font",
+      "default": "2",
+      "options": [
+        {
+          "value": "1",
+          "label": "Body font"
+        },
+        {
+          "value": "2",
+          "label": "Sub title font"
+        }
+      ],
+      "label": "Sub Text use font:"
+    },
+    {
+      "type": "text",
+      "id": "btn_title",
+      "label": "See All Title",
+      "info": "only working with design title 10",
+      "default": "See all products"
+    },
+    {
+      "type": "select",
+      "id": "style_title",
+      "options": [
+        {
+          "value": "title_1",
+          "label": "Design 1"
+        },
+        {
+          "value": "title_2",
+          "label": "Design 2"
+        },
+        {
+          "value": "title_3",
+          "label": "Design 3"
+        },
+        {
+          "value": "title_4",
+          "label": "Design 4"
+        },
+        {
+          "value": "title_5 lazyload",
+          "label": "Design 5"
+        },
+        {
+          "value": "title_6",
+          "label": "Design 6"
+        },
+        {
+          "value": "title_7 +la",
+          "label": "Design 7 (with line-awesome)"
+        },
+        {
+          "value": "title_8",
+          "label": "Design 8"
+        },
+        {
+          "value": "title_9",
+          "label": "Design 9"
+        },
+        {
+          "value": "title_10",
+          "label": "Design 10"
+        },
+        {
+          "value": "title_11",
+          "label": "Design 11"
+        },
+        {
+          "value": "title_12",
+          "label": "Design 12"
+        },
+        {
+          "value": "title_13",
+          "label": "Design 13"
+        },
+        {
+          "value": "title_14",
+          "label": "Design 14"
+        }
+      ],
+      "label": "Design Title:"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "block",
+      "type": "text",
+      "settings": [
+         
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "accordian section",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  $(function () {
+    var Accordion = function (el, multiple) {
+      this.el = el || {};
+      this.multiple = multiple || false;
+
+      // Variables privadas
+      var links = this.el.find('.link');
+      // Evento
+      links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown);
+    };
+
+    Accordion.prototype.dropdown = function (e) {
+      var $el = e.data.el;
+      ($this = $(this)), ($next = $this.next());
+
+      $next.slideToggle();
+      $this.parent().toggleClass('open');
+
+      if (!e.data.multiple) {
+        $el.find('.accordian_ul').not($next).slideUp().parent().removeClass('open');
+      }
+    };
+
+    var accordion = new Accordion($('.accordion'), false);
+  });
+</script>
