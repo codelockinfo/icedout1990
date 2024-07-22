@@ -90,7 +90,7 @@
 	line-height: 28px;
 	text-align: center;
 	color: #000000 !important;
-	max-height: 84px !important;
+    height: 84px !important;
 	overflow: hidden;
 }
 
@@ -249,32 +249,111 @@
 .banner_collection_wrap .collection_box{
 	background-color: #EBEFF1	!important;
 }
+
+.template-index .slt4_p {
+	font-family: 'Montserrat Alternates' !important;
+}
+.f_body{
+	font-family: 'Montserrat Alternates' !important;
+	margin-top: 20px !important;
+}
+.imtt4_btn{
+	border-radius: 100px  !important;
+	margin-top: 20px !important;
+	font-family: 'Montserrat Alternates' !important;
+}
+
+.nt_se_image_text_overlay_x64TQD svg{
+	margin-bottom:35px;
+}
+.nt_se_banner_collection_F8CiwD .slt4_h3 {
+	font-family: 'Raleway' !important;
+	margin-bottom: 20px;
+}
+.nt_se_banner_collection_F8CiwD .slt4_btn  {
+	font-family: 'Montserrat Alternates' !important;
+	border-radius: 100px !important;
+}
+.pa_txts.h_pos39{
+	left: 5% !important;
+}
 /* media query  */
-@media (max-width:768px) {
-	.cp {
-		font-size: 36px !important;
-		line-height: normal !important;
-	}
 
-	.cp2 {
-		font-size: 50px !important;
-		line-height: normal !important;
-	}
-}
-@media (min-width:768px) {
+@media (min-width:968px) and (max-width:1024px) {
 	.pa_txts.h_pos39{
-		left: 5% !important;
+		left: 15% !important;
+	}
+}
+@media (max-width:767px) {
+	.cp {
+		font-size: 30px !important;
+		line-height: normal !important;
+	}
+	.cp2 {
+		font-size: 30px !important;
+		line-height: normal !important;
+	}
+	.pa_txts{
+		 top: 40% !important;
+	}
+	.nt_se_banner_collection_F8CiwD .pa_txts.mb_v_pos50{
+		top: 50% !important;
+	}
+	.pa_txts.h_pos39 {
+		left: 65% !important;
+	}
+	.lazyloaded .section-title {
+		font-size: 36px;
+	}
+	.type_image_text_overlay .pa_txts {
+		margin-top: 60px;
+	}
+	.nt_se_image_text_overlay_x64TQD svg{
+		margin-bottom: 11px;
+	}
+	.nt_se_image_text_overlay_x64TQD .nt_img_txt #b_2_cHFdG6 {
+		line-height: 16px !important;
+		font-size: 12px !important;
+	}
+}
+@media (max-width:749px) {
+	.nt_se_image_text_overlay_x64TQD svg{
+		width: 20px;
+	}
+}
+@media (max-width:669px) {
+	.nt_se_image_text_overlay_x64TQD .nt_img_txt #b_2_cHFdG6 {
+		font-size: 10px;
+		margin: 0 !important;
+	}
+}
+@media (min-width:967px) {
+
+	.f_body{
+		width: 60%;
+		margin-top: 10px;
 	}
 }
 
+@media (max-width:576px) {
+	.pa_txts.h_pos39 {
+		left: 55% !important;
+	}
+}
+@media (max-width:519px) {
+	.banner_collection_wrap {
+		margin-bottom: -120px;
+	}
+	
+}
 @media (max-width:400px) {
 	.cp {
-		font-size: 30px !important;
+		font-size: 26px !important;
 		line-height: normal !important;
 	}
 
 	.cp2 {
-		font-size: 30px !important;
+		font-size: 26px !important;
 		line-height: normal !important;
 	}
 }

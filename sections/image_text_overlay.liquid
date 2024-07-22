@@ -21,8 +21,8 @@
           <div class="pa pa_txts mb_h_pos{{se_stts.cap_h_pos}} mb_v_pos{{se_stts.cap_v_pos}} h_pos{{se_stts.cap_h_pos}} v_pos{{se_stts.cap_v_pos}}">
             {%- for block in section.blocks %}{% assign bk_stts = block.settings -%}
               {%- case block.type -%}
-                 {%- when '1' -%}<h3 id="b_{{block.id}}" class="mt__0 mg__0 lh__1">{{bk_stts.title}}</h3>
-                 {%- when '2' -%}<h4 id="b_{{block.id}}" class="mt__0 mg__0 lh__1 {{bk_stts.font}}{% if bk_stts.hide %} dn db_md{% endif %}">{{bk_stts.title}}</h4>
+                 {%- when '1' -%}<h3 id="b_{{block.id}}" class="11111111 mt__0 mg__0 lh__1">{{bk_stts.title}}<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="auto" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="m21.137 11.519-2.726-.779a7.453 7.453 0 0 1-5.151-5.151l-.779-2.726a.52.52 0 0 0-.962 0l-.779 2.726a7.453 7.453 0 0 1-5.151 5.151l-2.726.779a.5.5 0 0 0 0 .962l2.726.779a7.453 7.453 0 0 1 5.151 5.151l.779 2.726a.5.5 0 0 0 .962 0l.779-2.726a7.453 7.453 0 0 1 5.151-5.151l2.726-.779a.5.5 0 0 0 0-.962z" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg></h3>
+                 {%- when '2' -%}<h4 id="b_{{block.id}}" class="22222222 mt__0 mg__0 lh__1 {{bk_stts.font}}{% if bk_stts.hide %} dn db_md{% endif %}">{{bk_stts.title}}</h4>
                  {%- when '4' -%}<div id="b_{{block.id}}" class="space_banner dib"></div>
                  {%- when '5' -%}{{bk_stts.html}}
                  {%- when '6' -%}<div id="b_{{block.id}}" class="imtt4_space"></div>
