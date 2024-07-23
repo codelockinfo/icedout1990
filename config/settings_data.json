@@ -1271,6 +1271,7 @@
       },
       "1581505838591": {
         "type": "featured_collection",
+        "disabled": true,
         "settings": {
           "title": "Featured Collection",
           "sub_title": "",
@@ -3745,12 +3746,12 @@
       "collection_slider_section_WcKXc6",
       "category_slider_QxJpWe",
       "1581505838591",
+      "featured_collection_owl_XMhgek",
       "hip_hop_collection_GzPMVX",
       "banner_collection_F8CiwD",
       "image_text_overlay_x64TQD",
       "featured_collection_thYkKt",
       "email_yatRNc",
-      "featured_collection_owl_XMhgek",
       "custom_shipping_Hm9amk",
       "featured_collection_RUxAh6",
       "accordian_YbqUkH"
