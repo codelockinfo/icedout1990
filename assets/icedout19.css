@@ -510,6 +510,7 @@
 	line-height: 26.22px;
 	text-align: left;
 	color: #fff;
+	min-height: 50px;
 }
 
 .custom_shipping .custom_shipping_main_box .ship_box .ship_p {
@@ -650,6 +651,9 @@
 	}
 	.custom_shipping .custom_shipping_main_box .ship_box {
 		width: 100%;
+	}
+	.custom_shipping .custom_shipping_main_box .ship_box .ship_h2 {
+		min-height: auto;
 	}
 }
 
