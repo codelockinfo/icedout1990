@@ -3794,7 +3794,7 @@
           "layout": "wrap",
           "cl_bg": "",
           "mg": "",
-          "pd": "",
+          "pd": "60px,,60px",
           "mg_mb": "",
           "pd_mb": ""
         }
