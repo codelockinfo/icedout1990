@@ -3613,6 +3613,7 @@
       },
       "featured_collection_RUxAh6": {
         "type": "featured_collection",
+        "disabled": true,
         "settings": {
           "title": "Trending jewellery",
           "sub_title": "",
@@ -3811,9 +3812,9 @@
       "featured_collection_owl_pxqWR6",
       "email_yatRNc",
       "custom_shipping_Hm9amk",
+      "featured_collection_owl_pPqi3g",
       "featured_collection_RUxAh6",
-      "accordian_YbqUkH",
-      "featured_collection_owl_pPqi3g"
+      "accordian_YbqUkH"
     ]
   }
 }
