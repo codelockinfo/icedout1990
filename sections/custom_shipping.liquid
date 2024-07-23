@@ -4,7 +4,7 @@
       {%- for block in section.blocks -%}
         <div class="ship_box">
           {% if block.settings.shipping_img != blank %}
-            <img src="{{block.settings.shipping_img | img_url:'master'}}" alt="" class="lazyload ship_img">
+            <img src="{{block.settings.shipping_img | img_url:'master'}}" alt="" class="ship_img"  >
             <h2 class="ship_h2">{{block.settings.shipping_h}}</h2>
             <p class="ship_p">{{block.settings.shipping_p}}</p>
           {% endif %}

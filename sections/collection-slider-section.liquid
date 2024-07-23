@@ -96,7 +96,7 @@
     .Category_box {
         background-color: #EDEDED;
         margin: 10px;
-        display: flex;
+        display: flex !important;
         flex-wrap: wrap;
     }
 
@@ -120,6 +120,7 @@
         font-weight: 700;
         line-height: normal;
         color: #000;
+        min-height: 50px;
     }
 
     .category_btn {
@@ -133,19 +134,19 @@
     }
 
     .Collection-grid-section .slick-slide:nth-of-type(odd) .category_content_box {
-  order: 1; /* Content first for odd */
+  order: 2; /* Content first for odd */
 }
 
 .Collection-grid-section .slick-slide:nth-of-type(odd) .category_img_box {
-  order: 2; /* Image second for odd */
+  order: 1; /* Image second for odd */
 }
 
 .Collection-grid-section .slick-slide:nth-of-type(even) .category_content_box { 
-  order: 2; /* Content second for even */
+  order: 1; /* Content second for even */
 }
 
 .Collection-grid-section .slick-slide:nth-of-type(even) .category_img_box {
-  order: 1; /* Image first for even */
+  order: 2; /* Image first for even */
 }
     .Collection-grid-section .slick-slider {
         position: relative;

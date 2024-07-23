@@ -1,0 +1,231 @@
+<div class="custom_testimonial">
+  <div class="container">
+    <div class="Main-Coll testi_cls">
+        <div class="custom_testi_box">
+           <h1>fvnfvjfvnjdfvjdnv</h1>
+        </div>
+        <div class="custom_testi_box">
+           <h1>fvnfvjfvnjdfvjdnv</h1>
+        </div>
+        <div class="custom_testi_box">
+           <h1>fvnfvjfvnjdfvjdnv</h1>
+        </div>
+        <div class="custom_testi_box">
+           <h1>fvnfvjfvnjdfvjdnv</h1>
+        </div>
+        <div class="custom_testi_box">
+           <h1>fvnfvjfvnjdfvjdnv</h1>
+        </div>
+    </div>
+    <div class="news__arrows"></div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "custom testimonial",
+  "settings": [],
+  "presets": [
+    {
+      "name": "custom testimonial",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .custom_testimonial .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 20px;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .custom_testimonial .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .custom_testimonial .slick-list:focus {
+    outline: none;
+  }
+
+  .custom_testimonial .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+  }
+
+  .custom_testimonial .slick-slider .slick-track,
+  .custom_testimonial .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .custom_testimonial .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+
+  .custom_testimonial .slick-track:before,
+  .custom_testimonial .slick-track:after {
+    content: '';
+    display: table;
+  }
+
+  .custom_testimonial .slick-track:after {
+    clear: both;
+  }
+
+  .custom_testimonial .slick-loading .slick-track {
+    visibility: hidden;
+  }
+
+  .custom_testimonial .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: flex;
+  }
+
+  [dir='rtl'] .custom_testimonial .slick-slide {
+    float: right;
+  }
+
+  .custom_testimonial .slick-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .custom_testimonial .slick-slide.slick-loading img {
+    display: none;
+  }
+
+  .custom_testimonial .slick-slide.dragging img {
+    pointer-events: none;
+  }
+
+  .custom_testimonial .slick-initialized .slick-slide {
+    display: block;
+  }
+
+  .custom_testimonial .slick-loading .slick-slide {
+    visibility: hidden;
+  }
+
+  .custom_testimonial .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+  }
+
+  .custom_testimonial .slick-arrow.slick-hidden {
+    display: none;
+  }
+
+  /*================ Slick Slider Theme ================*/
+  .custom_testimonial .slick-loading .slick-list {
+    background: #fff var(--slick-img-url) center center no-repeat;
+  }
+
+  .news__arrows {
+    width: 50px;
+    margin: 0 auto;
+    /* position: absolute; */
+    /* left:46.5%; */
+    right: 47.5%;
+    top: 90%;
+  }
+  .custom_testimonial .slick-next {
+    width: 40px;
+    height: 40px;
+    background-color: #d9d9d9;
+    text-align: center;
+    border-radius: 100% !important;
+    right: -56px !important;
+  }
+  .custom_testimonial .slick-prev {
+    width: 40px;
+    height: 40px;
+    background-color: #d9d9d9;
+    text-align: center;
+    border-radius: 100% !important;
+    left: -56px !important;
+  }
+
+  .custom_testimonial .slick-next:before,
+  .slick-prev:before {
+    color: #000 !important;
+  }
+
+  [dir='rtl'] .custom_testimonial .slick-next {
+    left: -56px;
+    right: auto;
+  }
+
+  .custom_testimonial .slick-next:before {
+    content: '\276F';
+    font-weight: 600;
+    line-height: 0.5;
+  }
+
+  [dir='rtl'] .custom_testimonial .slick-next:before {
+    content: '\276E';
+  }
+  .custom_testimonial .slick-prev:before {
+    content: '\276E';
+    font-weight: 600;
+    line-height: 0.5;
+  }
+
+  [dir='rtl'] .custom_testimonial .slick-prev:before {
+    content: '\276F';
+  }
+</style>
+
+<script>
+  $('.testi_cls').slick({
+        infinite: true,
+        loop:true,
+        arrows: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,  
+        // appendArrows: $('.news__arrows'),
+        prevArrow: "<button type='button' class='slick-prev pull-left arrowidth'>&#8592;</button>",
+        nextArrow: "<button type='button' class='slick-next pull-right arrowidth'>&#8592;</button>",
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    });
+  </script>

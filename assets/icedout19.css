@@ -523,6 +523,11 @@
     color: #D9D9D9;
 }
 
+/* testimonial section  */
+.nt_se_testimonials_jkfAyD  .collection_header_btn{
+	display: none;
+}
+
 /* media query  */
 
 @media (max-width:1024px) {
@@ -657,7 +662,6 @@
 		min-height: auto;
 	}
 }
-
 @media (max-width:519px) {
 	.banner_collection_wrap {
 		margin-bottom: -120px;
@@ -677,18 +681,19 @@
 	}
 }
 
-#shopify-section-featured_collection_RUxAh6 {
+#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV {
     margin-top: -414px;
 }
-#shopify-section-featured_collection_RUxAh6 .collection_box{
+#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .collection_box{
     background-color: #fff;
 }
-#shopify-section-featured_collection_RUxAh6 .collection_header_btn {
+#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .collection_header_btn {
     background-color: #fff !important;
 }
-#shopify-section-featured_collection_RUxAh6  .title_10 a {
+#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV  .title_10 a {
 	color: #35384B !important;
 }
-#shopify-section-featured_collection_RUxAh6 .section-title{
+#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .section-title{
     color: #fff !important;
 }
+
