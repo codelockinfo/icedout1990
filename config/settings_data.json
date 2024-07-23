@@ -3611,6 +3611,7 @@
           "img_JU3kAi": {
             "type": "img",
             "settings": {
+              "shipping_img": "shopify:\/\/shop_images\/delivery.png",
               "shipping_h": "",
               "shipping_p": ""
             }
@@ -3618,6 +3619,7 @@
           "img_URijYp": {
             "type": "img",
             "settings": {
+              "shipping_img": "shopify:\/\/shop_images\/exchange.png",
               "shipping_h": "",
               "shipping_p": ""
             }
@@ -3625,6 +3627,7 @@
           "img_cYPTfb": {
             "type": "img",
             "settings": {
+              "shipping_img": "shopify:\/\/shop_images\/cashback.png",
               "shipping_h": "",
               "shipping_p": ""
             }
@@ -3632,8 +3635,9 @@
           "img_DBczKW": {
             "type": "img",
             "settings": {
-              "shipping_h": "",
-              "shipping_p": ""
+              "shipping_img": "shopify:\/\/shop_images\/sticker.png",
+              "shipping_h": "One Year Warranty",
+              "shipping_p": "If your jewellery has a defect, we will fix it."
             }
           }
         },
