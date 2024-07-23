@@ -3612,8 +3612,8 @@
             "type": "img",
             "settings": {
               "shipping_img": "shopify:\/\/shop_images\/delivery.png",
-              "shipping_h": "",
-              "shipping_p": ""
+              "shipping_h": "100% Certified a Free Shipping",
+              "shipping_p": "Our jewellery always comes with a certificate of authentication."
             }
           },
           "img_URijYp": {
