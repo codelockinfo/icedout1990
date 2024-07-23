@@ -3562,6 +3562,33 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "accordian_YbqUkH": {
+        "type": "accordian",
+        "blocks": {
+          "text_9bnqXC": {
+            "type": "text",
+            "settings": {
+            }
+          },
+          "text_PrJfkz": {
+            "type": "text",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "text_9bnqXC",
+          "text_PrJfkz"
+        ],
+        "settings": {
+          "bg_color": "#ffffff",
+          "title": "Frequently Asked Questions",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_10"
+        }
       }
     },
     "content_for_index": [
@@ -3572,7 +3599,8 @@
       "hip_hop_collection_GzPMVX",
       "banner_collection_F8CiwD",
       "image_text_overlay_x64TQD",
-      "featured_collection_thYkKt"
+      "featured_collection_thYkKt",
+      "accordian_YbqUkH"
     ]
   }
 }
