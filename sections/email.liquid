@@ -1,0 +1,57 @@
+<div class="email_section">
+    <div class="email_main_box">
+            <div class="email_content">
+                <h1 class="email_h1">{{section.settings.email_h1}}</h1>
+                    <p class="email_p">{{section.settings.email_p}}</p>
+                    <form id="mc4wp-form-{{section.id}}" role="form" action="{%- if settings.ajax_mailChimp -%}{{ settings.action_mailchimp | replace: '/post?u', '/post-json?u' }}{%- else -%}{{ settings.action_mailchimp }}{%- endif -%}" class="js_mail_agree pr z_100 mc4wp-form mc4wp-form-{{section.id}}{%- if settings.ajax_mailChimp and settings.action_mailchimp != blank %} nt_ajax_mcsp{%- endif -%}" method="post">
+                    <div class="mc4wp-form-fields">
+                       <div class="signup-newsletter-form row no-gutters pr oh {{class}}">
+                          <div class="{{class_email}} col_email"><input type="email" name="EMAIL" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"  value="{% if customer %}{{ customer.email }}{% endif %}" class="{{class_ip}} input-text" required="required"></div>
+                          <div class="{{class_btn}}"><button type="submit" class="css_add_ld btn_new_icon_{{btn_icon}} w__100 submit-btn truncate{% if checkbox_mail %} mail_agree pr{% endif %}"><span>{{section.settings.Btn_text}}</span></button></div>
+                       </div>
+                         {%- if checkbox_mail -%}{%- render 'conditions_mail',html:'p',margin:'mt__15',stt_link:settings.link_mail,sid:sid -%}{%- endif -%}
+                    </div>
+                    <div class="mc4wp-response"><div class="shopify-message success_message dn"><i class="las la-check"></i>{{ 'general.newsletter_form.confirmation' | t }}</div><div class="shopify-warning dn"><i class="las la-exclamation-triangle"></i><span class="error_message"></span></div></div>
+                 </form>
+            </div>
+            <div class="email_img_box">
+                <img src="{{section.settings.email_img | img_url:'master'}}" alt="" class="e-img">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="auto" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="m21.137 11.519-2.726-.779a7.453 7.453 0 0 1-5.151-5.151l-.779-2.726a.52.52 0 0 0-.962 0l-.779 2.726a7.453 7.453 0 0 1-5.151 5.151l-2.726.779a.5.5 0 0 0 0 .962l2.726.779a7.453 7.453 0 0 1 5.151 5.151l.779 2.726a.5.5 0 0 0 .962 0l.779-2.726a7.453 7.453 0 0 1 5.151-5.151l2.726-.779a.5.5 0 0 0 0-.962z" fill="#50727B" opacity="1" data-original="#50727B" class=""></path></g></svg>
+                </div>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "email section",
+    "settings": [
+       {
+         "type": "image_picker",
+         "id": "email_img",
+         "label": "img"
+       },
+       {
+         "type": "text",
+         "id": "email_h1",
+         "label": "img"
+       },
+       {
+         "type": "text",
+         "id": "email_p",
+         "label": "img"
+       },
+       {
+         "type": "text",
+         "id": "Btn_text",
+         "label": "Button text"
+       }
+    ],
+    "presets": [
+      {
+        "name": "email section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

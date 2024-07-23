@@ -5,7 +5,7 @@
             <div class="Category_box_2 ">
                 {% if block.settings.category_img != blank %}
                 <div class="category_img_box">
-                    <img src="{{block.settings.category_img | img_url:'master'}}" alt="">
+                   <a href="{{block.settings.category_url}}"> <img src="{{block.settings.category_img | img_url:'master'}}" alt=""></a>
                 </div>
             {% endif %}
             </div>     
@@ -41,6 +41,11 @@
               {
               "type": "image_picker",
               "id": "category_img",
+              "label": "category img"
+            },
+              {
+              "type": "url",
+              "id": "category_url",
               "label": "category img"
             }
             ]
