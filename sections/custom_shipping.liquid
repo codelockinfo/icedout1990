@@ -1,0 +1,51 @@
+<div class="custom_shipping">
+  <div class="container">
+    <div class="custom_shipping_main_box">
+      {%- for block in section.blocks -%}
+        <div class="ship_box">
+          {% if block.settings.shipping_img != blank %}
+            <img src="{{block.settings.shipping_img | img_url:'master'}}" alt="" class="lazyload ship_img">
+            <h2 class="ship_h2">{{block.settings.shipping_h}}</h2>
+            <p class="ship_p">{{block.settings.shipping_p}}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "custom shipping ",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Block",
+      "type": "img",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "shipping_img",
+          "label": "Add img  "
+        },
+        {
+          "type": "text",
+          "id": "shipping_h",
+          "label": "Add heading text  "
+        },
+        {
+          "type": "text",
+          "id": "shipping_p",
+          "label": "Add paragraph text  "
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom shipping ",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
