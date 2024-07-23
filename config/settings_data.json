@@ -3604,6 +3604,47 @@
           "email_p": "the essence of natural beauty. Whether you're seeking a pop of color or a harmonious blend, our Iced Out 1990.",
           "Btn_text": "Submit"
         }
+      },
+      "custom_shipping_Hm9amk": {
+        "type": "custom_shipping",
+        "blocks": {
+          "img_JU3kAi": {
+            "type": "img",
+            "settings": {
+              "shipping_h": "",
+              "shipping_p": ""
+            }
+          },
+          "img_URijYp": {
+            "type": "img",
+            "settings": {
+              "shipping_h": "",
+              "shipping_p": ""
+            }
+          },
+          "img_cYPTfb": {
+            "type": "img",
+            "settings": {
+              "shipping_h": "",
+              "shipping_p": ""
+            }
+          },
+          "img_DBczKW": {
+            "type": "img",
+            "settings": {
+              "shipping_h": "",
+              "shipping_p": ""
+            }
+          }
+        },
+        "block_order": [
+          "img_JU3kAi",
+          "img_URijYp",
+          "img_cYPTfb",
+          "img_DBczKW"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -3615,6 +3656,7 @@
       "banner_collection_F8CiwD",
       "image_text_overlay_x64TQD",
       "featured_collection_thYkKt",
+      "custom_shipping_Hm9amk",
       "email_yatRNc",
       "accordian_YbqUkH"
     ]
