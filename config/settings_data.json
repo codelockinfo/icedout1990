@@ -3139,37 +3139,43 @@
           "img_BnMPrD": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004575.png"
+              "category_img": "shopify:\/\/shop_images\/Group_1000004575.png",
+              "category_url": ""
             }
           },
           "img_RQQPzj": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004576.png"
+              "category_img": "shopify:\/\/shop_images\/Group_1000004576.png",
+              "category_url": ""
             }
           },
           "img_MpicHX": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004577.png"
+              "category_img": "shopify:\/\/shop_images\/Group_1000004577.png",
+              "category_url": ""
             }
           },
           "img_nK7RWr": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004578.png"
+              "category_img": "shopify:\/\/shop_images\/Group_1000004578.png",
+              "category_url": ""
             }
           },
           "img_7gwyLX": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004575.png"
+              "category_img": "shopify:\/\/shop_images\/Group_1000004575.png",
+              "category_url": ""
             }
           },
           "img_FByQyT": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004576.png"
+              "category_img": "shopify:\/\/shop_images\/Group_1000004576.png",
+              "category_url": ""
             }
           }
         },
@@ -3589,6 +3595,15 @@
           "btn_title": "See all products",
           "style_title": "title_10"
         }
+      },
+      "email_yatRNc": {
+        "type": "email",
+        "settings": {
+          "email_img": "shopify:\/\/shop_images\/Rectangle_116.png",
+          "email_h1": "Iced Out 1990 Jewels That Enchant",
+          "email_p": "the essence of natural beauty. Whether you're seeking a pop of color or a harmonious blend, our Iced Out 1990.",
+          "Btn_text": "Submit"
+        }
       }
     },
     "content_for_index": [
@@ -3600,7 +3615,8 @@
       "banner_collection_F8CiwD",
       "image_text_overlay_x64TQD",
       "featured_collection_thYkKt",
-      "accordian_YbqUkH"
+      "accordian_YbqUkH",
+      "email_yatRNc"
     ]
   }
 }
