@@ -479,6 +479,7 @@
 .custom_shipping {
 	padding: 60px 0;
 	background: #35384B;
+	padding-bottom: 455px;
 }
 
 .custom_shipping .custom_shipping_main_box {
@@ -674,4 +675,20 @@
 		font-size: 26px !important;
 		line-height: normal !important;
 	}
+}
+
+#shopify-section-featured_collection_RgdUgV {
+    margin-top: -425px;
+}
+#shopify-section-featured_collection_RgdUgV .collection_box{
+    background-color: #fff;
+}
+#shopify-section-featured_collection_RgdUgV  .collection_header_btn {
+    background-color: #fff !important;
+}
+#shopify-section-featured_collection_RgdUgV  .title_10 a {
+	color: #35384B !important;
+}
+#shopify-section-featured_collection_RgdUgV .section-title{
+    color: #fff !important;
 }
