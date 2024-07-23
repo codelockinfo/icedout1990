@@ -681,19 +681,19 @@
 	}
 }
 
-#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV {
+.template-index #shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV {
     margin-top: -414px;
 }
-#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .collection_box{
+.template-index #shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .collection_box{
     background-color: #fff;
 }
-#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .collection_header_btn {
+.template-index #shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .collection_header_btn {
     background-color: #fff !important;
 }
-#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV  .title_10 a {
+.template-index #shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV  .title_10 a {
 	color: #35384B !important;
 }
-#shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .section-title{
+.template-index #shopify-section-featured_collection_RUxAh6,#shopify-section-featured_collection_RgdUgV .section-title{
     color: #fff !important;
 }
 
