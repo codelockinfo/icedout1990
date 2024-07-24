@@ -1,30 +1,157 @@
 <div class="custom_testimonial">
   <div class="container">
+    {%- render 'section_title', url: collection.url -%}
     <div class="Main-Coll testi_cls">
-        <div class="custom_testi_box">
-           <h1>fvnfvjfvnjdfvjdnv</h1>
+      {%- for block in section.blocks -%}
+        <div class="custom_testi_mainbox">
+          {% if block.settings.testi_img != blank %}
+           <div class="custom_testi_box">
+            <div class="testi_img_box">
+              <img src="{{block.settings.testi_img | img_url:'master'}}" class="testi_img" alt="">
+             </div>
+             <div class="testi-content">
+               <h6 class="testi_h">{{block.settings.testi_h}}</h6>
+               <p class="testi_p">{{block.settings.testi_p}}</p>
+               <h5 class="testi_cname">{{block.settings.testi_cname}}</h5>
+             </div>
+           </div>
+          {% endif %}
         </div>
-        <div class="custom_testi_box">
-           <h1>fvnfvjfvnjdfvjdnv</h1>
-        </div>
-        <div class="custom_testi_box">
-           <h1>fvnfvjfvnjdfvjdnv</h1>
-        </div>
-        <div class="custom_testi_box">
-           <h1>fvnfvjfvnjdfvjdnv</h1>
-        </div>
-        <div class="custom_testi_box">
-           <h1>fvnfvjfvnjdfvjdnv</h1>
-        </div>
+      {% endfor %}
     </div>
-    <div class="news__arrows"></div>
   </div>
 </div>
 
 {% schema %}
 {
   "name": "custom testimonial",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Collection Grid"
+    },
+    {
+      "type": "textarea",
+      "id": "sub_title",
+      "label": "Sub Text"
+    },
+    {
+      "type": "select",
+      "id": "sub_font",
+      "default": "2",
+      "options": [
+        {
+          "value": "1",
+          "label": "Body font"
+        },
+        {
+          "value": "2",
+          "label": "Sub title font"
+        }
+      ],
+      "label": "Sub Text use font:"
+    },
+    {
+      "type": "text",
+      "id": "btn_title",
+      "label": "See All Title",
+      "info": "only working with design title 10",
+      "default": "See all products"
+    },
+    {
+      "type": "select",
+      "id": "style_title",
+      "options": [
+        {
+          "value": "title_1",
+          "label": "Design 1"
+        },
+        {
+          "value": "title_2",
+          "label": "Design 2"
+        },
+        {
+          "value": "title_3",
+          "label": "Design 3"
+        },
+        {
+          "value": "title_4",
+          "label": "Design 4"
+        },
+        {
+          "value": "title_5 lazyload",
+          "label": "Design 5"
+        },
+        {
+          "value": "title_6",
+          "label": "Design 6"
+        },
+        {
+          "value": "title_7 +la",
+          "label": "Design 7 (with line-awesome)"
+        },
+        {
+          "value": "title_8",
+          "label": "Design 8"
+        },
+        {
+          "value": "title_9",
+          "label": "Design 9"
+        },
+        {
+          "value": "title_10",
+          "label": "Design 10"
+        },
+        {
+          "value": "title_11",
+          "label": "Design 11"
+        },
+        {
+          "value": "title_12",
+          "label": "Design 12"
+        },
+        {
+          "value": "title_13",
+          "label": "Design 13"
+        },
+        {
+          "value": "title_14",
+          "label": "Design 14"
+        }
+      ],
+      "label": "Design Title:"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "testimonial slide",
+      "type": "text",
+      "settings": [
+         {
+           "type": "image_picker",
+           "id": "testi_img",
+           "label": "Add product img"
+         },
+         {
+           "type": "text",
+           "id": "testi_h",
+           "label": "Add product name"
+         },
+         {
+           "type": "text",
+           "id": "testi_p",
+           "label": "Add content "
+         },
+         {
+           "type": "text",
+           "id": "testi_cname",
+           "label": "Add client name"
+         }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "custom testimonial",
@@ -39,7 +166,7 @@
     position: relative;
     display: block;
     box-sizing: border-box;
-    margin: 0 20px;
+    margin: 20px;
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
@@ -150,23 +277,25 @@
   .custom_testimonial .slick-next {
     width: 40px;
     height: 40px;
-    background-color: #d9d9d9;
+    background-color: #252C35;
     text-align: center;
     border-radius: 100% !important;
-    right: -56px !important;
+    right: -13px !important;
+    z-index: 1;
   }
   .custom_testimonial .slick-prev {
     width: 40px;
     height: 40px;
-    background-color: #d9d9d9;
+    background-color: #252C35;
     text-align: center;
     border-radius: 100% !important;
-    left: -56px !important;
+    left: -13px !important;
+    z-index: 1;
   }
 
   .custom_testimonial .slick-next:before,
   .slick-prev:before {
-    color: #000 !important;
+    color: #FEFEFE  !important;
   }
 
   [dir='rtl'] .custom_testimonial .slick-next {
