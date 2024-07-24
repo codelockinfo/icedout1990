@@ -44,44 +44,6 @@ endcase -%}
     <a class="icon_search push_side cb chp" data-id="#nt_search_canvas" href="{{ routes_search_url }}"><i class="{{arric[0]}}"></i></a>
     {%- endif -%}
    {%- endif -%}
-   {%- if shop.customer_accounts_enabled and settings.show_acc -%}
-  
-     {% capture the_snippet_auth %}{% render 'socialshopwave-widget-auth' %}{% endcapture %}
-     {% if the_snippet_auth contains 'Liquid error' or settings.growave_social_login == false %}
-          <div class="my-account ts__05 pr dn db_md">
-             <a class="cb chp db push_side" href="{% if customer %}{{routes.account_url}}{% else %}{{ routes.account_login_url }}{% endif %}" data-id="#nt_login_canvas"><i class="{{arric[1]}}"></i></a>
-             {%- if customer -%}
-             <ul class="pa pe_none op__0 tl">
-                <li><a class="db cg chp" href="{{routes.account_url}}">{{ 'general.account_text.dashboard' | t }}</a></li>
-                <li><a class="db cg chp" href="{{routes.account_addresses_url}}">{{ 'general.account_text.addresses' | t }}</a></li>
-                <li><a class="db cg chp" href="{{routes.account_logout_url}}" data-no-instant>{{ 'general.account_text.logout' | t }}</a></li>
-             </ul>
-            {%- endif -%}
-          </div>
-      {%- else -%}
-          <div id="ssw-topauth" class="ssw-topauth">
-            {% if customer %}
-            <div class="ssw-tprofile ssw-dropdown ssw-custom-login ts__05 pr dn db_md">
-              <a class="ssw-dropdown-toggle cb chp db push_side" data-toggle="ssw-dropdown" href="javascript:void(0);">
-                <i class="{{arric[1]}}"></i>
-              </a>
-              <ul class="ssw-dropdown-menu" role="menu" aria-labelledby="dLabel">
-                <li id="customer_myorders_li"><a tabindex="-1" href="{{routes.account_url}}">{{ 'socialshopwave.my_orders' | t }}</a></li>
-                {% render 'ssw-widget-dropdown' %}
-                <li class="ssw-divider"></li>
-                <li><a id="customer_logout_link" tabindex="-1" href="{{routes.account_logout_url}}" data-no-instant>{{ 'socialshopwave.logout' | t }}</a></li>
-              </ul>
-            </div>
-            {% else %}
-            <div class="ssw-custom-login ts__05 pr dn db_md">
-              <a id="customer_login_link" class="cb chp db push_side" href="javascript:void(0);" data-toggle="ssw-modal" data-target="#login_modal" onclick="trackShopStats('login_popup_view', 'all')">
-                <i class="{{arric[1]}}"></i>
-              </a>
-            </div>
-            {% endif %}
-          </div>
-      {%- endif -%}
-   {%- endif -%}
    {%- if settings.show_wis -%}
     {%- if settings.wishlist_type != '3' -%}
      <a class="icon_like cb chp pr dn db_md js_link_wis" href="{{ routes_search_url }}/?view=wish"><i class="{{arric[2]}} pr"><span class="op__0 ts_op pa tcount jswcount bgb br__50 cw tc">0</span></i></a>
@@ -107,5 +69,42 @@ endcase -%}
           <div class="icon_cart pr"><a class="push_side pr cb chp db" href="{{routes.cart_url}}" data-id="#nt_cart_canvas"><i class="{{arric[3]}} pr"><span class="op__0 ts_op pa tcount jsccount bgb br__50 cw tc">{{ cart.item_count }}</span></i></a></div>
       {%- endcase -%}
    {%- endif -%}
+   {%- if shop.customer_accounts_enabled and settings.show_acc -%}
+   {% capture the_snippet_auth %}{% render 'socialshopwave-widget-auth' %}{% endcapture %}
+   {% if the_snippet_auth contains 'Liquid error' or settings.growave_social_login == false %}
+         <div class="my-account ts__05 pr dn db_md">
+           <a class="cb chp db push_side" href="{% if customer %}{{routes.account_url}}{% else %}{{ routes.account_login_url }}{% endif %}" data-id="#nt_login_canvas"><div class="login-button">Login</div></a>
+           {%- if customer -%}
+           <ul class="pa pe_none op__0 tl">
+              <li><a class="db cg chp" href="{{routes.account_url}}">{{ 'general.account_text.dashboard' | t }}</a></li>
+              <li><a class="db cg chp" href="{{routes.account_addresses_url}}">{{ 'general.account_text.addresses' | t }}</a></li>
+              <li><a class="db cg chp" href="{{routes.account_logout_url}}" data-no-instant>{{ 'general.account_text.logout' | t }}</a></li>
+           </ul>
+          {%- endif -%}
+        </div> 
+    {%- else -%}
+        <div id="ssw-topauth" class="ssw-topauth">
+          {% if customer %}
+          <div class="ssw-tprofile ssw-dropdown ssw-custom-login ts__05 pr dn db_md">
+            <a class="ssw-dropdown-toggle cb chp db push_side" data-toggle="ssw-dropdown" href="javascript:void(0);">
+              <i class="{{arric[1]}}"></i>
+            </a>
+            <ul class="ssw-dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <li id="customer_myorders_li"><a tabindex="-1" href="{{routes.account_url}}">{{ 'socialshopwave.my_orders' | t }}</a></li>
+              {% render 'ssw-widget-dropdown' %}
+              <li class="ssw-divider"></li>
+              <li><a id="customer_logout_link" tabindex="-1" href="{{routes.account_logout_url}}" data-no-instant>{{ 'socialshopwave.logout' | t }}</a></li>
+            </ul>
+          </div>
+          {% else %}
+          <div class="ssw-custom-login ts__05 pr dn db_md">
+            <a id="customer_login_link" class="cb chp db push_side" href="javascript:void(0);" data-toggle="ssw-modal" data-target="#login_modal" onclick="trackShopStats('login_popup_view', 'all')">
+              <i class="{{arric[1]}}"></i>
+            </a>
+          </div>
+          {% endif %}
+        </div>
+    {%- endif -%}
+ {%- endif -%}
    {%- if nt_group_btns -%}{%- render 'push_menu' with 'ml__5 dn db_lg' -%}{%- endif -%}
 </div>

@@ -367,6 +367,7 @@
 	list-style: none;
 	border-radius: 0 0 20px 20px;
 	border: 1px solid #000;
+	border-top: 0;
 }
 
 .accordian_ul a {
@@ -451,6 +452,7 @@
 .email_section .email_main_box .email_content .signup-newsletter-form {
 	background: #F3F3F3;
 	justify-content: space-between;
+
 }
 
 .email_section .email_main_box .email_content .submit-btn {
@@ -558,34 +560,80 @@
 	width: 100%;
 }
 
-.custom_testimonial  .testi-content .testi_h{
+.custom_testimonial .testi-content .testi_h {
 	font-family: Montserrat Alternates;
-	font-size: 20px ;
-	font-weight: 700 ;
-	line-height: normal ;
-	color: #000 ;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: normal;
+	color: #000;
 	margin: 0;
 }
 
-.custom_testimonial  .testi_p {
+.custom_testimonial .testi_p {
 	font-family: Montserrat Alternates;
-	font-size: 16px ;
-	font-style: italic ;
-	font-weight: 500 ;
-	line-height: 18px ;
-	color: #898989 ; 
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 18px;
+	color: #898989;
 	margin: 5px 0 15px 0;
 }
 
-.custom_testimonial  .testi_cname {
+.custom_testimonial .testi_cname {
 	font-family: Montserrat Alternates;
-	font-size: 18px ;
-	font-weight: 600 ;
-	line-height: normal ;
-	color: #000 ;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	color: #000;
 	margin: 0;
 }
 
+.h_transparent_true.template-index .ntheader:not(.live_stuck) .sp_header_mid {
+	background: linear-gradient(180deg, #09090B 0%, rgba(36, 40, 51, 0) 100%) !important;
+}
+
+.menu-item .lh__1 {
+	font-family: Montserrat Alternates;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: left;
+}
+
+.iccl-heart {
+	background-color: #354856;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px !important;
+	border-radius: 100%;
+	color: #fff;
+}
+
+.iccl-cart {
+	background-color: #354856;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px !important;
+	border-radius: 100%;
+	color: #fff;
+}
+
+.nt_mb_menu {
+	font-family: Montserrat Alternates !important;
+	font-weight: 600 !important;
+}
+.my-account .login-button{
+	background-color: #354856;
+	font-family: Montserrat Alternates !important;
+	border-radius: 100px;
+	color: #fff;
+	font-weight: 600;
+	padding: 5px 20px;
+}
+.header-container{
+	max-width: 1600px !important;
+}
 /* media query  */
 
 @media (max-width:1024px) {
@@ -595,7 +643,7 @@
 	}
 }
 
-@media (max-width:991PX) {
+@media (max-width:991px) {
 	.custom_shipping .custom_shipping_main_box .ship_box {
 		width: 50%;
 	}
@@ -631,6 +679,27 @@
 	}
 }
 
+@media (max-width:768px) {
+	.email_section .col-12 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 71%;
+		max-width: 100%;
+	}
+
+	.email_section .row {
+		flex-wrap: nowrap;
+	}
+
+	.email_section .email_main_box .email_content .signup-newsletter-form {
+		width: 100%;
+	}
+
+	.email_section .email_main_box .email_content .submit-btn {
+		width: 40%;
+	}
+
+}
+
 @media (max-width:767px) {
 	.cp {
 		font-size: 30px !important;
@@ -642,9 +711,9 @@
 		line-height: normal !important;
 	}
 
-	.pa_txts {
+	/* .pa_txts {
 		top: 40% !important;
-	}
+	} */
 
 	.nt_se_banner_collection_F8CiwD .pa_txts.mb_v_pos50 {
 		top: 50% !important;
@@ -656,6 +725,7 @@
 
 	.lazyloaded .section-title {
 		font-size: 36px;
+		line-height: normal;
 	}
 
 	.type_image_text_overlay .pa_txts {
@@ -726,6 +796,28 @@
 
 	.custom_shipping .custom_shipping_main_box .ship_box .ship_h2 {
 		min-height: auto;
+	}
+}
+
+@media (min-width:600px) {
+	.Collection-grid-section .slick-slide:nth-of-type(odd) .category_content_box {
+		order: 2;
+		/* Content first for odd */
+	}
+
+	.Collection-grid-section .slick-slide:nth-of-type(odd) .category_img_box {
+		order: 1;
+		/* Image second for odd */
+	}
+
+	.Collection-grid-section .slick-slide:nth-of-type(even) .category_content_box {
+		order: 1;
+		/* Content second for even */
+	}
+
+	.Collection-grid-section .slick-slide:nth-of-type(even) .category_img_box {
+		order: 2;
+		/* Image first for even */
 	}
 }
 
