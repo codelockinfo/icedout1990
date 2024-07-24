@@ -3760,6 +3760,70 @@
       },
       "custom_testimonial_9ppya7": {
         "type": "Custom_testimonial",
+        "blocks": {
+          "text_e98iew": {
+            "type": "text",
+            "settings": {
+              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_h": "Radiant Beauty",
+              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
+              "testi_cname": "Emily, Client"
+            }
+          },
+          "text_zTNDM3": {
+            "type": "text",
+            "settings": {
+              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_h": "Radiant Beauty",
+              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
+              "testi_cname": "Emily, Client"
+            }
+          },
+          "text_JRYUGy": {
+            "type": "text",
+            "settings": {
+              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_h": "Radiant Beauty",
+              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
+              "testi_cname": "Emily, Client"
+            }
+          },
+          "text_bfMN8F": {
+            "type": "text",
+            "settings": {
+              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_h": "Radiant Beauty",
+              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
+              "testi_cname": "Emily, Client"
+            }
+          },
+          "text_YYJxXi": {
+            "type": "text",
+            "settings": {
+              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_h": "Radiant Beauty",
+              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
+              "testi_cname": "Emily, Client"
+            }
+          },
+          "text_cQFyrG": {
+            "type": "text",
+            "settings": {
+              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_h": "Radiant Beauty",
+              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
+              "testi_cname": "Emily, Client"
+            }
+          }
+        },
+        "block_order": [
+          "text_e98iew",
+          "text_zTNDM3",
+          "text_JRYUGy",
+          "text_bfMN8F",
+          "text_YYJxXi",
+          "text_cQFyrG"
+        ],
         "settings": {
           "title": "Testimonials",
           "sub_title": "",
