@@ -3757,6 +3757,16 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "custom_testimonial_9ppya7": {
+        "type": "Custom_testimonial",
+        "settings": {
+          "title": "Testimonials",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_10"
+        }
       }
     },
     "content_for_index": [
@@ -3772,6 +3782,7 @@
       "email_yatRNc",
       "custom_shipping_Hm9amk",
       "featured_collection_owl_pPqi3g",
+      "custom_testimonial_9ppya7",
       "accordian_YbqUkH"
     ]
   }
