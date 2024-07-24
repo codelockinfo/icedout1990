@@ -66,7 +66,7 @@
     "logo_width": 75,
     "logos": "",
     "logos_retina": "",
-    "logos_width": 180,
+    "logos_width": 75,
     "logo_mb": "",
     "logo_mb_retina": "",
     "logo_mb_width": 55,
@@ -925,66 +925,6 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
-          "mb_nav-0": {
-            "type": "menu",
-            "settings": {
-              "title": "Demo",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "mb_nav-1": {
-            "type": "menu",
-            "settings": {
-              "title": "Shop",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "mb_nav-2": {
-            "type": "menu",
-            "settings": {
-              "title": "Product",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "1585642902196": {
-            "type": "menu",
-            "settings": {
-              "title": "Sale",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "1585642908420": {
-            "type": "menu",
-            "settings": {
-              "title": "Portfolio",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "mb_nav-3": {
             "type": "menu",
             "settings": {
@@ -997,10 +937,15 @@
               "lb_cl": ""
             }
           },
-          "1585642887352": {
+          "mb_nav-8": {
+            "type": "cur",
+            "settings": {
+            }
+          },
+          "menu_33wxyH": {
             "type": "menu",
             "settings": {
-              "title": "Blog",
+              "title": "Heading",
               "url": "",
               "open_link": "_self",
               "menu": "",
@@ -1008,54 +953,12 @@
               "lb": "",
               "lb_cl": ""
             }
-          },
-          "mb_nav-4": {
-            "type": "wis",
-            "settings": {
-            }
-          },
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063": {
-            "type": "compe",
-            "settings": {
-            }
-          },
-          "mb_nav-5": {
-            "type": "sea",
-            "settings": {
-            }
-          },
-          "mb_nav-6": {
-            "type": "acc",
-            "settings": {
-            }
-          },
-          "mb_nav-7": {
-            "type": "help",
-            "settings": {
-              "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:gecko@domain.com\">gecko@domain.com<\/a>"
-            }
-          },
-          "mb_nav-8": {
-            "type": "cur",
-            "settings": {
-            }
           }
         },
         "block_order": [
-          "mb_nav-0",
-          "mb_nav-1",
-          "mb_nav-2",
-          "1585642902196",
-          "1585642908420",
           "mb_nav-3",
-          "1585642887352",
-          "mb_nav-4",
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063",
-          "mb_nav-5",
-          "mb_nav-6",
-          "mb_nav-7",
-          "mb_nav-8"
+          "mb_nav-8",
+          "menu_33wxyH"
         ],
         "settings": {
         }
