@@ -2,41 +2,45 @@
 <div class="accordian-section">
   <div class="container">
     {%- render 'section_title', url: collection.url -%}
-    <div class="accordian_main_box">
-      {%- for block in section.blocks -%}
-        <div class="accordian_1">
-          <ul id="accordion" class="accordion">
-            <li class="">
-              <div class="link">What is Iced Out Jewelry?<i class="fas fa-caret-up"></i></div>
-              <ul class="accordian_ul">
-                <li class="accordian_li">
-                  <a href="#"
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam ipsa error, voluptatum
-                    totam ut!</a
-                  >
+    <div class="row">
+        <div class="accordian_main_box">
+          {%- for block in section.blocks  limit:3 -%}
+            <div class="accordian_1 {{forloop.index}}">
+              <ul id="accordion" class="accordion">
+                <li class="">
+                  <div class="link">What is Iced Out Jewelry?<i class="fas fa-caret-up"></i></div>
+                  <ul class="accordian_ul">
+                    <li class="accordian_li">
+                      <a href="#"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam ipsa error, voluptatum
+                        totam ut!</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          {% endfor %}
         </div>
-      {% endfor %}
-      {%- for block in section.blocks -%}
-        <div class="accordian_1">
-          <ul id="accordion" class="accordion">
-            <li class="">
-              <div class="link">What is Iced Out Jewelry?<i class="fas fa-caret-up"></i></div>
-              <ul class="accordian_ul">
-                <li class="accordian_li">
-                  <a href="#"
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam ipsa error, voluptatum
-                    totam ut!</a
-                  >
+        <div class="accordian_main_box">
+          {%- for block in section.blocks offset:3 -%}
+            <div class="accordian_1  {{forloop.index}}">
+              <ul id="accordion" class="accordion">
+                <li class="">
+                  <div class="link">What is Iced Out Jewelry?<i class="fas fa-caret-up"></i></div>
+                  <ul class="accordian_ul">
+                    <li class="accordian_li">
+                      <a href="#"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam ipsa error, voluptatum
+                        totam ut!</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          {% endfor %}
         </div>
-      {% endfor %}
     </div>
   </div>
 </div>

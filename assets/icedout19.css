@@ -391,8 +391,10 @@
 }
 
 .accordian_main_box {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	width: 50%;
+	/* display: grid; */
+	
+	/* grid-template-columns: 1fr 1fr; */
 }
 
 /* email section  */
@@ -713,6 +715,9 @@
 }
 
 @media (max-width:768px) {
+	.accordian_main_box {
+		width: 100%;
+	}
 	.email_section .col-12 {
 		-ms-flex: 0 0 100%;
 		flex: 0 0 71%;
@@ -773,16 +778,6 @@
 		line-height: 16px !important;
 		font-size: 12px !important;
 	}
-
-	.accordian_main_box {
-		display: flex;
-
-	}
-
-	.accordian_main_box .accordian_1{
-		width: 50%;
-	}
-
 	.accordion {
 		margin: 0;
 	}
@@ -810,9 +805,6 @@
 
 	.email_section .email_main_box .email_content .email_p {
 		font-size: 14px;
-	}
-	.accordian_main_box .accordian_1{
-		width: 50%;
 	}
 }
 
