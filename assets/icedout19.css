@@ -597,6 +597,7 @@
 	font-size: 14px;
 	font-weight: 600;
 	text-align: left;
+	color: #fff !important;
 }
 
 .iccl-heart {
@@ -634,6 +635,36 @@
 .header-container{
 	max-width: 1600px !important;
 }
+
+/* our shipping partner section  */
+.our_shipping_partner_section{
+	padding-bottom: 40px;
+}
+.our_shipping_partner_section .custom_container{
+	max-width:1000px;
+	padding:  0 10px;
+	margin: 0 auto;
+}
+.our_shipping_partner_section .shipping_partner_main{
+	z-index: 1;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-bottom: -117px;
+}
+.our_shipping_partner_section .Shipping_img_box{
+	min-height: 120px;
+    border: 2px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .our_shipping_partner_section .Shipping_img_box .Shipping_img{
+	width: 100%;
+} */
+
+
 /* media query  */
 
 @media (max-width:1024px) {

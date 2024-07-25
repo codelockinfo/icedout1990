@@ -1,0 +1,193 @@
+<div class="our_shipping_partner_section" style="background-color: {{section.settings.bg_color}};">
+  <div class="custom_container">
+    {%- render 'section_title', url: collection.url -%}
+    <div class="shipping_partner_main">
+      <div class="swiper Shippingslider">
+        <div class="swiper-wrapper">
+          {%- for block in section.blocks -%}
+            {% if block.settings.Shipping_img != blank %}
+              <div class="swiper-slide">
+                <div class="Shipping_img_box">
+                  <img src="{{block.settings.Shipping_img | img_url:'master'}}" alt="" class="Shipping_img">
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "our shipping partner",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Section bg color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Collection Grid"
+    },
+    {
+      "type": "textarea",
+      "id": "sub_title",
+      "label": "Sub Text"
+    },
+    {
+      "type": "select",
+      "id": "sub_font",
+      "default": "2",
+      "options": [
+        {
+          "value": "1",
+          "label": "Body font"
+        },
+        {
+          "value": "2",
+          "label": "Sub title font"
+        }
+      ],
+      "label": "Sub Text use font:"
+    },
+    {
+      "type": "text",
+      "id": "btn_title",
+      "label": "See All Title",
+      "info": "only working with design title 10",
+      "default": "See all products"
+    },
+    {
+      "type": "select",
+      "id": "style_title",
+      "options": [
+        {
+          "value": "title_1",
+          "label": "Design 1"
+        },
+        {
+          "value": "title_2",
+          "label": "Design 2"
+        },
+        {
+          "value": "title_3",
+          "label": "Design 3"
+        },
+        {
+          "value": "title_4",
+          "label": "Design 4"
+        },
+        {
+          "value": "title_5 lazyload",
+          "label": "Design 5"
+        },
+        {
+          "value": "title_6",
+          "label": "Design 6"
+        },
+        {
+          "value": "title_7 +la",
+          "label": "Design 7 (with line-awesome)"
+        },
+        {
+          "value": "title_8",
+          "label": "Design 8"
+        },
+        {
+          "value": "title_9",
+          "label": "Design 9"
+        },
+        {
+          "value": "title_10",
+          "label": "Design 10"
+        },
+        {
+          "value": "title_11",
+          "label": "Design 11"
+        },
+        {
+          "value": "title_12",
+          "label": "Design 12"
+        },
+        {
+          "value": "title_13",
+          "label": "Design 13"
+        },
+        {
+          "value": "title_14",
+          "label": "Design 14"
+        }
+      ],
+      "label": "Design Title:"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Block",
+      "type": "img",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "Shipping_img",
+          "label": "Add image "
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "our shipping partner",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  var swiper = new Swiper('.Shippingslider', {
+    slidesPerView: 5,
+    spaceBetween: 20,
+    freeMode: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+      },
+      577: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      800: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      900: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1020: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+      1100: {
+        slidesPerView: 5,
+        spaceBetween: 30,
+      },
+    },
+  });
+</script>
