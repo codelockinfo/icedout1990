@@ -3328,11 +3328,15 @@
           "text_9bnqXC": {
             "type": "text",
             "settings": {
+              "Question": "What is Iced Out Jewelry?",
+              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
             }
           },
           "text_PrJfkz": {
             "type": "text",
             "settings": {
+              "Question": "",
+              "Answer": ""
             }
           }
         },
