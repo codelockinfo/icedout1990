@@ -3626,8 +3626,48 @@
       },
       "our_shippingpartner_ihrWem": {
         "type": "Our_shippingpartner",
+        "blocks": {
+          "img_kmVF9e": {
+            "type": "img",
+            "settings": {
+              "Shipping_img": "shopify:\/\/shop_images\/rthrt_1.png"
+            }
+          },
+          "img_CzEq7W": {
+            "type": "img",
+            "settings": {
+              "Shipping_img": "shopify:\/\/shop_images\/rthrt_2.png"
+            }
+          },
+          "img_hAc7RX": {
+            "type": "img",
+            "settings": {
+              "Shipping_img": "shopify:\/\/shop_images\/rthrt_4.png"
+            }
+          },
+          "img_yQjeJG": {
+            "type": "img",
+            "settings": {
+              "Shipping_img": "shopify:\/\/shop_images\/rthrt_5.png"
+            }
+          },
+          "img_eFPwct": {
+            "type": "img",
+            "settings": {
+              "Shipping_img": "shopify:\/\/shop_images\/rthrt_3.png"
+            }
+          }
+        },
+        "block_order": [
+          "img_kmVF9e",
+          "img_CzEq7W",
+          "img_hAc7RX",
+          "img_yQjeJG",
+          "img_eFPwct"
+        ],
         "settings": {
           "bg_color": "#ffffff",
+          "bg_color2": "",
           "title": "Collection Grid",
           "sub_title": "",
           "sub_font": "2",
