@@ -3345,12 +3345,36 @@
               "Question": "What is the significance of Moissanite in Iced Out Jewelry?",
               "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
             }
+          },
+          "text_HBkMPg": {
+            "type": "text",
+            "settings": {
+              "Question": "How can I avail of the 10% discount on my first purchase?",
+              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+            }
+          },
+          "text_mzt6GK": {
+            "type": "text",
+            "settings": {
+              "Question": "Where does Iced Out 1990 ship its jewelry products?",
+              "Answer": "<p>`Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+            }
+          },
+          "text_NkpxKc": {
+            "type": "text",
+            "settings": {
+              "Question": "Where does Iced Out 1990 ship its jewelry products?",
+              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+            }
           }
         },
         "block_order": [
           "text_9bnqXC",
           "text_PrJfkz",
-          "text_7cUpFP"
+          "text_7cUpFP",
+          "text_HBkMPg",
+          "text_mzt6GK",
+          "text_NkpxKc"
         ],
         "settings": {
           "bg_color": "#ffffff",
