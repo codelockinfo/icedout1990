@@ -5,40 +5,40 @@
     <div class="row">
         <div class="accordian_main_box">
           {%- for block in section.blocks  limit:3 -%}
-            <div class="accordian_1 {{forloop.index}}">
-              <ul id="accordion" class="accordion">
-                <li class="">
-                  <div class="link">What is Iced Out Jewelry?<i class="fas fa-caret-up"></i></div>
-                  <ul class="accordian_ul">
-                    <li class="accordian_li">
-                      <a href="#"
-                        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam ipsa error, voluptatum
-                        totam ut!</a
-                      >
+            {% if block.settings.Question != blank %}
+                <div class="accordian_1 {{forloop.index}}">
+                  <ul id="accordion" class="accordion">
+                    <li class="">
+                      <div class="link">{{block.settings.Question}}<i class="fas fa-caret-up"></i></div>
+                      <ul class="accordian_ul">
+                        <li class="accordian_li">
+                          <a href="#" >{{block.settings.Answer}}</a>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
-                </li>
-              </ul>
-            </div>
+                </div>
+            {% endif %}
           {% endfor %}
         </div>
         <div class="accordian_main_box">
           {%- for block in section.blocks offset:3 -%}
-            <div class="accordian_1  {{forloop.index}}">
-              <ul id="accordion" class="accordion">
-                <li class="">
-                  <div class="link">What is Iced Out Jewelry?<i class="fas fa-caret-up"></i></div>
-                  <ul class="accordian_ul">
-                    <li class="accordian_li">
-                      <a href="#"
-                        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam ipsa error, voluptatum
-                        totam ut!</a
-                      >
+            {% if block.settings.Question != blank %}
+                <div class="accordian_1  {{forloop.index}}">
+                  <ul id="accordion" class="accordion">
+                    <li class="">
+                      <div class="link">{{block.settings.Question}}<i class="fas fa-caret-up"></i></div>
+                      <ul class="accordian_ul">
+                        <li class="accordian_li">
+                          <a href="#"
+                            >{{block.settings.Answer}}</a
+                          >
+                        </li>
+                      </ul>
                     </li>
                   </ul>
-                </li>
-              </ul>
-            </div>
+                </div>
+            {% endif %}
           {% endfor %}
         </div>
     </div>
@@ -157,7 +157,18 @@
     {
       "name": "block",
       "type": "text",
-      "settings": []
+      "settings": [
+        {
+          "type": "text",
+          "id": "Question",
+          "label": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "Answer",
+          "label": "Answer"
+        }
+      ]
     }
   ],
   "presets": [
