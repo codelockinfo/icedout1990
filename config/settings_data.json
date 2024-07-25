@@ -3623,6 +3623,17 @@
           "btn_title": "See all products",
           "style_title": "title_10"
         }
+      },
+      "our_shippingpartner_ihrWem": {
+        "type": "Our_shippingpartner",
+        "settings": {
+          "bg_color": "#ffffff",
+          "title": "Collection Grid",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1"
+        }
       }
     },
     "content_for_index": [
@@ -3639,7 +3650,8 @@
       "custom_shipping_Hm9amk",
       "featured_collection_owl_pPqi3g",
       "custom_testimonial_9ppya7",
-      "accordian_YbqUkH"
+      "accordian_YbqUkH",
+      "our_shippingpartner_ihrWem"
     ]
   }
 }
