@@ -3666,8 +3666,8 @@
           "img_eFPwct"
         ],
         "settings": {
-          "bg_color": "#ffffff",
-          "bg_color2": "",
+          "bg_color": "#ededed",
+          "bg_color2": "#ffffff",
           "title": "Collection Grid",
           "sub_title": "",
           "sub_font": "2",
