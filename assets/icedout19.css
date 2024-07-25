@@ -299,7 +299,7 @@
 
 .accordion {
 	width: 100%;
-	margin: 30px auto 20px;
+	/* margin: 30px auto 20px; */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -387,7 +387,7 @@
 
 .accordian_main_box .accordian_1,
 .accordian_2 {
-	margin: 10px;
+	margin:0  10px;
 }
 
 .accordian_main_box {
@@ -775,13 +775,12 @@
 	}
 
 	.accordian_main_box {
-		display: block;
-		grid-template-columns: 1fr;
+		display: flex;
+
 	}
 
-	.accordian_main_box .accordian_1,
-	.accordian_2 {
-		margin: 0 10px;
+	.accordian_main_box .accordian_1{
+		width: 50%;
 	}
 
 	.accordion {
@@ -811,6 +810,9 @@
 
 	.email_section .email_main_box .email_content .email_p {
 		font-size: 14px;
+	}
+	.accordian_main_box .accordian_1{
+		width: 50%;
 	}
 }
 
