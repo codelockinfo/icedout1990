@@ -188,7 +188,7 @@
     "shop_layout": "wide",
     "shop_des": "default",
     "cat_des": "1",
-    "shop_sidebar": "none",
+    "shop_sidebar": "left",
     "shop_size_sidebar": "2",
     "use_hidden_cat": false,
     "space_sidebar": 30,
@@ -200,7 +200,7 @@
     "cat_sticky": false,
     "shop_filters": true,
     "pop_style": "pop_default",
-    "type_filters": "1",
+    "type_filters": "2",
     "logic_filter": "2",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
@@ -3712,6 +3712,11 @@
           "sub_font": "2",
           "btn_title": "See all products",
           "style_title": "title_1"
+        }
+      },
+      "sidebar_shop": {
+        "type": "sidebar_shop",
+        "settings": {
         }
       }
     },
