@@ -185,7 +185,7 @@
     "fw_pr": 700,
     "ls_pr": 0,
     "space_pr": 15,
-    "shop_layout": "default",
+    "shop_layout": "wide",
     "shop_des": "default",
     "cat_des": "1",
     "shop_sidebar": "none",
@@ -751,7 +751,6 @@
               "logo_width": 115,
               "title": "",
               "content": "We are manufacturer of watches and jewelry. We make all kind of jewelry like Ring, Pendant, Necklace, Earrings, Bracelet etc.",
-              "social_mode": "3",
               "order": "1",
               "cl": "6",
               "cl_tb": "6",
@@ -805,7 +804,10 @@
           "bg_pos": "center center",
           "image": "shopify:\/\/shop_images\/Rectangle_127.png",
           "cl_overlay": "#000000",
-          "cl_opacity": 0
+          "cl_opacity": 0,
+          "social_mode": "3",
+          "text": "Copyright © [year] <span class=\"cp\">Gecko<\/span> all rights reserved. Powered by <a href=\"https:\/\/the4.co\">The4<\/a>",
+          "layout": "6"
         }
       },
       "footer_bot": {
