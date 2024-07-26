@@ -37,7 +37,7 @@
   {%- capture url_last -%}{{product.url | split:'/products/' | first}}{% if collection %}/collections/{{collection.handle}}{% endif %}/products/{{product.handle}}{%- endcapture -%}
 
 <div data-page="{{page_t4}}" class="col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} mt__30 pr_grid_item pr_list_item product nt_pr desgin__{{inc_pr}}{% if pr_cdt %} pr_has_cdt4{% endif %}">
-  <div class="product-inner pr ">
+  <div class="product-inner pr collection_box">
     {%- if pr_cdt -%}
       <div class="pr_wr_dcimg pr oh">
         <div class="product-image pr oh lazyload" data-include="{{pr_url}}/?view=img{{sett_equal}}"><div class="nt_bg_lz nt_fk_lz"{% unless sett_equal %} style="padding-top:{{ 1 | divided_by: images_0.aspect_ratio | times: 100}}%;"{% endunless %}></div></div>
@@ -55,9 +55,14 @@
          <span class="price dib mb__5">{%- render 'product_price',product:product,inc_price:inc_price -%}</span>
          <div class="rte dn"><p class="mb__5">{% if description_excerpt != blank %}{{ description_excerpt }}{% else %}{{ product.content | strip_html | truncatewords: 30 }}{% endif %}</p></div>
          {%- if use_rating -%}{%- render 'rating',product:product,inc_rating:inc_rating -%}{%- endif -%}
-         {%- if color_count > 0 -%}
+         {% comment %} {%- if color_count > 0 -%}
          <div class="swatch__list_js swatch__list lh__1 nt_swatches_on_grid lazyload" data-colorCount="{{color_count}}" data-include="{{pr_url}}/?view=sw{{sett_equal}}"></div>
-         {%- endif -%}
+         {%- endif -%} {% endcomment %}
+         <form method="post" action="/cart/add">
+         <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+         {% comment %} <input min="1" type="number" id="quantity" name="quantity" value="1"/> {% endcomment %}
+         <input type="submit" value="Add to cart" class="add-to-cart" />
+       </form>
       </div>
       <div class="product-info__btns flex column mt__20">
          {%- render 'nt_add_qvcp',product:product,tooltip:tooltip,pr_id:pr_id,url_last:url_last -%}
