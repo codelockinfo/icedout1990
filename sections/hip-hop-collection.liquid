@@ -1,6 +1,6 @@
 <div class="hip_hop_main_box" style="background-color: {{section.settings.bg_color}};">
   <div class="container">
-    {%- render 'section_title', url: collection.url -%}
+    {%- render 'hip_hop_title', url: {{section.settings.hip_collection_url}} -%}
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
@@ -63,6 +63,11 @@
       "label": "See All Title",
       "info": "only working with design title 10",
       "default": "See all products"
+    },
+    {
+      "type": "url",
+      "id": "hip_collection_url",
+      "label": "Button url"
     },
     {
       "type": "select",
