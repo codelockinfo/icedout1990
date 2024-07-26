@@ -52,7 +52,9 @@
          {% comment %} <div class="swatch__list_js swatch__list lh__1 nt_swatches_on_grid lazyload" data-colorCount="{{color_count}}" data-include="{{pr_url}}/?view=sw{{sett_equal}}"></div> {% endcomment %}
          {%- endif -%}
          <form method="post" action="/cart/add">
-         <input type="submit" value="Add to cart" class="btn add-to-cart" />
+         <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+         {% comment %} <input min="1" type="number" id="quantity" name="quantity" value="1"/> {% endcomment %}
+         <input type="submit" value="Add to cart" class="add-to-cart" />
        </form>
       </div>
    </div>
