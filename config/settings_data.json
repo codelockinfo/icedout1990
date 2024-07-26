@@ -3077,7 +3077,8 @@
           "title": "Hip Hop Jewelry",
           "sub_title": "",
           "sub_font": "2",
-          "btn_title": "See all products",
+          "btn_title": "Go to Collection",
+          "hip_collection_url": "shopify:\/\/collections",
           "style_title": "title_10"
         }
       },
