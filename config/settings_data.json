@@ -198,7 +198,7 @@
     "show_list_switch": true,
     "sort_enable": true,
     "cat_sticky": false,
-    "shop_filters": true,
+    "shop_filters": false,
     "pop_style": "pop_default",
     "type_filters": "2",
     "logic_filter": "2",
@@ -2387,96 +2387,19 @@
       "sidebar_shop2": {
         "type": "sidebar_shop2",
         "blocks": {
-          "sidebar_shop2-0": {
-            "type": "title",
-            "settings": {
-              "hidden_block": false,
-              "title": "By Title"
-            }
-          },
-          "sidebar_shop2-1": {
-            "type": "price",
-            "settings": {
-              "hidden_block": false,
-              "title": "By Price"
-            }
-          },
-          "sidebar_shop2-2": {
-            "type": "variants",
+          "tag2_VXWmix": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
               "count": true,
-              "title": "By Size",
-              "key": "Size",
-              "style": "ck"
-            }
-          },
-          "sidebar_shop2-3": {
-            "type": "color",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Color",
-              "key": "Color"
-            }
-          },
-          "sidebar_shop2-4": {
-            "type": "vendor",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Vendor",
-              "style": "ck"
-            }
-          },
-          "sidebar_shop2-5": {
-            "type": "available",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "Product status"
-            }
-          },
-          "1596191009077": {
-            "type": "variants",
-            "settings": {
-              "hidden_block": false,
-              "count": false,
-              "title": "By Shoes Size",
-              "key": "Shoes Size",
-              "style": "ck"
-            }
-          },
-          "1596419303044": {
-            "type": "tags",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Tags",
-              "style": "ck"
-            }
-          },
-          "1596419377121": {
-            "type": "tag",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Tag Color",
-              "key": "color",
+              "title": "Gender",
+              "arra_enter": "Male,Female",
               "style": "ck"
             }
           }
         },
         "block_order": [
-          "sidebar_shop2-0",
-          "sidebar_shop2-1",
-          "sidebar_shop2-2",
-          "sidebar_shop2-3",
-          "sidebar_shop2-4",
-          "sidebar_shop2-5",
-          "1596191009077",
-          "1596419303044",
-          "1596419377121"
+          "tag2_VXWmix"
         ],
         "settings": {
         }
