@@ -2406,11 +2406,33 @@
               "arra_enter": "Moissanite,\nLab Grown,\nNatural",
               "style": "ck"
             }
+          },
+          "tag2_FKdfCK": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Stone Shape",
+              "arra_enter": "Round,Oval,Emerald,Pear,Cushion,Princess,Radiant,Asscher,Marquise",
+              "style": "ck"
+            }
+          },
+          "tag2_fMwHTR": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Length",
+              "arra_enter": "16\" Inch,\n17\" Inch,\n18\" Inch,\n19\" Inch,\n20\" Inch,\n21\" Inch,\n22\" Inch,\n23\" Inch,\n24\" Inch,\nCustom Length",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
           "tag2_VXWmix",
-          "tag2_ntV9aH"
+          "tag2_ntV9aH",
+          "tag2_FKdfCK",
+          "tag2_fMwHTR"
         ],
         "settings": {
         }
