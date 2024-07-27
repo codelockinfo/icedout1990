@@ -1376,11 +1376,12 @@
         ],
         "settings": {
           "shown": true,
+          "image": "shopify:\/\/shop_images\/27330ac8c9d7e0a9bc4f38af83b5e1de.jpg",
           "use_specify_image": true,
           "parallax": false,
           "color": "#000000",
           "overlay": 54,
-          "padding": 50,
+          "padding": 70,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
