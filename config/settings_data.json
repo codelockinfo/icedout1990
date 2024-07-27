@@ -1718,7 +1718,7 @@
       "product-recommendations": {
         "type": "product-recommendations",
         "settings": {
-          "show": true,
+          "show": false,
           "title": "You may also like",
           "sub_title": "",
           "sub_font": "2",
@@ -1755,7 +1755,7 @@
       "recently_viewed": {
         "type": "recently_viewed",
         "settings": {
-          "show": true,
+          "show": false,
           "unavailable_prs": "show",
           "title": "Recently viewed products",
           "sub_title": "",
@@ -3697,6 +3697,90 @@
       "sidebar_shop": {
         "type": "sidebar_shop",
         "settings": {
+        }
+      },
+      "feature_columns": {
+        "type": "feature_columns",
+        "blocks": {
+          "text_block_8FHXMN": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Group_1000004722_180x_b57a2295-3864-434d-a192-c9b5e5071022.png",
+              "title": "Luxurious Presentation",
+              "text": "<p>Our premium packaging adds a touch of luxury to your purchase, making it a delight to unbox your new watch or jewelry.<br\/><\/p>",
+              "button_label": "",
+              "button_link": "",
+              "open_link": "_blank",
+              "btn_style": "1"
+            }
+          },
+          "text_block_A6Qx88": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Vector_4_180x_54a00b8e-5763-49a9-be9a-e848523adc33.png",
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "open_link": "_blank",
+              "btn_style": "1"
+            }
+          },
+          "text_block_6tDhUN": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Group_2_180x_456d7387-fc43-4cdf-aa14-bee823c0cdb1.png",
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "open_link": "_blank",
+              "btn_style": "1"
+            }
+          }
+        },
+        "block_order": [
+          "text_block_8FHXMN",
+          "text_block_A6Qx88",
+          "text_block_6tDhUN"
+        ],
+        "settings": {
+          "title": "",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "section_layout": "1",
+          "cat_space": "30",
+          "col": "4",
+          "col_md": "4",
+          "col_mb": "12",
+          "pos_text": "default",
+          "space": 20,
+          "align_text": "tl",
+          "fs_hd": 22,
+          "fs_txt": 14,
+          "w_img": 0,
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
         }
       }
     },
