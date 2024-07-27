@@ -2387,6 +2387,13 @@
       "sidebar_shop2": {
         "type": "sidebar_shop2",
         "blocks": {
+          "price_ViKLCK": {
+            "type": "price",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Price"
+            }
+          },
           "tag2_VXWmix": {
             "type": "tag2",
             "settings": {
@@ -2429,6 +2436,7 @@
           }
         },
         "block_order": [
+          "price_ViKLCK",
           "tag2_VXWmix",
           "tag2_ntV9aH",
           "tag2_FKdfCK",
