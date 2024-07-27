@@ -246,7 +246,7 @@
     "use_pr_rating": false,
     "hide_btns": false,
     "use_qty": true,
-    "bordered_grid2": "3",
+    "bordered_grid2": "1",
     "sw_limit": true,
     "price_format": "1",
     "show_pr_img": "2",
