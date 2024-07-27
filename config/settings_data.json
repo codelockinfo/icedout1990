@@ -2396,10 +2396,21 @@
               "arra_enter": "Male,Female",
               "style": "ck"
             }
+          },
+          "tag2_ntV9aH": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Stone Type",
+              "arra_enter": "Moissanite,\nLab Grown,\nNatural",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
-          "tag2_VXWmix"
+          "tag2_VXWmix",
+          "tag2_ntV9aH"
         ],
         "settings": {
         }
