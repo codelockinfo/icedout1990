@@ -2433,6 +2433,16 @@
               "arra_enter": "16\" Inch,17\" Inch,18\" Inch,19\" Inch,20\" Inch,21\" Inch,22\" Inch,23\"Inch,24\" Inch,Custom Length",
               "style": "ck"
             }
+          },
+          "tag2_A7drL4": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Style",
+              "arra_enter": "Solitaire,Halo,Pave,Eternity,Half Eternity,Three,Stone,Championship,Religious,Hip Hop",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
@@ -2440,7 +2450,8 @@
           "tag2_VXWmix",
           "tag2_ntV9aH",
           "tag2_FKdfCK",
-          "tag2_fMwHTR"
+          "tag2_fMwHTR",
+          "tag2_A7drL4"
         ],
         "settings": {
         }
