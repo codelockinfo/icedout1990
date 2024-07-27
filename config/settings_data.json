@@ -1593,6 +1593,7 @@
             "type": "des",
             "settings": {
               "des": "2",
+              "page": "",
               "length": 31,
               "readm": false,
               "readm_txt": "Read more"
@@ -1620,7 +1621,6 @@
               "mess": "",
               "size": 16,
               "source": "1",
-              "image": "shopify:\/\/shop_images\/trust_img2.png",
               "al": "tl",
               "wimg": 60,
               "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
@@ -1632,8 +1632,10 @@
             "settings": {
               "size_chart": "2",
               "sc_type": "1",
+              "page": "",
               "size_ck": "",
               "delivery": true,
+              "page_dr": "",
               "ask": true
             }
           },
@@ -1684,7 +1686,8 @@
           "1585724379549": {
             "type": "html",
             "settings": {
-              "title": "Custom tab"
+              "title": "Custom tab",
+              "page": ""
             }
           },
           "pr_description-2": {
@@ -1727,7 +1730,7 @@
           "col_pr": "3",
           "col_pr_tb": "3",
           "col_pr_mb": "6",
-          "pr_des": "1",
+          "pr_des": "1 tc",
           "show_vendor": false,
           "use_cdt": false,
           "round_cd": false,
