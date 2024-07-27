@@ -6,7 +6,7 @@
   endif
   assign ccol = 'col-lg-1x col-md-2x col-3x' | replace: '1x', section.settings.col | replace: '2x', section.settings.col_md | replace: '3x', section.settings.col_mb -%}
  
-<div class="nt_se_{{sid}} {{section.settings.layout}}">
+<div class="nt_se_{{sid}} {{section.settings.layout}} columns-text">
   {%- render 'section_title' -%}
   <div class="mt__30 nt_banner_holder pos_text_{{section.settings.pos_text}} row equal_nt nt_contain position_8 fl_center cat_space_{{section.settings.cat_space}}{% if section.settings.section_layout == '2' %} nt_slider js_carousel prev_next_{{section.settings.btn_color}} btn_owl_{{section.settings.btn_owl}} dot_owl_{{section.settings.dot_owl}} dot_color_{{section.settings.dot_color}} btn_vi_{{section.settings.btn_vi}}{% endif %}"{% if section.settings.section_layout == '2' %} data-flickity='{"imagesLoaded": false, "adaptiveHeight": true, "contain": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": {{section.settings.loop}},"prevNextButtons": {{section.settings.button}},"percentPosition": true,"pageDots": {{section.settings.dot}}, "autoPlay" : {% if section.settings.autoplay %}{{ section.settings.au_time | times: 1000 }}{% else %}false{% endif %}, "pauseAutoPlayOnHover" : {{section.settings.au_hover}}, "rightToLeft": {{settings.use_rtl}} }'{% endif %}>
     {%- for block in section.blocks %}{% assign button_link = block.settings.button_link %}{% assign open_link = block.settings.open_link -%}
@@ -15,11 +15,7 @@
           <a href="{{ button_link }}" target="{{open_link}}">
           {%- if block.settings.enable_image -%}
              {%- assign image = block.settings.image -%}
-             {%- if image != blank %}{% assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                  <img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" class="lazyload lz_op_ef w__100" alt="{{image.alt}}" style="max-width:{{w_img|default:image.width}}px">
-             {%- else -%}
-                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-             {%- endif -%}
+            
           {%- endif -%}
           </a>
           <div class="category-content">
@@ -50,23 +46,36 @@
             {%- endif -%}
           </div>
 
-        {%- else -%}
-
-          {%- if block.settings.enable_image -%}
+        {%- else -%}  
+        {%- if block.settings.image != blank -%}
+          <div class="img_width">
+            <div class="image-wrap ">
+              {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <img class="lazyload"
+                  data-src="{{ img_url }}"
+                  data-widths="[180, 360, 540, 720, 900, 1080]"
+                  data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ block.settings.image.alt }}">
+            </div>
+            </div>
+          {%- else -%}
+        {%- endif -%}
+          {% comment %} {%- if block.settings.enable_image -%}
              {%- assign image = block.settings.image -%}
              {%- if image != blank %}{% assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                   <img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" class="lazyload lz_op_ef w__100" alt="{{image.alt}}" style="max-width:{{w_img|default:image.width}}px">
              {%- else -%}
-                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                 {% comment %} {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }} {% endcomment %}
              {%- endif -%}
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
           <div class="category-content">
             {%- if block.settings.title != blank -%}
-              <h3 class="h4 mg__0">{{ block.settings.title | escape }}</h3>
+              <h3 class="h4 mg__0 column_h3">{{ block.settings.title | escape }}</h3>
             {%- endif -%}
 
             {%- if block.settings.text != blank -%}
-              <div class="rte-setting mt__7">{{ block.settings.text }}</div>
+              <div class="rte-setting mt__7 column_p">{{ block.settings.text }}</div>
             {%- endif -%}
           </div>
 
