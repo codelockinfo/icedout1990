@@ -222,7 +222,7 @@
     "fbt_pos": "1",
     "show_first_img": false,
     "use_vimg": true,
-    "sticky_atc": true,
+    "sticky_atc": false,
     "social_pr": true,
     "enable_vlooping": true,
     "use_fimg": false,
