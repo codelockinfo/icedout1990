@@ -1382,9 +1382,9 @@
           "color": "#000000",
           "overlay": 54,
           "padding": 70,
-          "bg_pos": "center center",
+          "bg_pos": "left top",
           "bg_repeat": "no-repeat",
-          "bg_size": "cover",
+          "bg_size": "inherit",
           "bg_att": "scroll"
         }
       },
