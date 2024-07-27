@@ -2403,7 +2403,7 @@
               "hidden_block": false,
               "count": true,
               "title": "Stone Type",
-              "arra_enter": "Moissanite,\nLab Grown,\nNatural",
+              "arra_enter": "Moissanite,Lab Grown,Natural",
               "style": "ck"
             }
           },
@@ -2423,7 +2423,7 @@
               "hidden_block": false,
               "count": true,
               "title": "Length",
-              "arra_enter": "16\" Inch,\n17\" Inch,\n18\" Inch,\n19\" Inch,\n20\" Inch,\n21\" Inch,\n22\" Inch,\n23\" Inch,\n24\" Inch,\nCustom Length",
+              "arra_enter": "16\" Inch,17\" Inch,18\" Inch,19\" Inch,20\" Inch,21\" Inch,22\" Inch,23\"Inch,24\" Inch,Custom Length",
               "style": "ck"
             }
           }
