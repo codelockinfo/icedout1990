@@ -9,7 +9,7 @@
                 <div class="accordion_1 {{forloop.index}}">
                   <ul id="accordion" class="accordion">
                     <li class="">
-                      <div class="link {%  if forloop.first %} open{%  endif %}">{{block.settings.Question}}<i class="fas fa-caret-up"></i></div>
+                      <div class="link {% if forloop.first %} open{%  endif %}">{{block.settings.Question}}<i class="fas fa-caret-up"></i></div>
                       <ul class="accordion_ul">
                         <li class="accordion_li">
                           <a href="#" >{{block.settings.Answer}}</a>
