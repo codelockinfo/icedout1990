@@ -1667,26 +1667,26 @@
               "page": "packaging"
             }
           },
-          "html_QC7nwg": {
-            "type": "html",
-            "settings": {
-              "title": "Custom tab",
-              "page": ""
-            }
-          },
           "html_HiVKMD": {
             "type": "html",
             "settings": {
               "title": "Shipping",
               "page": "shipping"
             }
+          },
+          "html_QC7nwg": {
+            "type": "html",
+            "settings": {
+              "title": "Safety & Security",
+              "page": "safety-security-1"
+            }
           }
         },
         "block_order": [
           "pr_description-0",
           "html_99yzCa",
-          "html_QC7nwg",
-          "html_HiVKMD"
+          "html_HiVKMD",
+          "html_QC7nwg"
         ],
         "settings": {
           "show": true,
