@@ -1683,13 +1683,21 @@
             "settings": {
               "title": "Reviews"
             }
+          },
+          "html_kzAwFz": {
+            "type": "html",
+            "settings": {
+              "title": "Packaging",
+              "page": "privacy-policy"
+            }
           }
         },
         "block_order": [
           "pr_description-0",
           "pr_description-1",
           "1585724379549",
-          "pr_description-2"
+          "pr_description-2",
+          "html_kzAwFz"
         ],
         "settings": {
           "show": true,
