@@ -29,7 +29,7 @@
     "catalog_mode": false,
     "enable_toolbar": true,
     "enable_new_pp": false,
-    "enable_pro_pr_pp": true,
+    "enable_pro_pr_pp": false,
     "enable_ck_pp": false,
     "enable_age_pp": false,
     "enable_salse_pp": true,
