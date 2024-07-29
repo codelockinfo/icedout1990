@@ -1636,12 +1636,6 @@
               "show_category_product": true,
               "show_tag_product": true
             }
-          },
-          "pr_summary-6": {
-            "type": "social",
-            "settings": {
-              "class": "tc"
-            }
           }
         },
         "block_order": [
@@ -1650,8 +1644,7 @@
           "pr_summary-2",
           "pr_summary-3",
           "pr_summary-4",
-          "pr_summary-5",
-          "pr_summary-6"
+          "pr_summary-5"
         ],
         "settings": {
         }
