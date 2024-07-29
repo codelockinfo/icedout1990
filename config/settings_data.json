@@ -33,7 +33,7 @@
     "enable_ck_pp": false,
     "enable_age_pp": true,
     "enable_salse_pp": true,
-    "enable_salse_pp_mb": false,
+    "enable_salse_pp_mb": true,
     "platform_email": "1",
     "klaviyo_list_id": "",
     "ajax_klaviyo": true,
