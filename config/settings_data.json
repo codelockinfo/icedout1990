@@ -1677,8 +1677,8 @@
           "html_HiVKMD": {
             "type": "html",
             "settings": {
-              "title": "Custom tab",
-              "page": ""
+              "title": "Shipping",
+              "page": "shipping"
             }
           }
         },
