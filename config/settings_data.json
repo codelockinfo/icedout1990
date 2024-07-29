@@ -1616,18 +1616,6 @@
               "enable_payment_btn": true
             }
           },
-          "1585709158220": {
-            "type": "img",
-            "settings": {
-              "mess": "",
-              "size": 16,
-              "source": "1",
-              "al": "tl",
-              "wimg": 60,
-              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-              "height": 50
-            }
-          },
           "pr_summary-4": {
             "type": "size",
             "settings": {
@@ -1661,7 +1649,6 @@
           "pr_summary-1",
           "pr_summary-2",
           "pr_summary-3",
-          "1585709158220",
           "pr_summary-4",
           "pr_summary-5",
           "pr_summary-6"
