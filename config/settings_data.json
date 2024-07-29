@@ -1637,6 +1637,41 @@
               "page_dr": "",
               "ask": true
             }
+          },
+          "complementary_product_g3MjLw": {
+            "type": "complementary_product",
+            "settings": {
+              "complementaryproductheading": "",
+              "complementaryproduct": "",
+              "limit": 8,
+              "space": 30,
+              "use_pagination": "none",
+              "btn_rd": true,
+              "btn_icon": false,
+              "btn_style": "default",
+              "col_pr": "4",
+              "col_pr_tb": "6",
+              "col_pr_mb": "12",
+              "pr_des": "1",
+              "show_vendor": false,
+              "use_cdt": false,
+              "round_cd": false,
+              "cdt_des": "1",
+              "loop": true,
+              "au_time": 0,
+              "au_hover": true,
+              "button": false,
+              "btn_vi": "1",
+              "btn_owl": "1",
+              "btn_color": "0",
+              "dot": true,
+              "dot_owl": "1",
+              "dot_color": "1",
+              "use_eq_height": false,
+              "image_ratio": "ratio_nt",
+              "image_size": "nt_cover",
+              "image_position": "8"
+            }
           }
         },
         "block_order": [
@@ -1645,7 +1680,8 @@
           "pr_summary-1",
           "pr_summary-2",
           "pr_summary-3",
-          "pr_summary-4"
+          "pr_summary-4",
+          "complementary_product_g3MjLw"
         ],
         "settings": {
         }
