@@ -1655,21 +1655,38 @@
         "blocks": {
           "pr_description-0": {
             "type": "des",
+            "disabled": true,
             "settings": {
               "title": "Description"
             }
           },
-          "html_kzAwFz": {
+          "html_99yzCa": {
             "type": "html",
             "settings": {
               "title": "Packaging",
-              "page": "privacy-policy"
+              "page": "packaging"
+            }
+          },
+          "html_HiVKMD": {
+            "type": "html",
+            "settings": {
+              "title": "Shipping",
+              "page": "shipping"
+            }
+          },
+          "html_QC7nwg": {
+            "type": "html",
+            "settings": {
+              "title": "Safety & Security",
+              "page": "safety-security-1"
             }
           }
         },
         "block_order": [
           "pr_description-0",
-          "html_kzAwFz"
+          "html_99yzCa",
+          "html_HiVKMD",
+          "html_QC7nwg"
         ],
         "settings": {
           "show": true,
@@ -3748,6 +3765,39 @@
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
+        }
+      },
+      "age_verify": {
+        "type": "age_verify",
+        "settings": {
+          "age_limit": 18,
+          "date_of_birth": false,
+          "heading": "Are you over 18?",
+          "sub": "You must be 18 years of age or older to view page. Please verify your age to enter.",
+          "age_enter": "I am 18 or Older",
+          "age_exit": "I am Under 18",
+          "txt": "Access forbidden",
+          "txt2": "Your access is restricted because of your age.",
+          "day_next": 30,
+          "month": "- Month -",
+          "month1": "January",
+          "month2": "February",
+          "month3": "March",
+          "month4": "April",
+          "month5": "May",
+          "month6": "June",
+          "month7": "July",
+          "month8": "August",
+          "month9": "September",
+          "month10": "October",
+          "month11": "November",
+          "month12": "December",
+          "day": "- Day -",
+          "year": "- Year -",
+          "cl_bg": "#56cfe1",
+          "cl_btn": "#007e91",
+          "cl_btn_hover": "#035f6d",
+          "overlay": 0
         }
       }
     },
