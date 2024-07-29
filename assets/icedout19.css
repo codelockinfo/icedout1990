@@ -891,6 +891,238 @@
 
 }
 
+.text_colums_line {
+	font-family: Montserrat Alternates;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 27.2px;
+	text-align: center;
+	color: #354856;
+	margin-top: 20px;
+}
+
+.nt_se_feature_columns {
+	max-width: 1600px !important;
+	padding: 0 10px;
+}
+
+.sp-tabs .sp-tab-content {
+	font-family: Montserrat Alternates;
+	font-size: 18px;
+	font-weight: 500px;
+	line-height: 29.26px;
+	text-align: left;
+	color: #354856;
+}
+
+.sp-tabs .entry-content {
+	font-family: Montserrat Alternates;
+	font-size: 18px;
+	font-weight: 500px;
+	line-height: 29.26px;
+	text-align: left;
+	color: #354856;
+}
+
+.sp-tabs .tab-heading .nav_link_icon {
+	background-color: #354856 !important;
+}
+
+.ul_tabs {
+	font-family: Montserrat Alternates;
+	font-size: 24px;
+	color: #777777;
+}
+
+.ul_tabs .active {
+	color: #fff !important;
+	background-color: #354856;
+	border-radius: 100px;
+}
+
+.ul_tabs .active a {
+	color: #fff !important;
+	font-family: Montserrat Alternates;
+	font-size: 24px;
+	font-weight: 600;
+	/* line-height: 29.26px; */
+	text-align: center;
+	border: 0 !important;
+}
+
+.new_ul_tab {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.new_ul_tab .new-ul-box {
+	background: #F5F5F5;
+	display: inline-block;
+	border-radius: 100px;
+}
+
+.swatch__title {
+	font-family: Montserrat Alternates !important;
+	font-size: 16px !important;
+	font-weight: 601 !important;
+	line-height: 21.94px;
+	color: #282828;
+	text-transform: capitalize !important;
+	letter-spacing: normal;
+}
+
+
+.cat_shop_wrap {
+	background-color: #EBEFF1 !important;
+	padding: 20px;
+}
+
+.widget h5.widget-title {
+	letter-spacing: normal;
+	font-family: IBM Plex Sans;
+	font-size: 20px !important;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+ul.nt_filter_styleck>li>a:before {
+	background-color: transparent;
+	border: 2px solid #777777 !important;
+}
+
+ul.nt_filter_styleck>li>a {
+	justify-content: space-between;
+}
+
+ul.nt_filter_styleck>li>a:before {
+	order: 2;
+}
+
+.count_vr_filter {
+	display: none;
+}
+
+.price_slider_btn {
+	display: inline-block;
+	background: #35384B;
+	border-radius: 100px;
+	border: 0;
+	color: #fff;
+}
+
+.blockid_price .price_steps_slider .noUi-connects {
+	background-color: #777777 !important;
+}
+
+.blockid_price .price_steps_slider .noUi-handle:before {
+	background-color: #35384B !important;
+	display: none;
+}
+
+.blockid_price .price_steps_slider .noUi-handle:after {
+	background-color: #35384B !important;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 0;
+}
+
+.blockid_price .noUi-connect {
+	background: #35384B !important;
+}
+
+
+ul.nt_filter_styleck>li.active>a:before {
+	background-color: #777777 !important;
+}
+
+.page-head h1 {
+	font-family: Raleway !important;
+	font-size: 50px !important;
+	font-weight: 800 !important;
+	line-height: 75.14px;
+	text-align: center;
+}
+
+.template-product select {
+	background-color: #EBEFF1;
+	color: #424556;
+	font-family: Montserrat Alternates;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.5px;
+	text-align: left;
+	border: 1px solid #EDE9EB;
+}
+
+.variations.style__rectangle .swatch:not(.is-color) li.is-selected,
+.variations.style__rectangle .swatch:not(.is-color) li.is-selected-nt,
+.variations.style__rectangle .swatch:not(.is-color) li:hover {
+	border-color: #50727B !important;
+	background-color: #50727B !important;
+	color: #fff;
+}
+
+.template-product .customize-properties textarea {
+	min-height: 90px !important;
+	border: 1px solid #50727B !important;
+	font-family: Montserrat Alternates;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 19.5px;
+	text-align: left;
+	color: #777777 !important;
+	background-color: #EBEFF1 !important;
+}
+
+.template-product .facl-minus:before,
+.facl-plus:before {
+	color: #282828 !important;
+}
+
+.variations_form .quantity {
+	margin-bottom: 10px;
+	background-color: #EBEFF1 !important;
+	border: 1px solid #50727B !important;
+}
+
+.quantity input.input-text[type=number] {
+	color: #354856 !important;
+}
+
+.quantity_head {
+	font-family: Montserrat Alternates;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 21.94px;
+	text-align: left;
+	margin-right: 10px;
+	color: #282828;
+}
+
+.quantity_head_box {
+	align-items: baseline;
+	display: flex;
+}
+
+.wish_quantity {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wish-custom {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #EBEFF1;
+}
+.product-infors{
+	height: 100% !important;
+}
 /* media query  */
 @media (min-width: 1025px) {
 	.pr_grid_item .col-lg-3 {

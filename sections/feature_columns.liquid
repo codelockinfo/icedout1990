@@ -85,6 +85,8 @@
    {% if section.blocks.size == 0 %}
     {% render 'no-blocks' %}
    {% endif %}
+
+   <div class="text_colums_line">{{section.settings.text_colums_line}}</div>
   </div>
 </div>
 
@@ -187,6 +189,12 @@
           }
         ],
         "label": "Design Title:"
+      },
+      {
+        "type": "text",
+        "id": "text_colums_line",
+        "label": "Bottom line of section",
+        "default": "Add Line"
       },
       {
         "type": "text",
