@@ -1659,17 +1659,17 @@
               "title": "Description"
             }
           },
-          "html_kzAwFz": {
+          "html_99yzCa": {
             "type": "html",
             "settings": {
-              "title": "Packaging",
-              "page": "privacy-policy"
+              "title": "Custom tab",
+              "page": "packaging"
             }
           }
         },
         "block_order": [
           "pr_description-0",
-          "html_kzAwFz"
+          "html_99yzCa"
         ],
         "settings": {
           "show": true,
