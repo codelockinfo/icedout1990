@@ -1582,6 +1582,15 @@
               "size": 16
             }
           },
+          "pr_summary-5": {
+            "type": "meta",
+            "settings": {
+              "show_pr_vendor": false,
+              "show_sku": true,
+              "show_category_product": false,
+              "show_tag_product": false
+            }
+          },
           "pr_summary-1": {
             "type": "pricereview",
             "settings": {
@@ -1592,6 +1601,7 @@
           },
           "pr_summary-2": {
             "type": "des",
+            "disabled": true,
             "settings": {
               "des": "2",
               "page": "",
@@ -1627,24 +1637,15 @@
               "page_dr": "",
               "ask": true
             }
-          },
-          "pr_summary-5": {
-            "type": "meta",
-            "settings": {
-              "show_pr_vendor": false,
-              "show_sku": true,
-              "show_category_product": true,
-              "show_tag_product": true
-            }
           }
         },
         "block_order": [
           "pr_summary-0",
+          "pr_summary-5",
           "pr_summary-1",
           "pr_summary-2",
           "pr_summary-3",
-          "pr_summary-4",
-          "pr_summary-5"
+          "pr_summary-4"
         ],
         "settings": {
         }
