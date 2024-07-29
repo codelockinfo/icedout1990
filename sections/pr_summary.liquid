@@ -197,6 +197,118 @@ assign locale_url = product.url | split:'/products/' | first -%}
                     {{ form | payment_terms }}
                     {%- if no_sold_out and settings.enable_sub_reCharge %}{% include 'subscription-product' %}{% endif -%} 
                     {%- if settings.enable_infiniteoptions %}<div id="infiniteoptions-container"></div>{% endif -%} 
+                        {% if product.metafields.custom.diamond_shape != blank %}
+                        {% assign diamond_shapes = product.metafields.custom.diamond_shape | remove: '["' | remove: '"]' %}
+                        {%  if diamond_shapes != blank %}
+                          <div class="customproperties">
+                            <h4 class="swatch__title">
+                              Diamond Shape
+                            </h4>
+                            <div class="flex main-box-properties">
+                              {% assign diamond_shape = diamond_shapes | split:  '","' %}
+                              {% for diamond_shape_value in diamond_shape %}
+                                {% if diamond_shape_value == "Round" %}
+                                  <div class="diamond-box radio-toolbar selected">
+                                    <div class="diamond-img-box">
+                                        <img src="https://gemroyals.com/cdn/shop/files/1-removebg-preview.png?v=1714394158" class="diamond-img">
+                                    </div>
+                                    <h2  class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}" checked> <label>{{ diamond_shape_value }}</label>
+                                    </h2>
+                                  </div>
+                                {% endif %}
+                                {% if diamond_shape_value == "Oval" %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                        <img src="https://gemroyals.com/cdn/shop/files/2-removebg-preview.png?v=1714394158" class="diamond-img">
+                                    </div>
+                                    <h2  class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                                    </h2>
+                                  </div>
+                                {% endif %}
+                                {% if diamond_shape_value == "Radiant" %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                        <img src="https://gemroyals.com/cdn/shop/files/6-removebg-preview.png?v=1714394158" class="diamond-img">
+                                    </div>
+                                    <h2  class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                                    </h2>
+                                  </div>
+                                {% endif %}
+                                {% if diamond_shape_value == "Asscher" %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                        <img src="https://gemroyals.com/cdn/shop/files/9-removebg-preview.png?v=1714394159" class="diamond-img">
+                                    </div>
+                                    <h2  class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                                    </h2>
+                                  </div>
+                                {% endif %}
+                              {% endfor %}
+                            </div>
+                          </div>
+                        {% endif  %}
+                      {% endif  %}
+                      
+                      <div class="flex propertiessize">
+                        {% if product.metafields.custom.diamond_type != blank %}
+                          <div class="ringsize">
+                              <div class="ringsizelabel">
+                                  {% assign diamond_types = product.metafields.custom.diamond_type | remove: '["' | remove: '"]' %}
+                                    {%  if diamond_types != blank %}
+                                      <h4 class="swatch__title">Diamond Type</h4> 
+                                      {% comment %} <div>
+                                      <a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0863/4718/6487/files/diamond_type_Chart.jpg?v=1715061728" data-width="600" data-height="600">SIZE CHART</a>
+                                      </div> {% endcomment %}
+                                    {% endif %}     
+                              </div>
+                              {% if product.metafields.custom.diamond_type != blank %}
+                                {% assign diamond_types = product.metafields.custom.diamond_type | remove: '["' | remove: '"]' %}
+                                {%  if diamond_types != blank %}
+                                  <select id="your-name" name="properties[Diamond Type]">
+                                    {% assign diamond_type = diamond_types | split:  '","' %}
+                                    {% for diamond_type_value in diamond_type %}
+                                        <option value="{{ diamond_type_value }}">{{ diamond_type_value }}</option>
+                                    {% endfor %}
+                                  </select>
+                                {% endif %}     
+                              {% endif %}
+                          </div>
+                        {% endif %}
+                        {% if product.metafields.custom.diamond_size != blank %}
+                            <div class="diamondsize">
+                              {% assign diamond_sizes = product.metafields.custom.diamond_size | remove: '["' | remove: '"]' %}
+                              {%  if diamond_sizes != blank %}
+                                <h4 class="swatch__title">Diamond Size</h4>
+                                <select id="your-name" name="properties[Diamond Size]">
+                                  {% assign diamond_size = diamond_sizes | split:  '","' %}
+                                  {% for diamond_size_value in diamond_size %}
+                                      <option value="{{ diamond_size_value }}">{{ diamond_size_value }}</option>
+                                  {% endfor %}
+                                </select>
+                              {% endif %}     
+                            </div>
+                        {% endif %}
+                        {% if product.metafields.custom.jewelry_size != blank %}
+                          <div class="diamondsize">
+                            {% assign jewelry_sizes = product.metafields.custom.jewelry_size | remove: '["' | remove: '"]' %}
+                            {%  if jewelry_sizes != blank %}
+                              <h4 class="swatch__title">Jewelry size</h4>
+                              <select id="your-name" name="properties[Jewelry Size]">
+                                {% assign jewelry_size = jewelry_sizes | split:  '","' %}
+                                {% for jewelry_size_value in jewelry_size %}
+                                    <option value="{{ jewelry_size_value }}">{{ jewelry_size_value }}</option>
+                                {% endfor %}
+                              </select>
+                            {% endif %}     
+                          </div>
+                        {% endif %}
+                      </div>
+					  
+                      
                     {%- if default -%}
                        <input name="id" data-productid="{{pid}}" value="{{ pr_variants.first.id }}" type="hidden">
                        <div class="nt_pr_js lazypreload op__0" data-id="{{call_cl}}" data-include="{{locale_url}}/products/{{product.handle}}/?view=js{{call_cl}}"></div>
@@ -227,7 +339,16 @@ assign locale_url = product.url | split:'/products/' | first -%}
                           {%- when '9' -%}{%- render 'swatch_simple',product:product,block:block,remove_soldout:remove_soldout,call_cl:call_cl,locale_url:locale_url -%}
                           {%- when '10' -%}{%- render 'swatch_simple_2',product:product,block:block,remove_soldout:remove_soldout,call_cl:call_cl,locale_url:locale_url -%}
                        {%- endcase -%}
-                        <div class="nt_pr_js lazypreload op__0" data-id="{{call_cl}}" data-include="{{locale_url}}/products/{{product.handle}}/?view=js{{call_cl}}"></div>
+                       
+                        {% comment %} custom properties {% endcomment %}
+                          <div class="customize-properties mb__40">
+                            <h4 for="customization" class="swatch__title">Personalize Box</h4>
+                            <textarea class="personalizebox" id="personalize-box" type="text" name="properties[Personalize Box]" placeholder="Mention Your Personalization Size, Metal Color, etc. Here" spellcheck="false"></textarea>
+                            {% comment %} <input  class="required" id="customization" name="properties[Personalization]" value="" /> {% endcomment %}
+                          </div>
+                        {% comment %} custom properties {% endcomment %}
+                       
+                       <div class="nt_pr_js lazypreload op__0" data-id="{{call_cl}}" data-include="{{locale_url}}/products/{{product.handle}}/?view=js{{call_cl}}"></div>
                        {%- if pr_incoming_mess -%}
                           {%- if inventory_quantity <= 0 and current_variant.incoming and variants_size < 2 and inventory_management  -%}
                               {%- assign idate = current_variant.next_incoming_date | date: format: settings.date_in -%}
@@ -237,7 +358,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
                           {%- endif -%}
                        {%- endif -%}
                     {%- endif -%}
-
+                    
                    {%- if price_varies and current_variant.unit_price_measurement -%}
                         <span class="price">
                            <span class="price_varies">
@@ -1992,3 +2113,154 @@ assign locale_url = product.url | split:'/products/' | first -%}
     }
   }
 {% endschema %}
+
+<style>
+  
+/* add for custom properties  */
+.customproperties{
+  margin:30px 0;
+}
+.propertiessize,.swatch{
+  margin: 20px 0;
+}
+.main-box-properties{ 
+    gap:15px;
+    flex-wrap:wrap;
+}
+.diamondshape-name{
+    font-size: 14px;
+    text-align: center;
+}
+.diamond-img-box{
+    /* background-color: #f0eeef; */
+    cursor:pointer;
+}
+.diamondshape-name {
+  float: left;
+  margin: 0;
+  width: 100px;
+  height: 40px;
+  position: relative;
+  color:#777777;
+}
+
+.diamondshape-name label,
+.diamondshape-name input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.diamondshape-name input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.diamondshape-name input[type="radio"]:checked + label {
+  /* border:2px solid #B69D62 !important */
+}
+.radio-toolbar.selected {
+  border:2px solid #B69D62 !important;
+}
+.diamondshape-name label {
+  cursor: pointer;
+  z-index: 90;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.propertiessize{
+  justify-content: space-between;
+  align-items: end;
+}
+.diamondsize,
+.ringsize{
+  margin-right:10px;
+}
+.ringsize,.diamondsize{
+  width: 50%;
+}
+.sizechartlabel{
+  color:#53C7D7;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: right;
+}
+.ringsizelabel{
+  display: flex;
+  justify-content: space-between;
+}
+.sku_wrapper{
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: left;
+  color: #282828;
+}
+#shopify-section-pr_summary .product_title{
+  font-family: Montserrat Alternates;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39.01px;
+  text-align: left;
+  color: #282828;
+}
+.customize-properties{
+  width: 100%;
+}
+.template-product  .complementary_product{
+  width: 100%;
+  display: inline-block;
+  margin-bottom:0 !important;
+}
+.complementary_product .mt__30{
+  margin-top:0;
+}
+.complementary_title{
+  color: #282828;
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: left;
+}
+.flex-columns{
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  padding-bottom: 5px;
+}
+.gap-20{
+  gap: 20px;
+}
+#customization{
+  border-color: #B69D62 !important;
+    background-color: #f9f9f9 !important;
+    width: 50%;
+    padding: 5px;
+}
+#customization,#customization::placeholder {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 500;
+  color: #282828;
+  padding: 5px 25px;
+  width:100%;
+  min-height: 40px;
+}
+
+/* add for custom properties  */
+</style>
+<script>
+$(document).on("click",".diamond-img-box",function(){
+    $(".radio-toolbar").removeClass("selected");
+    $(this).closest(".radio-toolbar").addClass("selected");
+    $(this).closest(".radio-toolbar").find(".diamondshape-name input").prop("checked", true);
+});
+</script>
