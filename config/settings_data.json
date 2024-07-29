@@ -1655,6 +1655,7 @@
         "blocks": {
           "pr_description-0": {
             "type": "des",
+            "disabled": true,
             "settings": {
               "title": "Description"
             }
@@ -1665,11 +1666,27 @@
               "title": "Packaging",
               "page": "packaging"
             }
+          },
+          "html_QC7nwg": {
+            "type": "html",
+            "settings": {
+              "title": "Custom tab",
+              "page": ""
+            }
+          },
+          "html_HiVKMD": {
+            "type": "html",
+            "settings": {
+              "title": "Custom tab",
+              "page": ""
+            }
           }
         },
         "block_order": [
           "pr_description-0",
-          "html_99yzCa"
+          "html_99yzCa",
+          "html_QC7nwg",
+          "html_HiVKMD"
         ],
         "settings": {
           "show": true,
