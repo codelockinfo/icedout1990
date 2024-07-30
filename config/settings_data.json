@@ -1367,6 +1367,7 @@
           },
           "cat_heading-1": {
             "type": "2",
+            "disabled": true,
             "settings": {
             }
           }
@@ -1728,7 +1729,7 @@
           "show": true,
           "bgcl": "#f6f6f8",
           "bgclmb": "#ffffff",
-          "des_w": "3",
+          "des_w": "2",
           "des_mb": "2",
           "auto": false,
           "mg": "30px,,30px,",
@@ -3772,6 +3773,7 @@
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
+          "text_colums_line": "Add Line",
           "ic_tt": "gem",
           "show_clpr": false,
           "section_layout": "1",
