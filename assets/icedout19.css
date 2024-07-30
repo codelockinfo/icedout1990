@@ -1120,9 +1120,112 @@ ul.nt_filter_styleck>li.active>a:before {
 	border-radius: 100%;
 	background-color: #EBEFF1;
 }
-.product-infors{
+
+.product-infors {
 	height: 100% !important;
 }
+
+/* custom description  */
+
+.custom_description {
+	padding: 40px 0;
+}
+
+.custom_description_h1 {
+	font-family: Montserrat Alternates;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43.88px;
+	text-align: left;
+	letter-spacing: normal;
+	color: #282828;
+}
+
+.information_h2 {
+	font-family: Montserrat Alternates;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 29.26px;
+	text-align: left;
+	color: #282828;
+	letter-spacing: normal;
+	margin-top: 25px;
+}
+
+.information_box {
+	display: flex;
+	/* width: 50%; */
+    /* flex-wrap: wrap; */
+	padding-right: 20px;
+}
+.info_box{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.info_box2 .information_box {
+	width: 50%;
+}
+.information_h4 {
+	font-family: Montserrat Alternates;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.5px;
+	text-align: left;
+    color: #777777;
+	letter-spacing:normal;
+	min-width: 100px;
+}
+.information_h5 {
+	font-family: Montserrat Alternates;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.5px;
+	text-align: left;
+    color: #282828	;
+	letter-spacing:normal;
+}
+.info_box2 .information_h4{
+	min-width: 200px;
+}
+
+/* @media (max-width:1024px) {
+	.information_main_box .information_h5 {
+		font-size: 14px;
+	}
+
+	.information_main_box .information_h4 {
+		font-size: 14px;
+	}
+}
+
+@media (max-width:991px) {
+	.information_main_box .information_h5 {
+		font-size: 14px;
+	}
+
+	.information_main_box .information_h4 {
+		font-size: 14px;
+	}
+
+	.information_main_box {
+		width: 100% !important;
+	}
+}
+
+@media (max-width:768px) {
+	.information_main_box .information_h4 {
+		min-width: 150px;
+	}
+
+	.custom_description .custom_description_h1 {
+		font-size: 20px;
+	}
+
+	.information_main_box .information_h2 {
+		font-size: 20px;
+	}
+} */
+
 /* media query  */
 @media (min-width: 1025px) {
 	.pr_grid_item .col-lg-3 {
@@ -1154,7 +1257,12 @@ ul.nt_filter_styleck>li.active>a:before {
 		text-align: center;
 		padding: 5px 0;
 	}
-
+    .info_box2 .information_box{
+		width: 100%;
+	}
+	.info_box{
+		grid-template-columns: 1fr;
+	}
 }
 
 @media (max-width:991px) {
