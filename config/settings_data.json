@@ -1857,12 +1857,12 @@
           "cart_heading-0"
         ],
         "settings": {
-          "image": "",
+          "image": "shopify:\/\/shop_images\/27330ac8c9d7e0a9bc4f38af83b5e1de_45253a99-7d48-48a4-bf8a-6c031c90fb02.jpg",
           "parallax": false,
-          "color": "#000",
+          "color": "#000000",
           "overlay": 50,
-          "padding": 50,
-          "bg_pos": "center center",
+          "padding": 70,
+          "bg_pos": "left top",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
           "bg_att": "scroll"
@@ -1899,7 +1899,6 @@
           "cart-template-5": {
             "type": "img",
             "settings": {
-              "image": "",
               "wimg": 50
             }
           },
