@@ -1652,7 +1652,7 @@
               "btn_style": "default",
               "col_pr": "4",
               "col_pr_tb": "6",
-              "col_pr_mb": "12",
+              "col_pr_mb": "6",
               "pr_des": "1",
               "show_vendor": false,
               "use_cdt": false,
