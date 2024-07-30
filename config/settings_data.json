@@ -1642,7 +1642,7 @@
           "complementary_product_g3MjLw": {
             "type": "complementary_product",
             "settings": {
-              "complementaryproductheading": "",
+              "complementaryproductheading": "Matching Product",
               "complementaryproduct": "",
               "limit": 8,
               "space": 30,
