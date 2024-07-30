@@ -1041,7 +1041,7 @@ ul.nt_filter_styleck>li.active>a:before {
 	font-family: Raleway !important;
 	font-size: 50px !important;
 	font-weight: 800 !important;
-	line-height: 75.14px;
+	line-height: 57.14px !important;
 	text-align: center;
 }
 
@@ -1215,6 +1215,24 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 .variations_button{
 	margin-top: 20px;
+}
+.nt_menu .type_mega .sub-menu .sub-column .menu-item a{
+	font-family: Montserrat Alternates;
+	font-size: 14px;
+	font-weight: 600;
+	color: #282828;
+}
+.nt_menu .type_mega .sub-menu .sub-column-item  a{
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700	;
+	color: #354856;
+}
+.cat_grid_item__wrapper .h3{
+    font-family: Montserrat Alternates;
+	font-size: 14px;
+	font-weight: 600;
+	color: #282828;
 }
 
 /* media query  */
