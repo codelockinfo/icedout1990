@@ -663,7 +663,7 @@
               </div>
 
               <div class="variations_button in_flex column w__100">
-                <div class="flex wrap">
+                <div class="">
                   {%- if ck_external -%}
                     <a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">
                       {{- title -}}
@@ -692,7 +692,7 @@
                       type="submit"
                       data-time="{{block.settings.time}}000"
                       data-ani="{{block.settings.ani}}"
-                      class="single_add_to_cart_button button truncate js_frm_cart w__100 mt__20 order-4{% if PR_no_pick %} disabled{% endif %}"
+                      class="single_add_to_cart_button button truncate js_frm_cart w__100 mt__20 order-4{% if PR_no_pick %} disabled{% endif %}" style="width: 100% !important;"
                     >
                       <span class="txt_add {{classdn1}}">{{ 'products.product.add_to_cart' | t }}</span
                       ><span class="txt_pre {{classdn2}}">{{ 'products.product.pre_orders' | t }}</span>
@@ -819,7 +819,7 @@
         data-base-url="{{ shop.url }}{{ routes.root_url }}"
       ></div>
 
-    {%- when 'size' -%}
+    {% comment %} {%- when 'size' -%}
       <div class="extra-link mt__35 fwsb">
         {%- if block.settings.size_chart != '1' -%}
           {%- assign ck_s = true -%}
@@ -912,7 +912,7 @@
           >
             {{- 'products.product.delivery_return' | t -}}
           </a>
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
 
         {%- comment -%}
           {%- assign page_ask = pages[block.settings.page_ask] %}{% if block.settings.ask and page_ask != blank -%}
@@ -933,7 +933,7 @@
             {{- 'products.product.ask_question' | t -}}
           </a>
         {%- endif -%}
-      </div>
+    
 
     {%- when 'meta' -%}
       {%- assign ck_meta = false -%}
@@ -3398,13 +3398,27 @@
   .complementary_product .mt__30 {
     margin-top: 0;
   }
+  .flickity-prev-next-button.previous{
+    top: -13%;
+    right:20% !important;
+    border:0;
+    background-color:#EBEFF1;
+  }
+  .flickity-prev-next-button.next{
+    top: -13% ;
+    right:13% !important;
+    border:0;
+    background-color:#EBEFF1;
+  }
   .complementary_title {
     color: #282828;
-    font-family: Montserrat Alternates;
+    font-family: Montserrat Alternates !important;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 24.38px;
     text-align: left;
+    letter-spacing:normal;
+    margin-bottom: 20px;
   }
   .flex-columns {
     display: flex;
@@ -3431,7 +3445,16 @@
     width: 100%;
     min-height: 40px;
   }
-
+  @media (max-width:1024px) {
+	.flickity-prev-next-button.next {
+		right: 10% !important;
+	}
+}
+  @media (max-width:400px) {
+	.flickity-prev-next-button.next {
+		right: 8% !important;
+	}
+}
   /* add for custom properties  */
 </style>
 <script>
