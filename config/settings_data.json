@@ -1454,7 +1454,7 @@
           "use_pagination": "default",
           "use_bar_lm": true,
           "col_pr": "3",
-          "col_pr_tb": "3",
+          "col_pr_tb": "4",
           "col_pr_mb": "6",
           "pr_des": "1 tc",
           "show_vendor": false,
