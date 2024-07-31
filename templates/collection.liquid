@@ -69,8 +69,8 @@ assign IsShowPRS = true -%}
         <div class="cat_filter col op__0 pe_none">
         {%- assign ck = true -%}
         {%- if settings.shop_filters -%}
-           <a rel="nofollow" href="#" data-no-instant data-opennt="#shopify-section-{{nt_filter}}" data-pos="left" data-remove="true" data-class="popup_filter" data-bg="hide_btn" class="has_icon btn_filter mgr"><i class="iccl fwb iccl-filter fwb mr__5"></i>{{ 'collections.general.filter' | t }}</a>
-           <a rel="nofollow" href="#" data-no-instant data-id="#shopify-section-{{nt_filter}}" class="btn_filter js_filter dn mgr"><i class="iccl fwb iccl-filter fwb mr__5"></i>{{ 'collections.general.filter' | t }}</a>
+           {% comment %} <a rel="nofollow" href="#" data-no-instant data-opennt="#shopify-section-{{nt_filter}}" data-pos="left" data-remove="true" data-class="popup_filter" data-bg="hide_btn" class="has_icon btn_filter mgr"><i class="iccl fwb iccl-filter fwb mr__5"></i>{{ 'collections.general.filter' | t }}</a> {% endcomment %}
+           {% comment %} <a rel="nofollow" href="#" data-no-instant data-id="#shopify-section-{{nt_filter}}" class="btn_filter js_filter dn mgr"><i class="iccl fwb iccl-filter fwb mr__5"></i>{{ 'collections.general.filter' | t }}</a> {% endcomment %}
         {%- elsif hidden_cat and no_sidebar == false -%}{%- assign ck = false -%}
            <div class="cat_sidebar">
               <a rel="nofollow" data-no-instant href="#" data-opennt="#shopify-section-{{sidebar_shop}}" data-pos="left" data-remove="true" data-class="popup_filter" data-bg="hide_btn" class="has_icon btn_sidebar mgr"><i class="iccl fwb iccl-trello fwb mr__5"></i>{{ 'collections.general.sidebar' | t }}</a>
