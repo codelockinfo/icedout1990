@@ -1284,6 +1284,9 @@ ul.nt_filter_styleck>li.active>a:before {
 	color: #354856;
 	letter-spacing: normal;
 }
+.template-collection .hover_button{
+	display: none;
+}
 /* media query  */
 @media (min-width: 1025px) {
 	.pr_grid_item .col-lg-3 {
