@@ -186,15 +186,15 @@
    <div class="shipping_calculator shipping_calc_page loading row al_center fl_center{% if ccount == 0 %} dn{% endif %}">
    	 <h3 class="mg__0 tc mt__20 mb__20 col-auto truncate">{{ 'cart.general.estimate_ship' | t }}</h3>
        <p class="field col-lg-3 col-md-4 col-12">
-         <label for="address_country_ship">{{ 'customer.addresses.country' | t }}</label>
+         <label for=" address_country_ship" class="address_country_ship">{{ 'customer.addresses.country' | t }}</label>
          <select id="address_country_ship" data-include="{{ routes.cart_url }}/?view=ship" data-default="{% if shop.customer_accounts_enabled and customer %}{{ customer.default_address.country }}{% elsif settings.ship_calc_df_country != '' %}{{ settings.ship_calc_df_country }}{% endif %}"></select>
        </p>
        <p class="field col-lg-3 col-md-4 col-12" id="address_province_container_ship" style="display:none">
-         <label for="address_province_ship" id="address_province_label">{{ 'customer.addresses.province' | t }}</label>
+         <label for="address_province_ship" id="address_province_label" class="address_province_label">{{ 'customer.addresses.province' | t }}</label>
          <select id="address_province_ship" data-default="{% if shop.customer_accounts_enabled and customer and customer.default_address.province != '' %}{{ customer.default_address.province }}{% endif %}"></select>
        </p>  
        <p class="field col-lg-3 col-md-4 col-12">
-         <label for="address_zip_ship">{{ 'customer.addresses.zip' | t }}</label>
+         <label for="address_zip_ship" class="address_zip_ship">{{ 'customer.addresses.zip' | t }}</label>
          <input type="text" id="address_zip_ship"{% if shop.customer_accounts_enabled and customer %} value="{{ customer.default_address.zip }}"{% endif %} />
        </p>
        <p class="field col-lg-3 col-md-6 col-12 mg__0">

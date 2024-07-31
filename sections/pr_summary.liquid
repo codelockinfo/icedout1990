@@ -711,11 +711,11 @@
                 | remove: '"]'
               %}
               <div class="custom_description">
+                {% if descriptioninformation != blank or metaldetails != blank %}
                 <h1 class="custom_description_h1">Description</h1>
                 {% if descriptioninformation != blank %}
                   <h2 class="information_h2">Information</h2>
                   <div class="info_box">
-                    {% if descriptioninformation != blank %}
                       {% assign inforations = descriptioninformation | split: '","' %}
                       {% for inforation in inforations %}
                         <div class="information_box">
@@ -742,7 +742,7 @@
                       {% endfor %}
                     {% endif %}
                   </div>
-                {% endif %}
+              {% endif %}
               </div>
                 {% comment %} {{product.description}} {% endcomment %}
             {%- assign uavailable_v = pr_variants | where: 'available', false -%}
@@ -941,9 +941,13 @@
           {%- if block.settings.show_pr_vendor and product.vendor != blank -%} {%- assign ck_meta = true -%}
           <span class="vendor_wrapper">{{ 'products.product.product_vendor' | t }} <span class="vendor value" id="product-vendor{{call_cl}}">{{ product.vendor | link_to_vendor }}</span></span>
           {%- endif -%}
+         
           {%- if block.settings.show_sku -%} {%- assign ck_meta = true -%}{%- if current_variant.sku != blank -%}{%-endif-%}
           <span class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></span>
           {%- endif -%}
+          <div class="jdgm-widget jdgm-preview-badge">
+            {{ product.metafields.judgeme.badge }}
+          </div>
           {%- if product.collections.size > 0 and block.settings.show_category_product -%} {%- assign ck_meta = true -%}
           <span class="posted_in">{{ 'products.product.product_category' | t }}
           {% for collection in product.collections -%}{{ collection.title | link_to: collection.url }}{%- if forloop.last == false -%}, {% endif -%}{%- endfor -%}
@@ -3370,6 +3374,10 @@
   .ringsizelabel {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+  .product_meta>span{
+    margin-bottom:0 !important;
   }
   .sku_wrapper {
     font-family: Montserrat Alternates;
@@ -3378,6 +3386,11 @@
     line-height: 24.38px;
     text-align: end;
     color: #282828;
+    order:2;
+  }
+  .jdgm-widget {
+    order:1;
+    display:block !important;
   }
   #shopify-section-pr_summary .product_title {
     font-family: Montserrat Alternates;
@@ -3444,6 +3457,17 @@
     padding: 5px 25px;
     width: 100%;
     min-height: 40px;
+  }
+  .product_meta{
+    display: flex;
+    justify-content: space-between;
+  }
+  .jdgm-preview-badge .jdgm-star.jdgm-star{
+    color: #FFA033;
+  }
+  .jdgm-star.jdgm--on:before{
+    font-size:20px;
+    line-height: normal;
   }
   @media (max-width:1024px) {
 	.flickity-prev-next-button.next {

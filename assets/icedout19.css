@@ -1234,7 +1234,56 @@ ul.nt_filter_styleck>li.active>a:before {
 	font-weight: 600;
 	color: #282828;
 }
-
+.cart_header{
+	font-family:Raleway !important;
+	font-size: 18px !important;
+	color: #354856 !important;
+	font-weight: 700 !important;
+}
+.mini_cart_title{
+	font-family: Montserrat Alternates !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	color: #282828 !important;
+}
+.mini_cart_meta{
+	color: #555 !important;
+    font-family: 'Montserrat Alternates';
+}
+.btn_checkout,.cart_actions{
+	font-family: Montserrat Alternates ;
+	font-weight: 700;
+}
+.template-cart .shipping_calculator{
+	font-family: Montserrat Alternates ;
+}
+.template-cart .address_country_ship,.address_province_label,.address_zip_ship{
+	font-size: 16px;
+	color: #354856;
+	font-family:Raleway !important;
+	font-weight: 600;
+}
+.cart_meta_prices,.cart-item-price {
+	font-family: 'Montserrat Alternates' !important;
+}
+.post-info h4 {
+	font-family: 'Montserrat Alternates' !important;
+	font-weight: 700;
+	color: #282828;
+}
+.mini_cart_footer {
+	font-family: 'Montserrat Alternates' !important;
+}
+.btn-cart .truncate{
+	font-weight: 700;
+	color: #282828;
+	font-size: 16px;
+}
+.mini_cart_header  .widget-title{
+	font-weight: 700;
+	color: #354856;
+	letter-spacing: normal;
+}
 /* media query  */
 @media (min-width: 1025px) {
 	.pr_grid_item .col-lg-3 {
@@ -1486,7 +1535,6 @@ ul.nt_filter_styleck>li.active>a:before {
 		margin-bottom: 10px;
 	}
 }
-
 
 @media (max-width:519px) {
 	.banner_collection_wrap {
