@@ -606,6 +606,7 @@
           },
           "link_EkTW3k": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "CHAINS",
               "url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain",
@@ -622,7 +623,7 @@
               "hoverz": true,
               "collection": "moissanite-diamond-hip-hop-chain",
               "title": "",
-              "col": "2"
+              "col": "3"
             }
           },
           "mega_KtwzH7": {
