@@ -1289,9 +1289,9 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 
 
-/* .header_3  .cat_grid_item__overlay{
-	padding-top: 50% !important;
-} */
+.header_3  .cat_grid_item__overlay{
+	padding-top: 70% !important;
+}
 
 .header_3 .sub-menu {
 	border-radius: 30px;
