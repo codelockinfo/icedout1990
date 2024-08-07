@@ -1287,6 +1287,11 @@ ul.nt_filter_styleck>li.active>a:before {
 .template-collection .hover_button{
 	display: none;
 }
+
+
+.header_3  .cat_grid_item__overlay{
+	padding-top: 50% !important;
+}
 /* media query  */
 @media (min-width: 1025px) {
 	.pr_grid_item .col-lg-3 {
