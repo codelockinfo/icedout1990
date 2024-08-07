@@ -487,6 +487,7 @@
         "blocks": {
           "simple_L9fxHh": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "HOME",
               "url": "\/",
@@ -626,6 +627,7 @@
           },
           "mega_KtwzH7": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "READY TO SHIP",
               "url": "shopify:\/\/collections\/earrings",
