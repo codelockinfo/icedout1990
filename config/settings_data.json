@@ -667,6 +667,7 @@
           },
           "cat_Uigq93": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/MG_7407_dbe40612-68e0-4d21-9161-fa3500c8d36e.jpg",
               "cat_design": "1",
