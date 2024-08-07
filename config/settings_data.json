@@ -559,7 +559,7 @@
               "lb_cl": "",
               "lazy_mn": true,
               "pos": "center",
-              "wid": "cus",
+              "wid": "full",
               "cus_wid": 1200
             }
           },
