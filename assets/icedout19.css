@@ -1319,7 +1319,7 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 .variations_form .shopify-payment-button__button--unbranded {
   cursor:pointer;
-  padding:16px 25px;
+  padding:17px 25px;
   background: rgba(53, 72, 86, 1) !important;
   color:#222;
   border-radius:40px;
