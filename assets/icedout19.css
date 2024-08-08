@@ -1305,7 +1305,7 @@ ul.nt_filter_styleck>li.active>a:before {
 } */
 
 
-.variations_button {
+.variations_button  {
   width:100% !important;
  /* flex-direction:row !important; */
 }
