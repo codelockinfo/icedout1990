@@ -1313,7 +1313,7 @@ flex-direction:row !important;
   width:50% !important;
 }
 .variations_form .shopify-payment-button{
-  margin-top:0;
+  margin-top:0 !important;
 }
 /* media query  */
 @media (max-width: 1500px) {
