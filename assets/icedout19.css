@@ -1338,10 +1338,10 @@ ul.nt_filter_styleck>li.active>a:before {
 		padding: 0 7.5px !important;
 	}
 
-	.atc-slide:not(.btn_full_true) .single_add_to_cart_button,
+	/* .atc-slide:not(.btn_full_true) .single_add_to_cart_button,
 	.atc-slide:not(.btn_full_true) .variations_button {
 		width: 50% !important;
-	}
+	} */
 }
 
 @media (max-width:1024px) {
