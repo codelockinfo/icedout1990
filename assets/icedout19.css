@@ -1321,7 +1321,7 @@ ul.nt_filter_styleck>li.active>a:before {
   cursor:pointer;
   border:1px solid #222;
   padding:16px 25px;
-  background:#fff;
+  background: rgba(53, 72, 86, 1) !important;
   color:#222;
   border-radius:40px;
   font-size:14px;
