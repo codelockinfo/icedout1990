@@ -1311,6 +1311,7 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 .add_card{
   width:50% !important;
+  padding-right: 10px;
 }
 .variations_form .shopify-payment-button{
   margin-top:0 !important;
