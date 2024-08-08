@@ -662,8 +662,10 @@
                 <div class="wish-custom">{%- render 'nt_add_w', tooltip: 'ttip_nt tooltip_top_left' -%}</div>
               </div>
 
-              <div class="1111111 variations_button in_flex  w__100">
-                <div class="add_card">
+              <div class="1111111 variations_button in_flex  w__100"> {%- if block.settings.enable_payment_btn and ck_external == false and no_sold_out -%}
+                  {{- form | payment_button -}}
+                {%- endif -%}
+                 <div class="add_card">
                   {%- if ck_external -%}
                     <a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">
                       {{- title -}}
@@ -699,9 +701,6 @@
                     </button>
                   {%- endif -%}
                 </div>
-                {%- if block.settings.enable_payment_btn and ck_external == false and no_sold_out -%}
-                  {{- form | payment_button -}}
-                {%- endif -%}
               </div>
             {%- endform -%}
               
