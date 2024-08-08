@@ -1317,6 +1317,17 @@ ul.nt_filter_styleck>li.active>a:before {
   margin-top:0 !important;
   width:50% !important;
 }
+.variations_form .shopify-payment-button__button--unbranded {
+  cursor:pointer;
+  border:1px solid #222;
+  padding:5px 25px;
+  background:#fff;
+  color:#222;
+  border-radius:40px;
+  font-size:14px;
+  font-weight:600;
+  font-family: 'Montserrat Alternates' !important;
+}
 /* media query  */
 @media (max-width: 1500px) {
 	.info_box {
