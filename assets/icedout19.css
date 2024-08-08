@@ -1587,7 +1587,10 @@ ul.nt_filter_styleck>li.active>a:before {
 	.banner_collection_wrap {
 		margin-bottom: -120px;
 	}
-
+   .variations_button  {
+  width:100% !important;
+ flex-direction:column !important;
+}
 }
 
 @media (max-width:400px) {
