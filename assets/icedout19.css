@@ -1316,6 +1316,15 @@ ul.nt_filter_styleck>li.active>a:before {
 .variations_form .shopify-payment-button{
   margin-top:0 !important;
   width:50% !important;
+  cursor:pointer;
+  border:1px solid #222;
+  padding:16px 25px;
+  background:#fff;
+  color:#222;
+  border-radius:40px;
+  font-size:14px;
+  font-weight:600;
+  min-height:40px
 }
 /* media query  */
 @media (max-width: 1500px) {
