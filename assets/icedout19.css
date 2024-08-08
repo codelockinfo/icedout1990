@@ -1314,6 +1314,7 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 .variations_form .shopify-payment-button{
   margin-top:0 !important;
+  width:50% !important;
 }
 /* media query  */
 @media (max-width: 1500px) {
