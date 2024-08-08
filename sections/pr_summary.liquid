@@ -720,7 +720,7 @@
                       {% for inforation in inforations %}
                         <div class="information_box">
                           {% assign inforationValue = inforation | split: ':' %}
-                          <h4 class="information_h4">{{ inforationValue[0] }}</h4>
+                          <h4 class="information_h4 number_m ">{{ inforationValue[0] }}</h4>
                           <h5 class="information_h5">: {{ inforationValue[1] }}</h5>
                         </div>
                       {% endfor %}
@@ -734,9 +734,9 @@
                     {% if metaldetails != blank %}
                       {% assign metaldetail = metaldetails | split: '","' %}
                       {% for metaldetailvalues in metaldetail %}
-                        <div class="information_box">
+                        <div class="information_box2">
                           {% assign metaldetailvalue = metaldetailvalues | split: ':' %}
-                          <h4 class="information_h4">{{ metaldetailvalue[0] }}</h4>
+                          <h4 class="information_h4 ">{{ metaldetailvalue[0] }}</h4>
                           <h5 class="information_h5">: {{ metaldetailvalue[1] }}</h5>
                         </div>
                       {% endfor %}
