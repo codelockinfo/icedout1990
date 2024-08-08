@@ -1307,7 +1307,7 @@ ul.nt_filter_styleck>li.active>a:before {
 
 .variations_button {
   width:100% !important;
-flex-direction:row !important;
+ /* flex-direction:row !important; */
 }
 .add_card{
   width:50% !important;
