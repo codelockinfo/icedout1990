@@ -1595,6 +1595,10 @@ ul.nt_filter_styleck>li.active>a:before {
   width:100% !important;
   padding-left: 0;
 }
+  .variations_form .shopify-payment-button{
+  margin-bottom:15px !important;
+  width:100% !important;
+}
 }
 
 @media (max-width:400px) {
