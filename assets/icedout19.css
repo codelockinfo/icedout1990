@@ -1591,6 +1591,10 @@ ul.nt_filter_styleck>li.active>a:before {
   width:100% !important;
  flex-direction:column !important;
 }
+  .add_card{
+  width:100% !important;
+  padding-left: 0;
+}
 }
 
 @media (max-width:400px) {
