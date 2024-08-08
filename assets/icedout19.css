@@ -1312,8 +1312,7 @@ flex-direction:row !important;
 .add_card{
   width:50% !important;
 }
-.shopify-payment-button{
-  width:50% !important;
+.variations_form .shopify-payment-button{
   margin-top:0;
 }
 /* media query  */
