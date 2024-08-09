@@ -1209,138 +1209,169 @@ ul.nt_filter_styleck>li.active>a:before {
 	font-weight: 700;
 	line-height: 36px;
 }
-.template-product .single_add_to_cart_button:hover  {
+
+.template-product .single_add_to_cart_button:hover {
 	background-color: #354856 !important;
 	color: #ffffff !important;
 }
-.variations_button{
+
+.variations_button {
 	margin-top: 20px;
 }
-.nt_menu .type_mega .sub-menu .sub-column .menu-item a{
+
+.nt_menu .type_mega .sub-menu .sub-column .menu-item a {
 	font-family: Montserrat Alternates;
 	font-size: 14px;
 	font-weight: 600;
 	color: #282828;
 }
-.nt_menu .type_mega .sub-menu .sub-column-item  a{
+
+.nt_menu .type_mega .sub-menu .sub-column-item a {
 	font-family: Raleway;
 	font-size: 16px;
-	font-weight: 700	;
+	font-weight: 700;
 	color: #354856;
 }
-.cat_grid_item__wrapper .h3{
-    font-family: Montserrat Alternates;
+
+.cat_grid_item__wrapper .h3 {
+	font-family: Montserrat Alternates;
 	font-size: 14px;
 	font-weight: 600;
 	color: #282828;
 }
-.cart_header{
-	font-family:Raleway !important;
+
+.cart_header {
+	font-family: Raleway !important;
 	font-size: 18px !important;
 	color: #354856 !important;
 	font-weight: 700 !important;
 }
-.mini_cart_title{
+
+.mini_cart_title {
 	font-family: Montserrat Alternates !important;
 	font-size: 14px !important;
 	font-weight: 700 !important;
 	color: #282828 !important;
 }
-.mini_cart_meta{
+
+.mini_cart_meta {
 	color: #555 !important;
-    font-family: 'Montserrat Alternates';
+	font-family: 'Montserrat Alternates';
 }
-.btn_checkout,.cart_actions{
-	font-family: Montserrat Alternates ;
+
+.btn_checkout,
+.cart_actions {
+	font-family: Montserrat Alternates;
 	font-weight: 700;
 }
-.template-cart .shipping_calculator{
-	font-family: Montserrat Alternates ;
+
+.template-cart .shipping_calculator {
+	font-family: Montserrat Alternates;
 }
-.template-cart .address_country_ship,.address_province_label,.address_zip_ship{
+
+.template-cart .address_country_ship,
+.address_province_label,
+.address_zip_ship {
 	font-size: 16px;
 	color: #354856;
-	font-family:Raleway !important;
+	font-family: Raleway !important;
 	font-weight: 600;
 }
-.cart_meta_prices,.cart-item-price {
+
+.cart_meta_prices,
+.cart-item-price {
 	font-family: 'Montserrat Alternates' !important;
 }
+
 .post-info h4 {
 	font-family: 'Montserrat Alternates' !important;
 	font-weight: 700;
 	color: #282828;
 }
+
 .mini_cart_footer {
 	font-family: 'Montserrat Alternates' !important;
 }
-.btn-cart .truncate{
+
+.btn-cart .truncate {
 	font-weight: 700;
 	color: #282828;
 	font-size: 16px;
 }
-.mini_cart_header  .widget-title{
+
+.mini_cart_header .widget-title {
 	font-weight: 700;
 	color: #354856;
 	letter-spacing: normal;
 }
-.template-collection .hover_button{
+
+.template-collection .hover_button {
 	display: none;
 }
 
 
-.header_3  .cat_grid_item__overlay{
+.header_3 .cat_grid_item__overlay {
 	padding-top: 70% !important;
 }
 
 .header_3 .sub-menu {
 	border-radius: 30px;
 }
+
 .info_box2 .information_box2 {
 	width: 100%;
 	display: flex;
 }
+
 /* .info_box:nth-child(2).number_m{
 	min-width: 191.38px !important;
 } */
 
 
-.variations_button  {
-  width:100% !important;
- /* flex-direction:row !important; */
+.variations_button {
+	width: 100% !important;
+	/* flex-direction:row !important; */
 }
-.add_card{
-  width:50% !important;
-  padding-left: 10px;
+
+.add_card {
+	width: 50% !important;
+	padding-left: 10px;
 }
-.variations_form .shopify-payment-button{
-  margin-top:0 !important;
-  width:50% !important;
+
+.variations_form .shopify-payment-button {
+	margin-top: 0 !important;
+	width: 50% !important;
 }
+
 .variations_form .shopify-payment-button__button--unbranded {
-  cursor:pointer;
-  padding:17px 25px;
-  background: #354856  !important;
-  color:#222;
-  border-radius:40px;
-  font-size:14px;
-  font-weight:600;
-  font-family: 'Montserrat Alternates' !important;
+	cursor: pointer;
+	padding: 17px 25px;
+	background: #354856 !important;
+	color: #222;
+	border-radius: 40px;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Montserrat Alternates' !important;
 }
+
 /* media query  */
 @media (max-width: 1500px) {
 	.info_box {
 		grid-template-columns: 1fr;
 	}
+
 	.info_box .information_h4 {
-        width: 200px;
+		width: 200px;
 	}
 }
+
 @media (min-width: 1500px) {
 	.info_box .information_box:nth-child(2) .number_m {
-		width: 191.38px; /* Adjust the width as needed */
+		width: 191.38px;
+		/* Adjust the width as needed */
 	}
 }
+
 @media (min-width: 1025px) {
 	.pr_grid_item .col-lg-3 {
 		padding: 0 7.5px !important;
@@ -1357,7 +1388,7 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 
 @media (max-width:1024px) {
-	
+
 	.email_section .email_main_box {
 		margin-left: 20px;
 		margin-right: 20px;
@@ -1587,18 +1618,21 @@ ul.nt_filter_styleck>li.active>a:before {
 	.banner_collection_wrap {
 		margin-bottom: -120px;
 	}
-   .variations_button  {
-  width:100% !important;
- flex-direction:column !important;
-}
-  .add_card{
-  width:100% !important;
-  padding-left: 0;
-}
-  .variations_form .shopify-payment-button{
-  margin-bottom:15px !important;
-  width:100% !important;
-}
+
+	.variations_button {
+		width: 100% !important;
+		flex-direction: column !important;
+	}
+
+	.add_card {
+		width: 100% !important;
+		padding-left: 0;
+	}
+
+	.variations_form .shopify-payment-button {
+		margin-bottom: 15px !important;
+		width: 100% !important;
+	}
 }
 
 @media (max-width:400px) {
