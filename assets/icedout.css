@@ -2,3 +2,101 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+/* custom tab */
+.customtabs{
+    /* padding-bottom: 10px; */
+    border-bottom: 4px solid #D9D9D9;
+}
+.customtab{
+    font-family: Montserrat Alternates !important;
+    cursor: pointer;
+    padding:10px;
+    margin:0px 2px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.94px;
+    /* background:#000;
+    display:inline-block;
+    color:#fff;
+    border-radius:3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080; */
+  }
+  .custompanels{
+    /* background:#fffffff6;
+    box-shadow: 0 2rem 2rem #00000080;
+    min-height:200px;
+    width:100%;
+    max-width:500px;
+    border-radius:3px;
+    overflow:hidden;
+    padding:20px;   */
+  }
+  .custompanel{
+    display:none;
+    animation: fadein .8s;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: left;
+
+  }
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  .panel-title{
+    font-size:1.5em;
+    font-weight:bold
+  }
+  
+  .customradio{
+    display:none;
+  }
+  #tab-7:checked ~  #custompanel-7,
+  #tab-8:checked ~  #custompanel-8,
+  #tab-9:checked ~  #custompanel-9,
+  #tab-10:checked ~  #custompanel-10{
+    display:block;
+  }
+  #tab-7:checked ~ .tabs #customtab-7,
+  #tab-8:checked ~ .tabs #customtab-8,
+  #tab-9:checked ~ .tabs #customtab-9,
+  #tab-10:checked ~ .tabs #customtab-10{
+    background:#fffffff6;
+    color:#000;
+    border-top: 3px solid #000;
+  }
+  
+  
+#one:checked ~  .custompanels #one-panel,
+#two:checked ~  .custompanels #two-panel,
+#three:checked ~ .custompanels #three-panel,
+#four:checked ~  .custompanels #four-panel{
+  display:block;
+}
+#one:checked ~ .customtabs #one-tab,
+#two:checked ~ .customtabs #two-tab,
+#three:checked ~ .customtabs #three-tab,
+#four:checked ~ .customtabs #four-tab{
+  color:#000;
+  font-weight: 700;
+  border-bottom: 4px solid #000;
+}
+.customtabs {
+    display: flex;               /* Arrange tabs in a row */
+    overflow-x: auto;            /* Enable horizontal scrolling */
+    white-space: nowrap;         /* Prevents the tabs from wrapping to the next line */
+    scrollbar-width: none;       /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none;    /* Hide scrollbar for Internet Explorer and Edge */
+  }
+  
+  .customtabs::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* custom tab */

@@ -805,8 +805,39 @@
           {%- render 'grouped_product', block: block, nav_up: nav_up, call_cl: call_cl, pid: pid -%}
         {%- endif -%}
       </div>
-
-    {%- when 'store_avai' -%}
+      {%- when 'tab' -%}
+      {% if product.metafields.custom.tabdescription !=  blank %}<input class="customradio" id="one" name="group" type="radio" checked>{% endif %}
+      {% if product.metafields.custom.diamonddetails !=  blank %} <input class="customradio" id="two" name="group" type="radio">{% endif %}
+      {% if product.metafields.custom.metaltype !=  blank %}  <input class="customradio" id="three" name="group" type="radio">{% endif %}
+      {% if product.metafields.custom.otherinformation !=  blank %} <input class="customradio" id="four" name="group" type="radio">{% endif %}
+        <div class="customtabs">
+            <label class="customtab" id="one-tab" for="one">{% if  product.metafields.custom.tabdescription  != blank %}Description {% endif %}</label>
+            <label class="customtab" id="two-tab" for="two">{% if  product.metafields.custom.diamonddetails  != blank %}Diamond Detail{% endif %}</label>
+            <label class="customtab" id="three-tab" for="three">{% if  product.metafields.custom.metaltype  != blank %}Metal Type{% endif %}</label>
+            <label class="customtab" id="four-tab" for="four">{% if  product.metafields.custom.otherinformation  != blank %}Other Information{% endif %}</label>
+        </div>
+        <div class="custompanels mb__40">
+            <div class="custompanel" id="one-panel">
+              {{ product.metafields.custom.tabdescription }}
+            </div>
+            <div class="custompanel" id="two-panel">
+             {{ product.metafields.custom.diamonddetails }}
+            </div>
+            <div class="custompanel" id="three-panel">
+              {{ product.metafields.custom.metaltype }}
+            </div>
+            <div class="custompanel" id="four-panel">
+              {{ product.metafields.custom.otherinformation }}
+            </div>
+        </div>
+        {% comment %} <input class="customradio" id="tab-{{ forloop.index  }}" name="group" type="radio" checked{% if forloop.first %} checked {% endif %}>
+        <label class="customtab" id="customtab-{{ forloop.index  }}" for="tab-{{ forloop.index  }}">{{ block.settings.title }}</label>
+        <div class="custompanel" id="custompanel-{{ forloop.index  }}">
+          {{ block.settings.content }}
+          {{ block.settings.page.content }}
+        </div> {% endcomment %}
+        
+      {%- when 'store_avai' -%}
       {%- if no_sold_out == false %}{% continue %}{% endif -%}
       <div
         id="store_availability{{call_cl}}"
@@ -1213,7 +1244,7 @@
         endif
       -%}
 
-      <div class="complementary_product">
+      <div class="complementary_product mb__40">
         {% if product.metafields.custom.matching_product != blank %}
           {% if block.settings.complementaryproductheading %}
             <h4 class="complementary_title">{{ block.settings.complementaryproductheading }}</h4>
@@ -3276,7 +3307,14 @@
           "info": "This page content will appear."
         }
       ]
-    }
+    },
+    {
+        "type": "tab",
+        "name": "Tab",
+        "settings": [
+         
+        ]
+      }
   ],
   "default": {
     "blocks": [
@@ -3405,7 +3443,7 @@
   .template-product .complementary_product {
     width: 100%;
     display: inline-block;
-    margin-bottom: 0 !important;
+    /* margin-bottom: 0 !important; */
   }
   .complementary_product .mt__30 {
     margin-top: 0;
