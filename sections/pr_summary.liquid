@@ -810,7 +810,7 @@
       {% if product.metafields.custom.diamonddetails !=  blank %} <input class="customradio" id="two" name="group" type="radio">{% endif %}
       {% if product.metafields.custom.metaltype !=  blank %}  <input class="customradio" id="three" name="group" type="radio">{% endif %}
       {% if product.metafields.custom.otherinformation !=  blank %} <input class="customradio" id="four" name="group" type="radio">{% endif %}
-        {% if product.metafields.custom.tabdescription != blank or product.metafields.custom.diamonddetails !=  blank or product.metafields.custom.metaltype !=  blank product.metafields.custom.otherinformation !=  blank %}
+        {% if product.metafields.custom.tabdescription != blank or product.metafields.custom.diamonddetails !=  blank or product.metafields.custom.metaltype !=  blank or product.metafields.custom.otherinformation !=  blank %}
             <div class="customtabs">
                 <label class="customtab" id="one-tab" for="one">{% if  product.metafields.custom.tabdescription  != blank %}Description {% endif %}</label>
                 <label class="customtab" id="two-tab" for="two">{% if  product.metafields.custom.diamonddetails  != blank %}Diamond Detail{% endif %}</label>
