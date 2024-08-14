@@ -1631,6 +1631,11 @@
               "enable_payment_btn": true
             }
           },
+          "tab_9wjRDE": {
+            "type": "tab",
+            "settings": {
+            }
+          },
           "pr_summary-4": {
             "type": "size",
             "settings": {
@@ -1685,6 +1690,7 @@
           "pr_summary-1",
           "pr_summary-2",
           "pr_summary-3",
+          "tab_9wjRDE",
           "pr_summary-4",
           "complementary_product_g3MjLw"
         ],
