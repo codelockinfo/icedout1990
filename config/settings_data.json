@@ -3850,7 +3850,7 @@
       "matchingproduct": {
         "type": "matchingproduct",
         "settings": {
-          "complementaryproductheading": "",
+          "complementaryproductheading": "Matching Product",
           "complementaryproduct": "",
           "limit": 30,
           "space": 30,
