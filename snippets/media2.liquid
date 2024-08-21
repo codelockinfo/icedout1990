@@ -38,6 +38,7 @@
  
 {%- case media_type -%}
   {%- when 'image' -%}
+  {{ media.size }}
    <div {% if alt contains 'imgt4_colorsolid' %}data-widths="[1]" {% endif %}data-grname="{{alt_arr | first | handleize }}" data-grpvl="{{alt_arr | last | handleize}}" class="111111111 js-sl-item p-item col-12 {{col}} media_id_{{media.id}}" data-mdid="{{media.id}}" data-mdtype="image" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{ratio}}" data-rationav="{{ratio_nav}}">
      <div class="img_ptw p_ptw sp-pr-gallery__img w__100 nt_bg_lz lazyload" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{ratio}}" data-sizes="auto" data-src="{{ image | img_url: img_zoom_size }}" data-width="{{ image.width }}" data-height="{{ image.height }}" data-cap="{{ txt_alt }}"{% if eq_imgtb == 'ratio_imgtrue' %} style="padding-top:{{ 1 | divided_by: ratio | times: 100}}%;"{% endif %}>
         <noscript><img src="{{ image | img_url: img_zoom_size }}" loading="lazy" alt="{{ txt_alt }}"></noscript>
