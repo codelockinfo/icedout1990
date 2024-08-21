@@ -558,7 +558,7 @@
                       locale_url: locale_url
                     -%}
                 {%- endcase -%}
-                
+
                 {% comment %} custom properties {% endcomment %}
                 <div class="customize-properties mb__40">
                   <h4 for="customization" class="swatch__title">Personalize Box</h4>
@@ -662,10 +662,11 @@
                 <div class="wish-custom">{%- render 'nt_add_w', tooltip: 'ttip_nt tooltip_top_left' -%}</div>
               </div>
 
-              <div class="1111111 variations_button in_flex  w__100"> {%- if block.settings.enable_payment_btn and ck_external == false and no_sold_out -%}
+              <div class=" variations_button in_flex  w__100">
+                {%- if block.settings.enable_payment_btn and ck_external == false and no_sold_out -%}
                   {{- form | payment_button -}}
                 {%- endif -%}
-                 <div class="add_card">
+                <div class="add_card">
                   {%- if ck_external -%}
                     <a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">
                       {{- title -}}
@@ -694,7 +695,8 @@
                       type="submit"
                       data-time="{{block.settings.time}}000"
                       data-ani="{{block.settings.ani}}"
-                      class="single_add_to_cart_button button truncate js_frm_cart w__100  order-4{% if PR_no_pick %} disabled{% endif %}" style="width: 100% !important;"
+                      class="single_add_to_cart_button button truncate js_frm_cart w__100  order-4{% if PR_no_pick %} disabled{% endif %}"
+                      style="width: 100% !important;"
                     >
                       <span class="txt_add {{classdn1}}">{{ 'products.product.add_to_cart' | t }}</span
                       ><span class="txt_pre {{classdn2}}">{{ 'products.product.pre_orders' | t }}</span>
@@ -703,47 +705,47 @@
                 </div>
               </div>
             {%- endform -%}
-              
-                {% comment %} {{product.description}} {% endcomment %}
-                {% assign descriptioninformation = product.metafields.custom.description_information
-                | remove: '["'
-                | remove: '"]'
-              %}
-              <div class="custom_description">
-                {% if descriptioninformation != blank or metaldetails != blank %}
+
+            {% comment %} {{product.description}} {% endcomment %}
+            {% assign descriptioninformation = product.metafields.custom.description_information
+              | remove: '["'
+              | remove: '"]'
+            %}
+            <div class="custom_description">
+              {% if descriptioninformation != blank or metaldetails != blank %}
                 <h1 class="custom_description_h1">Description</h1>
                 {% if descriptioninformation != blank %}
                   <h2 class="information_h2">Information</h2>
                   <div class="info_box">
-                      {% assign inforations = descriptioninformation | split: '","' %}
-                      {% for inforation in inforations %}
-                        <div class="information_box">
-                          {% assign inforationValue = inforation | split: ':' %}
-                          <h4 class="information_h4 number_m ">{{ inforationValue[0] }}</h4>
-                          <h5 class="information_h5">: {{ inforationValue[1] }}</h5>
-                        </div>
-                      {% endfor %}
-                    {% endif %}
-                  </div>
+                    {% assign inforations = descriptioninformation | split: '","' %}
+                    {% for inforation in inforations %}
+                      <div class="information_box">
+                        {% assign inforationValue = inforation | split: ':' %}
+                        <h4 class="information_h4 number_m ">{{ inforationValue[0] }}</h4>
+                        <h5 class="information_h5">: {{ inforationValue[1] }}</h5>
+                      </div>
+                    {% endfor %}
                 {% endif %}
-                {% assign metaldetails = product.metafields.custom.metaldetails | remove: '["' | remove: '"]' %}
-                {% if metaldetails != blank %}
-                  <h2 class="information_h2">Metal Details</h2>
-                  <div class="info_box2 ">
-                    {% if metaldetails != blank %}
-                      {% assign metaldetail = metaldetails | split: '","' %}
-                      {% for metaldetailvalues in metaldetail %}
-                        <div class="information_box2">
-                          {% assign metaldetailvalue = metaldetailvalues | split: ':' %}
-                          <h4 class="information_h4 ">{{ metaldetailvalue[0] }}</h4>
-                          <h5 class="information_h5">: {{ metaldetailvalue[1] }}</h5>
-                        </div>
-                      {% endfor %}
-                    {% endif %}
-                  </div>
+                </div>
               {% endif %}
-              </div>
-                {% comment %} {{product.description}} {% endcomment %}
+              {% assign metaldetails = product.metafields.custom.metaldetails | remove: '["' | remove: '"]' %}
+              {% if metaldetails != blank %}
+                <h2 class="information_h2">Metal Details</h2>
+                <div class="info_box2 ">
+                  {% if metaldetails != blank %}
+                    {% assign metaldetail = metaldetails | split: '","' %}
+                    {% for metaldetailvalues in metaldetail %}
+                      <div class="information_box2">
+                        {% assign metaldetailvalue = metaldetailvalues | split: ':' %}
+                        <h4 class="information_h4 ">{{ metaldetailvalue[0] }}</h4>
+                        <h5 class="information_h5">: {{ metaldetailvalue[1] }}</h5>
+                      </div>
+                    {% endfor %}
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+            {% comment %} {{product.description}} {% endcomment %}
             {%- assign uavailable_v = pr_variants | where: 'available', false -%}
             {%- if settings.use_notify_me and uavailable_v.size > 0 -%}
               <div
@@ -805,41 +807,63 @@
           {%- render 'grouped_product', block: block, nav_up: nav_up, call_cl: call_cl, pid: pid -%}
         {%- endif -%}
       </div>
-      {%- when 'tab' -%}
-      {% if product.metafields.custom.tabdescription !=  blank %}<input class="customradio" id="one" name="group" type="radio" checked>{% endif %}
-      {% if product.metafields.custom.diamonddetails !=  blank %} <input class="customradio" id="two" name="group" type="radio">{% endif %}
-      {% if product.metafields.custom.metaltype !=  blank %}  <input class="customradio" id="three" name="group" type="radio">{% endif %}
-      {% if product.metafields.custom.otherinformation !=  blank %} <input class="customradio" id="four" name="group" type="radio">{% endif %}
-        {% if product.metafields.custom.tabdescription != blank or product.metafields.custom.diamonddetails !=  blank or product.metafields.custom.metaltype !=  blank or product.metafields.custom.otherinformation !=  blank %}
-            <div class="customtabs">
-                <label class="customtab" id="one-tab" for="one">{% if  product.metafields.custom.tabdescription  != blank %}Description {% endif %}</label>
-                <label class="customtab" id="two-tab" for="two">{% if  product.metafields.custom.diamonddetails  != blank %}Diamond Detail{% endif %}</label>
-                <label class="customtab" id="three-tab" for="three">{% if  product.metafields.custom.metaltype  != blank %}Metal Type{% endif %}</label>
-                <label class="customtab" id="four-tab" for="four">{% if  product.metafields.custom.otherinformation  != blank %}Other Information{% endif %}</label>
-            </div>
-            <div class="custompanels mb__40">
-                <div class="custompanel" id="one-panel">
-                  {{ product.metafields.custom.tabdescription }}
-                </div>
-                <div class="custompanel" id="two-panel">
-                {{ product.metafields.custom.diamonddetails }}
-                </div>
-                <div class="custompanel" id="three-panel">
-                  {{ product.metafields.custom.metaltype }}
-                </div>
-                <div class="custompanel" id="four-panel">
-                  {{ product.metafields.custom.otherinformation }}
-                </div>
-            </div>
-        {% endif %}
-        {% comment %} <input class="customradio" id="tab-{{ forloop.index  }}" name="group" type="radio" checked{% if forloop.first %} checked {% endif %}>
+    {%- when 'tab' -%}
+      {% if product.metafields.custom.tabdescription != blank -%}
+        <input class="customradio" id="one" name="group" type="radio" checked>
+      {%- endif %}
+      {% if product.metafields.custom.diamonddetails != blank %}
+        <input class="customradio" id="two" name="group" type="radio">
+      {%- endif %}
+      {% if product.metafields.custom.metaltype != blank %}
+        <input class="customradio" id="three" name="group" type="radio">
+      {%- endif %}
+      {% if product.metafields.custom.otherinformation != blank %}
+        <input class="customradio" id="four" name="group" type="radio">
+      {%- endif %}
+      {% if product.metafields.custom.tabdescription != blank
+        or product.metafields.custom.diamonddetails != blank
+        or product.metafields.custom.metaltype != blank
+        or product.metafields.custom.otherinformation != blank
+      %}
+        <div class="customtabs">
+          <label class="customtab" id="one-tab" for="one">
+            {%- if product.metafields.custom.tabdescription != blank %}Description {% endif -%}
+          </label>
+          <label class="customtab" id="two-tab" for="two">
+            {%- if product.metafields.custom.diamonddetails != blank %}Diamond Detail{% endif -%}
+          </label>
+          <label class="customtab" id="three-tab" for="three">
+            {%- if product.metafields.custom.metaltype != blank %}Metal Type{% endif -%}
+          </label>
+          <label class="customtab" id="four-tab" for="four">
+            {%- if product.metafields.custom.otherinformation != blank %}Other Information{% endif -%}
+          </label>
+        </div>
+        <div class="custompanels mb__40">
+          <div class="custompanel" id="one-panel">
+            {{ product.metafields.custom.tabdescription }}
+          </div>
+          <div class="custompanel" id="two-panel">
+            {{ product.metafields.custom.diamonddetails }}
+          </div>
+          <div class="custompanel" id="three-panel">
+            {{ product.metafields.custom.metaltype }}
+          </div>
+          <div class="custompanel" id="four-panel">
+            {{ product.metafields.custom.otherinformation }}
+          </div>
+        </div>
+      {% endif %}
+      {% comment %}
+        <input class="customradio" id="tab-{{ forloop.index  }}" name="group" type="radio" checked{% if forloop.first %} checked {% endif %}>
         <label class="customtab" id="customtab-{{ forloop.index  }}" for="tab-{{ forloop.index  }}">{{ block.settings.title }}</label>
         <div class="custompanel" id="custompanel-{{ forloop.index  }}">
           {{ block.settings.content }}
           {{ block.settings.page.content }}
-        </div> {% endcomment %}
-        
-      {%- when 'store_avai' -%}
+        </div>
+      {% endcomment %}
+
+    {%- when 'store_avai' -%}
       {%- if no_sold_out == false %}{% continue %}{% endif -%}
       <div
         id="store_availability{{call_cl}}"
@@ -851,121 +875,122 @@
         data-base-url="{{ shop.url }}{{ routes.root_url }}"
       ></div>
 
-    {% comment %} {%- when 'size' -%}
-      <div class="extra-link mt__35 fwsb">
-        {%- if block.settings.size_chart != '1' -%}
-          {%- assign ck_s = true -%}
-          {%- assign sc_type = block.settings.sc_type -%}
-          {%- assign handle_size = pr_metafields_meta.page_size_chart
-            | default: collection.metafields.meta.page_size_chart
-          -%}
-          {%- assign page_size = pages[handle_size] -%}
-          {%- assign page_size_2 = pages[block.settings.page] -%}
-          {%- assign img_meta = pr_metafields_meta.img_size_chart
-            | default: collection.metafields.meta.img_size_chart
-          -%}
-          {%- assign image = images[img_meta] -%}
-          {%- assign image_2 = block.settings.image -%}
+      {% comment %}
+        {%- when 'size' -%}
+        <div class="extra-link mt__35 fwsb">
+          {%- if block.settings.size_chart != '1' -%}
+            {%- assign ck_s = true -%}
+            {%- assign sc_type = block.settings.sc_type -%}
+            {%- assign handle_size = pr_metafields_meta.page_size_chart
+              | default: collection.metafields.meta.page_size_chart
+            -%}
+            {%- assign page_size = pages[handle_size] -%}
+            {%- assign page_size_2 = pages[block.settings.page] -%}
+            {%- assign img_meta = pr_metafields_meta.img_size_chart
+              | default: collection.metafields.meta.img_size_chart
+            -%}
+            {%- assign image = images[img_meta] -%}
+            {%- assign image_2 = block.settings.image -%}
 
-          {%- if block.settings.size_chart == '2' -%}
-            {%- assign ck_s = false -%}
-            {%- assign size_ck = block.settings.size_ck | append: ',size,sizes,Größe' -%}
-            {%- assign get_size = size_ck | downcase | replace: ' ,', ',' | replace: ', ', ',' | split: ',' | uniq -%}
-            {%- for option in product.options_with_values -%}
-              {%- assign name = option.name | downcase -%}
-              {%- if get_size contains name -%}
-                {%- assign ck_s = true -%}
-                {%- break -%}
-              {%- endif -%}
-            {%- endfor -%}
+            {%- if block.settings.size_chart == '2' -%}
+              {%- assign ck_s = false -%}
+              {%- assign size_ck = block.settings.size_ck | append: ',size,sizes,Größe' -%}
+              {%- assign get_size = size_ck | downcase | replace: ' ,', ',' | replace: ', ', ',' | split: ',' | uniq -%}
+              {%- for option in product.options_with_values -%}
+                {%- assign name = option.name | downcase -%}
+                {%- if get_size contains name -%}
+                  {%- assign ck_s = true -%}
+                  {%- break -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+
+            {%- if sc_type == '1' and ck_s and page_size != blank -%}
+              <a
+                class="cd chp ajax_pp_js mr__20"
+                href="#"
+                data-no-instant
+                rel="nofollow"
+                data-id="ps_ajax_pp_js"
+                data-url="{{page_size.url}}/?view=AjaxPopup"
+              >
+                {{- 'products.product.product_size_guide' | t -}}
+              </a>
+
+            {%- elsif sc_type == '2' and image != blank and ck_s -%}
+              <a
+                class="cd chp btn_size_guide mr__20"
+                href="#"
+                data-no-instant
+                rel="nofollow"
+                data-src="{{ image | img_url: 'master' }}"
+                data-width="{{ image.width }}"
+                data-height="{{ image.height }}"
+              >
+                {{- 'products.product.product_size_guide' | t -}}
+              </a>
+
+            {%- elsif sc_type == '1' and ck_s and page_size_2 != blank -%}
+              <a
+                class="cd chp ajax_pp_js mr__20"
+                href="#"
+                data-no-instant
+                rel="nofollow"
+                data-id="ps_ajax_pp_js"
+                data-url="{{page_size_2.url}}/?view=AjaxPopup"
+              >
+                {{- 'products.product.product_size_guide' | t -}}
+              </a>
+
+            {%- elsif sc_type == '2' and ck_s and image_2 != blank -%}
+              <a
+                class="cd chp btn_size_guide mr__20"
+                href="#"
+                data-no-instant
+                rel="nofollow"
+                data-src="{{ image_2 | img_url: 'master' }}"
+                data-width="{{ image_2.width }}"
+                data-height="{{ image_2.height }}"
+              >
+                {{- 'products.product.product_size_guide' | t -}}
+              </a>
+            {%- endif -%}
           {%- endif -%}
 
-          {%- if sc_type == '1' and ck_s and page_size != blank -%}
+          {%- assign page_delivery = pages[block.settings.page_dr] -%}
+          {%- if block.settings.delivery and page_delivery != blank -%}
             <a
-              class="cd chp ajax_pp_js mr__20"
+              class="ajax_pp_js cd chp mr__20"
               href="#"
               data-no-instant
               rel="nofollow"
-              data-id="ps_ajax_pp_js"
-              data-url="{{page_size.url}}/?view=AjaxPopup"
+              data-id="dl_ajax_pp_js"
+              data-url="{{page_delivery.url}}/?view=AjaxPopup"
             >
-              {{- 'products.product.product_size_guide' | t -}}
-            </a>
-
-          {%- elsif sc_type == '2' and image != blank and ck_s -%}
-            <a
-              class="cd chp btn_size_guide mr__20"
-              href="#"
-              data-no-instant
-              rel="nofollow"
-              data-src="{{ image | img_url: 'master' }}"
-              data-width="{{ image.width }}"
-              data-height="{{ image.height }}"
-            >
-              {{- 'products.product.product_size_guide' | t -}}
-            </a>
-
-          {%- elsif sc_type == '1' and ck_s and page_size_2 != blank -%}
-            <a
-              class="cd chp ajax_pp_js mr__20"
-              href="#"
-              data-no-instant
-              rel="nofollow"
-              data-id="ps_ajax_pp_js"
-              data-url="{{page_size_2.url}}/?view=AjaxPopup"
-            >
-              {{- 'products.product.product_size_guide' | t -}}
-            </a>
-
-          {%- elsif sc_type == '2' and ck_s and image_2 != blank -%}
-            <a
-              class="cd chp btn_size_guide mr__20"
-              href="#"
-              data-no-instant
-              rel="nofollow"
-              data-src="{{ image_2 | img_url: 'master' }}"
-              data-width="{{ image_2.width }}"
-              data-height="{{ image_2.height }}"
-            >
-              {{- 'products.product.product_size_guide' | t -}}
+              {{- 'products.product.delivery_return' | t -}}
             </a>
           {%- endif -%}
+      {% endcomment %}
+
+      {%- comment -%}
+        {%- assign page_ask = pages[block.settings.page_ask] %}{% if block.settings.ask and page_ask != blank -%}
+        <a class="ajax_pp_js cd chp" href="#" data-no-instant rel="nofollow" data-id='ask_ajax_pp_js' data-url="{{page_ask.url}}/?view=AjaxContact">{{ 'products.product.ask_question' | t }}</a>
         {%- endif -%}
-
-        {%- assign page_delivery = pages[block.settings.page_dr] -%}
-        {%- if block.settings.delivery and page_delivery != blank -%}
-          <a
-            class="ajax_pp_js cd chp mr__20"
-            href="#"
-            data-no-instant
-            rel="nofollow"
-            data-id="dl_ajax_pp_js"
-            data-url="{{page_delivery.url}}/?view=AjaxPopup"
-          >
-            {{- 'products.product.delivery_return' | t -}}
-          </a>
-        {%- endif -%} {% endcomment %}
-
-        {%- comment -%}
-          {%- assign page_ask = pages[block.settings.page_ask] %}{% if block.settings.ask and page_ask != blank -%}
-          <a class="ajax_pp_js cd chp" href="#" data-no-instant rel="nofollow" data-id='ask_ajax_pp_js' data-url="{{page_ask.url}}/?view=AjaxContact">{{ 'products.product.ask_question' | t }}</a>
-          {%- endif -%}
-        {%- endcomment -%}
-        {%- if block.settings.ask -%}
-          <a
-            class="ajax_pp_js cd chp"
-            href="#"
-            data-no-instant
-            rel="nofollow"
-            data-id="ask_ajax_pp_js"
-            data-url="{{routes.search_url}}/?view=AjaxContact"
-            data-title="{{product.title | escape}}"
-            data-handle="{{ shop.url }}{{product.url}}"
-          >
-            {{- 'products.product.ask_question' | t -}}
-          </a>
-        {%- endif -%}
-    
+      {%- endcomment -%}
+      {%- if block.settings.ask -%}
+        <a
+          class="ajax_pp_js cd chp"
+          href="#"
+          data-no-instant
+          rel="nofollow"
+          data-id="ask_ajax_pp_js"
+          data-url="{{routes.search_url}}/?view=AjaxContact"
+          data-title="{{product.title | escape}}"
+          data-handle="{{ shop.url }}{{product.url}}"
+        >
+          {{- 'products.product.ask_question' | t -}}
+        </a>
+      {%- endif -%}
 
     {%- when 'meta' -%}
       {%- assign ck_meta = false -%}
@@ -1246,7 +1271,7 @@
         endif
       -%}
 
-      <div class="complementary_product mb__40">
+      <div class="pr_matching complementary_product mb__40 111111111111">
         {% if product.metafields.custom.matching_product != blank %}
           {% if block.settings.complementaryproductheading %}
             <h4 class="complementary_title">{{ block.settings.complementaryproductheading }}</h4>
@@ -3311,12 +3336,10 @@
       ]
     },
     {
-        "type": "tab",
-        "name": "Tab",
-        "settings": [
-         
-        ]
-      }
+      "type": "tab",
+      "name": "Tab",
+      "settings": []
+    }
   ],
   "default": {
     "blocks": [
@@ -3415,8 +3438,8 @@
     justify-content: space-between;
     align-items: center;
   }
-  .product_meta>span{
-    margin-bottom:0 !important;
+  .product_meta > span {
+    margin-bottom: 0 !important;
   }
   .sku_wrapper {
     font-family: Montserrat Alternates;
@@ -3425,11 +3448,11 @@
     line-height: 24.38px;
     text-align: end;
     color: #282828;
-    order:2;
+    order: 2;
   }
   .jdgm-widget {
-    order:1;
-    display:block !important;
+    order: 1;
+    display: block !important;
   }
   #shopify-section-pr_summary .product_title {
     font-family: Montserrat Alternates;
@@ -3450,17 +3473,17 @@
   .complementary_product .mt__30 {
     margin-top: 0;
   }
-  .complementary_product .flickity-prev-next-button.previous{
+  .pr_matching .flickity-prev-next-button.previous {
     top: -13%;
-    right:20% !important;
-    border:0;
-    background-color:#EBEFF1;
+    right: 20% !important;
+    border: 0;
+    background-color: #ebeff1;
   }
-  .complementary_product .flickity-prev-next-button.next{
-    top: -13% ;
-    right:13% !important;
-    border:0;
-    background-color:#EBEFF1;
+  .pr_matching .flickity-prev-next-button.next {
+    top: -13%;
+    right: 13% !important;
+    border: 0;
+    background-color: #ebeff1;
   }
   .complementary_title {
     color: #282828;
@@ -3469,7 +3492,7 @@
     font-weight: 700;
     line-height: 24.38px;
     text-align: left;
-    letter-spacing:normal;
+    letter-spacing: normal;
     margin-bottom: 20px;
   }
   .flex-columns {
@@ -3497,34 +3520,33 @@
     width: 100%;
     min-height: 40px;
   }
-  .product_meta{
+  .product_meta {
     display: flex;
     justify-content: space-between;
   }
-  .jdgm-preview-badge .jdgm-star.jdgm-star{
-    color: #FFA033;
+  .jdgm-preview-badge .jdgm-star.jdgm-star {
+    color: #ffa033;
   }
-  .jdgm-star.jdgm--on:before{
-    font-size:20px;
+  .jdgm-star.jdgm--on:before {
+    font-size: 20px;
     line-height: normal;
   }
-  @media (max-width:1024px) {
-	.complementary_product .flickity-prev-next-button.next {
-		right: 10% !important;
-	}
-}
-  @media (max-width:768px) {
-	.complementary_product .flickity-prev-next-button.previous {
-		right: 23% !important;
-    /* top: -10%; */
-	}
-	
-}
-  @media (max-width:500px) {
-	.complementary_product .flickity-prev-next-button.next {
-		right: 8% !important;
-	}
-}
+  @media (max-width: 1024px) {
+    .pr_matching .flickity-prev-next-button.next {
+      right: 10% !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .pr_matching .flickity-prev-next-button.previous {
+      right: 23% !important;
+      /* top: -10%; */
+    }
+  }
+  @media (max-width: 500px) {
+    .pr_matching .flickity-prev-next-button.next {
+      right: 8% !important;
+    }
+  }
   /* add for custom properties  */
 </style>
 <script>

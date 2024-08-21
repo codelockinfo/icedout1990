@@ -1354,6 +1354,30 @@ ul.nt_filter_styleck>li.active>a:before {
 	font-family: 'Montserrat Alternates' !important;
 }
 
+
+.container_des {
+	margin: 0 auto;
+	background-color: #fff !important;
+}
+
+.template-product .complementary_product {
+	display: block !important;
+}
+
+.matching_product .flickity-prev-next-button.previous {
+	top: -13%;
+	right: 10% !important;
+	border: 0;
+	background-color: #ebeff1;
+}
+
+.matching_product .flickity-prev-next-button.next {
+	top: -13%;
+	right: 6% !important;
+	border: 0;
+	background-color: #ebeff1;
+}
+
 /* media query  */
 @media (max-width: 1500px) {
 	.info_box {
@@ -1388,6 +1412,9 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 
 @media (max-width:1024px) {
+	.matching_product .flickity-prev-next-button.next {
+		right: 10% !important;
+	}
 
 	.email_section .email_main_box {
 		margin-left: 20px;
@@ -1448,6 +1475,11 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 
 @media (max-width:768px) {
+	.matching_product .flickity-prev-next-button.previous {
+		right: 16% !important;
+		/* top: -10%; */
+	}
+
 	.accordion_main_box {
 		width: 100%;
 	}
@@ -1615,6 +1647,15 @@ ul.nt_filter_styleck>li.active>a:before {
 }
 
 @media (max-width:519px) {
+	.matching_product .flickity-prev-next-button.next {
+		right: 8% !important;
+	}
+
+	.matching_product .flickity-prev-next-button.previous {
+		right: 22% !important;
+		/* top: -10%; */
+	}
+
 	.banner_collection_wrap {
 		margin-bottom: -120px;
 	}
