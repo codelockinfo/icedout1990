@@ -67,10 +67,10 @@ Alt full config:
 {%- case sett_pr -%}
   {%- when '7' -%}
     <div class="col-12 col_thumb">
-       <div class="only_owl_mb row p-thumb fade_flick_{{fade_num}} p-thumb{{se_id |default:call_cl}} images sp-pr-gallery equal_nt {{settings.img_size_main}} {{settings.ratio_img_main}} position_{{settings.img_pos_main}} pr_carousel" 
+       <div class="only_owl_mb row p-thumb fade_flick_{{fade_num}} p-thumb{{se_id |default:call_cl}} images  sp-pr-gallery equal_nt {{settings.img_size_main}} {{settings.ratio_img_main}} position_{{settings.img_pos_main}} pr_carousel" 
        data-prmasonry='{"transitionDuration": 0,"selector":".p-item:not(.is_varhide)","filter": ".p-item:not(.is_varhide)", "layoutMode":"fitRows","originLeft": {{ltr}} }' 
        data-flickity='{"watchCSS": true,"initialIndex": ".media_id_{{featured_media.id}}","cellSelector": ".p-item:not(.is_varhide)","draggable":"{{drag}}","fade":{{fade}},"cellAlign": "center","wrapAround": true,"autoPlay": false,"prevNextButtons":true,"adaptiveHeight": true,"imagesLoaded": false, "lazyLoad": 0,"dragThreshold" : {{dragThreshold}},"pageDots": false,"rightToLeft": {{rtl}} }'>
-         {%- for media in pr_media -%}{%- assign alt = media.alt -%}
+         {%- for media in pr_media | limit: 6 -%}{%- assign alt = media.alt -%}
             {%- if alt contains 't4_360' -%}{%- break -%}{%- endif -%}{%- assign col = col_arr[forloop.index0] |default:col_arr_last -%}
             {%- render 'media2',media:media,alt:alt,eq_imgtb:eq_imgtb,values:values,col:col,ops_name:ops_name,ops_name_1:ops_name_1,ops_name_2:ops_name_2,ops_name_3:ops_name_3 -%}
          {%- endfor -%}
