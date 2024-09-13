@@ -1122,7 +1122,7 @@
               "open_link": "_blank",
               "caption_w": "1",
               "cap_v_pos": 50,
-              "cap_h_pos": 50,
+              "cap_h_pos": 99,
               "txt_align": "tl_md",
               "cap_v_pos_mb": 50,
               "cap_h_pos_mb": 50,
@@ -1143,6 +1143,22 @@
               "br_pd_mb": 10
             }
           },
+          "subhd_M87pei": {
+            "type": "subhd",
+            "settings": {
+              "font": "f_heading",
+              "title": "MAKE IT ALL YOURS",
+              "color": "#fff",
+              "fw_text": 500,
+              "fs_text": 31,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 20,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
           "1585640460694": {
             "type": "space",
             "settings": {
@@ -1153,7 +1169,7 @@
           "1585640447349": {
             "type": "hd",
             "settings": {
-              "title": "<h1 class=\"cp\">Get 10% Discount <\/h1>\n<h1 class=\"cp2\">On Your First Purchase<\/h1>",
+              "title": "<h1 class=\"cp2\">CUSTOM DESIGN<\/h1>",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -1191,18 +1207,18 @@
             "settings": {
               "title": "Go to Categories",
               "btn_link": "shopify:\/\/collections\/trending",
-              "title2": "Shop Now",
+              "title2": "Start Project",
               "btn_link2": "",
               "btn_round": false,
               "btn_icon": false,
-              "cl_txt": "#000000",
-              "cl_bg": "#d8d1c9",
-              "cl_bd": "#d8d1c9",
-              "fs_text": 14,
+              "cl_txt": "#ffffff",
+              "cl_bg": "rgba(0,0,0,0)",
+              "cl_bd": "#ffffff",
+              "fs_text": 18,
               "fw_text": 600,
               "h": 42,
-              "ls_text": 3,
-              "fs_mb_text": 14,
+              "ls_text": 1,
+              "fs_mb_text": 16,
               "h_mb": 40,
               "ls_mb_text": 0
             }
@@ -1210,6 +1226,7 @@
         },
         "block_order": [
           "1585640154849",
+          "subhd_M87pei",
           "1585640460694",
           "1585640447349",
           "txt_GC9Mrh",
