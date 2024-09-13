@@ -1182,6 +1182,7 @@
           },
           "txt_GC9Mrh": {
             "type": "txt",
+            "disabled": true,
             "settings": {
               "title": "This discount is available for all customer, Use this code at checkout.",
               "color": "#ffffff",
