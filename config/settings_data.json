@@ -1115,7 +1115,7 @@
           "1585640154849": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Group_1000004574.png",
+              "image": "shopify:\/\/shop_images\/02_e7e7b622-e8ed-4372-9a25-7b9cd885fb18.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1650,6 +1650,7 @@
           },
           "complementary_product_g3MjLw": {
             "type": "complementary_product",
+            "disabled": true,
             "settings": {
               "complementaryproductheading": "Matching Product",
               "complementaryproduct": "",
