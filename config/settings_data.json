@@ -3934,17 +3934,6 @@
           "image_size": "nt_cover",
           "image_position": "8"
         }
-      },
-      "bannersection_7M63gw": {
-        "type": "bannersection",
-        "settings": {
-          "banner_img": "shopify:\/\/shop_images\/01_Ok.jpg",
-          "banner_heading": "<p>cxcxcxc<\/p>",
-          "Paragraph_text": "cxcxc",
-          "button_text": "cxxcxcxc",
-          "button_background": "",
-          "button_link": "shopify:\/\/products\/0-9-carat-round-cut-moissanite-hip-hop-two-tone-cluster-flower-style-earring"
-        }
       }
     },
     "content_for_index": [
@@ -3962,8 +3951,7 @@
       "featured_collection_owl_pPqi3g",
       "custom_testimonial_9ppya7",
       "accordian_YbqUkH",
-      "our_shippingpartner_ihrWem",
-      "bannersection_7M63gw"
+      "our_shippingpartner_ihrWem"
     ],
     "blocks": {
       "14060646107696862457": {
