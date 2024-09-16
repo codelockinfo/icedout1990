@@ -1244,7 +1244,7 @@
             "type": "subhd",
             "settings": {
               "font": "f_heading",
-              "title": "MAKE IT ALL YOURS",
+              "title": "Shop The Latest",
               "color": "#ffffff",
               "fw_text": 500,
               "fs_text": 31,
@@ -1266,7 +1266,7 @@
           "hd_cwEPNL": {
             "type": "hd",
             "settings": {
-              "title": "<h1 class=\"cp2\">CUSTOM DESIGN<\/h1>",
+              "title": "<h1 class=\"cp2\">Collections<\/h1>",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
