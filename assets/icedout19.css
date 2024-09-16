@@ -1565,6 +1565,9 @@ ul.nt_filter_styleck>li.active>a:before {
 	.accordion_main_box .accordion_1 {
 		margin-top: 30px;
 	}
+  .pa_txts.mb_v_pos50{
+      top: 80% !important;
+  }
 }
 
 @media (max-width:749px) {
@@ -1723,3 +1726,7 @@ ul.nt_filter_styleck>li.active>a:before {
 #shopify-section-featured_collection_RgdUgV  .section-title{
     color: #fff !important;
 } */
+
+
+
+
