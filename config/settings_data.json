@@ -1116,7 +1116,39 @@
             "type": "img",
             "settings": {
               "image": "shopify:\/\/shop_images\/02_-_01.jpg",
-              "image_mb": "shopify:\/\/shop_images\/01_766dc597-bb47-46ce-be3b-cc44e70dc1e1.jpg",
+              "image_mb": "shopify:\/\/shop_images\/02_-_M0_27fc2cea-9a3f-49e6-af63-b13ec4b7c7a4.jpg",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 99,
+              "txt_align": "tc_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 50,
+              "txt_align_mb": "tc",
+              "cl_overlay": "#000000",
+              "cl_opacity": 10,
+              "ani_img": "tran_ef",
+              "ani_txt": "bottom_top",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "img_fkt7dt": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/01_-_4.jpg",
+              "image_mb": "shopify:\/\/shop_images\/02_-_M0_27fc2cea-9a3f-49e6-af63-b13ec4b7c7a4.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1181,6 +1213,22 @@
               "ls_mb_text": 0
             }
           },
+          "txt_GC9Mrh": {
+            "type": "txt",
+            "disabled": true,
+            "settings": {
+              "title": "This discount is available for all customer, Use this code at checkout.",
+              "color": "#ffffff",
+              "fw_text": 400,
+              "fs_text": 16,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
           "1585640466340": {
             "type": "space",
             "settings": {
@@ -1208,135 +1256,17 @@
               "h_mb": 40,
               "ls_mb_text": 0
             }
-          },
-          "img_fkt7dt": {
-            "type": "img",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/01_Ok.jpg",
-              "image_mb": "shopify:\/\/shop_images\/02_-_M0_27fc2cea-9a3f-49e6-af63-b13ec4b7c7a4.jpg",
-              "pos_img": "center center",
-              "cl_img": "",
-              "link_img1": "",
-              "open_link": "_blank",
-              "caption_w": "1",
-              "cap_v_pos": 50,
-              "cap_h_pos": 99,
-              "txt_align": "tc_md",
-              "cap_v_pos_mb": 50,
-              "cap_h_pos_mb": 50,
-              "txt_align_mb": "tc",
-              "cl_overlay": "#000000",
-              "cl_opacity": 10,
-              "ani_img": "tran_ef",
-              "ani_txt": "bottom_top",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#222222",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
-          },
-          "subhd_QJ84f7": {
-            "type": "subhd",
-            "settings": {
-              "font": "f_heading",
-              "title": "Shop The Latest",
-              "color": "#ffffff",
-              "fw_text": 500,
-              "fs_text": 31,
-              "lh_text": 0,
-              "ls_text": 0,
-              "fs_mb_text": 20,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0,
-              "hide": false
-            }
-          },
-          "space_im6pHR": {
-            "type": "space",
-            "settings": {
-              "sp": 15,
-              "sp_mb": 10
-            }
-          },
-          "hd_HEWE4U": {
-            "type": "hd",
-            "settings": {
-              "title": "<h1 class=\"cp2\">Collections<\/h1>",
-              "color": "#ffffff",
-              "fw_text": 700,
-              "fs_text": 50,
-              "lh_text": 0,
-              "ls_text": 1,
-              "fs_mb_text": 25,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0
-            }
-          },
-          "space_rbgfrW": {
-            "type": "space",
-            "settings": {
-              "sp": 15,
-              "sp_mb": 10
-            }
-          },
-          "btn_CH66wc": {
-            "type": "btn",
-            "settings": {
-              "title": "Shop Now",
-              "btn_link": "shopify:\/\/collections",
-              "title2": "Start Project",
-              "btn_link2": "",
-              "btn_round": false,
-              "btn_icon": false,
-              "cl_txt": "#ffffff",
-              "cl_bg": "rgba(0,0,0,0)",
-              "cl_bd": "#ffffff",
-              "fs_text": 18,
-              "fw_text": 600,
-              "h": 42,
-              "ls_text": 1,
-              "fs_mb_text": 16,
-              "h_mb": 40,
-              "ls_mb_text": 0
-            }
-          },
-          "txt_GC9Mrh": {
-            "type": "txt",
-            "disabled": true,
-            "settings": {
-              "title": "This discount is available for all customer, Use this code at checkout.",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 16,
-              "lh_text": 0,
-              "ls_text": 0,
-              "fs_mb_text": 14,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0,
-              "hide": false
-            }
           }
         },
         "block_order": [
           "1585640154849",
+          "img_fkt7dt",
           "subhd_M87pei",
           "1585640460694",
           "1585640447349",
+          "txt_GC9Mrh",
           "1585640466340",
-          "1585640453760",
-          "img_fkt7dt",
-          "subhd_QJ84f7",
-          "space_im6pHR",
-          "hd_HEWE4U",
-          "space_rbgfrW",
-          "btn_CH66wc",
-          "txt_GC9Mrh"
+          "1585640453760"
         ],
         "settings": {
           "se_height": "cus_h",
@@ -4004,6 +3934,17 @@
           "image_size": "nt_cover",
           "image_position": "8"
         }
+      },
+      "bannersection_7M63gw": {
+        "type": "bannersection",
+        "settings": {
+          "banner_img": "shopify:\/\/shop_images\/01_Ok.jpg",
+          "banner_heading": "<p>cxcxcxc<\/p>",
+          "Paragraph_text": "cxcxc",
+          "button_text": "cxxcxcxc",
+          "button_background": "",
+          "button_link": "shopify:\/\/products\/0-9-carat-round-cut-moissanite-hip-hop-two-tone-cluster-flower-style-earring"
+        }
       }
     },
     "content_for_index": [
@@ -4021,7 +3962,8 @@
       "featured_collection_owl_pPqi3g",
       "custom_testimonial_9ppya7",
       "accordian_YbqUkH",
-      "our_shippingpartner_ihrWem"
+      "our_shippingpartner_ihrWem",
+      "bannersection_7M63gw"
     ],
     "blocks": {
       "14060646107696862457": {
