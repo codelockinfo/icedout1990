@@ -1241,6 +1241,71 @@
               "br_pd_mb": 10
             }
           },
+          "subhd_QJ84f7": {
+            "type": "subhd",
+            "settings": {
+              "font": "f_heading",
+              "title": "Shop The Latest",
+              "color": "#ffffff",
+              "fw_text": 500,
+              "fs_text": 31,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 20,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "space_im6pHR": {
+            "type": "space",
+            "settings": {
+              "sp": 15,
+              "sp_mb": 10
+            }
+          },
+          "hd_HEWE4U": {
+            "type": "hd",
+            "settings": {
+              "title": "<h1 class=\"cp2\">Collections<\/h1>",
+              "color": "#ffffff",
+              "fw_text": 700,
+              "fs_text": 50,
+              "lh_text": 0,
+              "ls_text": 1,
+              "fs_mb_text": 25,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_rbgfrW": {
+            "type": "space",
+            "settings": {
+              "sp": 15,
+              "sp_mb": 10
+            }
+          },
+          "btn_CH66wc": {
+            "type": "btn",
+            "settings": {
+              "title": "Shop Now",
+              "btn_link": "shopify:\/\/collections",
+              "title2": "Start Project",
+              "btn_link2": "",
+              "btn_round": false,
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "rgba(0,0,0,0)",
+              "cl_bd": "#ffffff",
+              "fs_text": 18,
+              "fw_text": 600,
+              "h": 42,
+              "ls_text": 1,
+              "fs_mb_text": 16,
+              "h_mb": 40,
+              "ls_mb_text": 0
+            }
+          },
           "txt_GC9Mrh": {
             "type": "txt",
             "disabled": true,
@@ -1266,6 +1331,11 @@
           "1585640466340",
           "1585640453760",
           "img_fkt7dt",
+          "subhd_QJ84f7",
+          "space_im6pHR",
+          "hd_HEWE4U",
+          "space_rbgfrW",
+          "btn_CH66wc",
           "txt_GC9Mrh"
         ],
         "settings": {
