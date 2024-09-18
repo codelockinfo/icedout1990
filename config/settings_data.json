@@ -1449,7 +1449,7 @@
           "h_mb": "450px",
           "effect": "1",
           "loop": true,
-          "autoplay": true,
+          "autoplay": false,
           "au_time": 8,
           "au_hover": true,
           "button": false,
