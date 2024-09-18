@@ -3087,7 +3087,7 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
-              "sub_text": "",
+              "sub_text": "Collection",
               "category_name": "ICED OUT WATCH",
               "category_btns": "Go to Categories",
               "category_url": "shopify:\/\/collections\/branded-moissanite-iced-out-watches"
@@ -3097,7 +3097,7 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
-              "sub_text": "CATEGORIES",
+              "sub_text": "Collection",
               "category_name": "DESIGNER RING",
               "category_btns": "Go to Categories",
               "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
@@ -3142,6 +3142,16 @@
               "category_btns": "Go to Categories",
               "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
             }
+          },
+          "text_9AF9pa": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
+              "sub_text": "CATEGORIES",
+              "category_name": "DESIGNER RING",
+              "category_btns": "Go to Categories",
+              "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
+            }
           }
         },
         "block_order": [
@@ -3150,7 +3160,8 @@
           "text_JhVjXM",
           "text_FBARcN",
           "text_8gxzpY",
-          "text_G7V99Y"
+          "text_G7V99Y",
+          "text_9AF9pa"
         ],
         "settings": {
           "Bg_color": ""
