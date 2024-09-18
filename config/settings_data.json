@@ -3088,7 +3088,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
               "sub_text": "Collection",
-              "category_name": "WATCH",
+              "category_name": "WATCHES",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/branded-moissanite-iced-out-watches"
             }
@@ -3098,7 +3098,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
               "sub_text": "Collection",
-              "category_name": "DESIGNER RING",
+              "category_name": "RINGS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
             }
@@ -3107,8 +3107,8 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004568_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "CUSTOM NAMEPLATES",
+              "sub_text": "Collection",
+              "category_name": "EARRINGS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-diamond-custom-nameplate-pendant"
             }
@@ -3117,8 +3117,8 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004569_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "MIAMI  CUBAN CHAIN",
+              "sub_text": "Collection",
+              "category_name": "CHAINS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
             }
@@ -3127,8 +3127,8 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "ICED OUT WATCH",
+              "sub_text": "Collection",
+              "category_name": "PENDANTS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
             }
@@ -3137,8 +3137,8 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "DESIGNER RING",
+              "sub_text": "Collection",
+              "category_name": "BRACELETS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
             }
