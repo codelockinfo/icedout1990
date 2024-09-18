@@ -3168,6 +3168,13 @@
               "category_img": "shopify:\/\/shop_images\/Group_1000004576.png",
               "category_url": ""
             }
+          },
+          "img_h6UdqG": {
+            "type": "img",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/01_60e6243b-430e-4f40-8808-994f94418f8a.jpg",
+              "category_url": ""
+            }
           }
         },
         "block_order": [
@@ -3176,7 +3183,8 @@
           "img_MpicHX",
           "img_nK7RWr",
           "img_7gwyLX",
-          "img_FByQyT"
+          "img_FByQyT",
+          "img_h6UdqG"
         ],
         "settings": {
           "headingtext": "",
