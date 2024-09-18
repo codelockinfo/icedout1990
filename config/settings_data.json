@@ -1449,7 +1449,7 @@
           "h_mb": "450px",
           "effect": "1",
           "loop": true,
-          "autoplay": false,
+          "autoplay": true,
           "au_time": 8,
           "au_hover": true,
           "button": false,
@@ -3189,7 +3189,7 @@
           "text_4GxKwQ": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/01_2ee4d1c2-6d7e-407b-82d5-2c48bf0ba2e1.jpg",
+              "category_img": "shopify:\/\/shop_images\/04_fe1c5720-61e2-466c-a3d4-eb7673812df8.jpg",
               "sub_text": "Collection",
               "category_name": "WATCHES",
               "category_btns": "Explore More",
