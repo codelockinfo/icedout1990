@@ -1449,7 +1449,7 @@
           "h_mb": "450px",
           "effect": "1",
           "loop": true,
-          "autoplay": false,
+          "autoplay": true,
           "au_time": 8,
           "au_hover": true,
           "button": false,
@@ -3189,9 +3189,9 @@
           "text_4GxKwQ": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/01_2ee4d1c2-6d7e-407b-82d5-2c48bf0ba2e1.jpg",
+              "category_img": "shopify:\/\/shop_images\/04_fe1c5720-61e2-466c-a3d4-eb7673812df8.jpg",
               "sub_text": "Collection",
-              "category_name": "WATCHES",
+              "category_name": "RINGS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/branded-moissanite-iced-out-watches"
             }
@@ -3201,7 +3201,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/id.jpg",
               "sub_text": "Collection",
-              "category_name": "RINGS",
+              "category_name": "WATCHES",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
             }
@@ -3211,7 +3211,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/02_c3666908-e8d2-41b4-b036-40496b4f3db6.jpg",
               "sub_text": "Collection",
-              "category_name": "EARRINGS",
+              "category_name": "BRACELETS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-diamond-custom-nameplate-pendant"
             }
@@ -3219,9 +3219,9 @@
           "text_FBARcN": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004569_1.png",
+              "category_img": "shopify:\/\/shop_images\/03_72ddd97b-2ad8-4625-819c-ad3b6f910c35.jpg",
               "sub_text": "Collection",
-              "category_name": "CHAINS",
+              "category_name": "EARRINGS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
             }
@@ -3229,9 +3229,9 @@
           "text_8gxzpY": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
+              "category_img": "shopify:\/\/shop_images\/05_11a8366d-20bd-4645-8861-27cd40212fbd.jpg",
               "sub_text": "Collection",
-              "category_name": "PENDANTS",
+              "category_name": "CHAINS",
               "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
             }
@@ -3358,7 +3358,7 @@
           "hd_dz393k": {
             "type": "hd",
             "settings": {
-              "title": "Timeless icedout1990 <br>for Every Occasion",
+              "title": "Timeless iced out 1990 <br>for Every Occasion",
               "color": "#a1baeb",
               "fw_text": 800,
               "fs_text": 30,
