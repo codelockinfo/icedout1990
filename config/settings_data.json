@@ -501,6 +501,7 @@
           },
           "mega_XjkEfX": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "WATCHES",
               "url": "shopify:\/\/collections\/rolex-watches-for-men-1",
