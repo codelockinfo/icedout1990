@@ -616,6 +616,7 @@
           },
           "cat_Eb4iyb": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/MG_7408_50dee858-4653-47f9-a3c0-77d16372d16b.jpg",
               "cat_design": "1",
@@ -645,6 +646,7 @@
           },
           "link_Ac9yCt": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Ready To Ship Jewelry",
               "url": "shopify:\/\/collections\/ready-to-ship-jewelry",
