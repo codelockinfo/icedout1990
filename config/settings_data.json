@@ -1452,7 +1452,7 @@
           "effect": "1",
           "loop": true,
           "autoplay": true,
-          "au_time": 8,
+          "au_time": 4,
           "au_hover": true,
           "button": false,
           "btn_vi": "2",
