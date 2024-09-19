@@ -527,23 +527,6 @@
               "col": "4"
             }
           },
-          "mega_6dDk9M": {
-            "type": "mega",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 1200
-            }
-          },
           "link_yR98UQ": {
             "type": "link",
             "disabled": true,
@@ -742,7 +725,6 @@
           "simple_L9fxHh",
           "mega_XjkEfX",
           "link_r3wTBD",
-          "mega_6dDk9M",
           "link_yR98UQ",
           "cat_GHQfaQ",
           "mega_HPJfN9",
