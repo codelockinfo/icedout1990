@@ -4131,6 +4131,17 @@
           "image_size": "nt_cover",
           "image_position": "8"
         }
+      },
+      "accordian": {
+        "type": "accordian",
+        "settings": {
+          "bg_color": "#ffffff",
+          "title": "Collection Grid",
+          "sub_title": "xxaSasaSAsASAsASAs",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1"
+        }
       }
     },
     "content_for_index": [
