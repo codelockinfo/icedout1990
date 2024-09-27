@@ -4295,6 +4295,21 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "collection_slider_withimg_YDgjTE": {
+        "type": "collection-slider-withimg",
+        "settings": {
+          "collectionproduct": "iced-out-audemars-pigute-watch-swiss-luxury-watches",
+          "title": "Collection Grid",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1",
+          "colimg": "shopify://shop_images/homepage-banner-moissanite-chains.webp",
+          "typedimond": "",
+          "colname": "",
+          "colurl": ""
+        }
       }
     },
     "content_for_index": [
@@ -4312,7 +4327,8 @@
       "featured_collection_owl_pPqi3g",
       "custom_testimonial_9ppya7",
       "accordian_YbqUkH",
-      "our_shippingpartner_ihrWem"
+      "our_shippingpartner_ihrWem",
+      "collection_slider_withimg_YDgjTE"
     ],
     "blocks": {
       "14060646107696862457": {
