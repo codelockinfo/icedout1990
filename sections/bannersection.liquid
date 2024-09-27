@@ -19,15 +19,22 @@
       </div>
     </div>
   </div>
-{% if section.settings.banner_img != blank %}<img src="{{ section.settings.banner_img |  img_url: 'master'}}" class="banner-img" alt=""> {% endif %}
-{% if section.settings.banner_img_mobile != blank %}<img src="{{ section.settings.banner_img_mobile |  img_url: 'master'}}" class="banner-img banner-img-mobile" alt="">{% endif %}
+  {% if section.settings.banner_img != blank %}<img
+      src="{{ section.settings.banner_img |  img_url: 'master'}}"
+      class="banner-img"
+      alt="">
+  {% endif %}
+  {% if section.settings.banner_img_mobile != blank %}<img
+      src="{{ section.settings.banner_img_mobile |  img_url: 'master'}}"
+      class="banner-img banner-img-mobile"
+      alt="">{% endif %}
 </div>
 
 {% schema %}
   {
     "name": "custom banner",
     "settings": [
-    
+
       {
         "type": "image_picker",
         "id": "banner_img",
@@ -37,23 +44,21 @@
         "type": "richtext",
         "id": "banner_heading",
         "label": "Add main heading"
-      }, 
+      },
       {
         "type": "text",
         "id": "Paragraph_text",
         "label": "Add Content"
       },
-       {
+      {
         "type": "text",
         "id": "button_text",
         "label": "Add button text"
-      }, 
-      {
+      }, {
         "type": "color",
         "id": "button_background",
         "label": "Button backgroud color"
-      }, 
-      {
+      }, {
         "type": "url",
         "id": "button_link",
         "label": "Add button link"
@@ -70,7 +75,7 @@
 
 <style>
   /* BANNER SECTION  */
-  .banner-img-mobile{
+  .banner-img-mobile {
     display: none;
   }
   .width-container {
@@ -97,7 +102,7 @@
     bottom: 0;
     background: linear-gradient(90deg, #354856 0%, rgba(82, 82, 110, 0) 72.16%);
   }
-  
+
   .banner .banner-box {
     z-index: 9;
   }
@@ -130,14 +135,16 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    font-family: 'Montserrat Alternates';
+    font-family: "Montserrat"
+    , sans-serif;
     width: 60%;
     color: #777777;
     margin: 40px 0;
   }
   .banner .banner-box .banner-content .banner-button {
     font-size: 20px;
-    font-family: 'Montserrat Alternates';
+    font-family: "Montserrat"
+    , sans-serif;
     background-color: #D8D1C9;
     padding: 10px 15px;
     border: none;
@@ -148,17 +155,18 @@
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
-    font-family: 'Montserrat Alternates';
+    font-family: "Montserrat"
+    , sans-serif;
     font-weight: 500px;
   }
-  
+
 
   .banner .banner-img {
     max-width: 100%;
     height: 100%;
     position: absolute;
     object-fit: cover;
-    object-position: right ;
+    object-position: right;
     z-index: -1;
     top: 0;
     right: -5%;
@@ -173,32 +181,33 @@
     }
   }
   @media (max-width: 852px) {
-  
+
     .banner-content {
       padding-bottom: 200px !important;
     }
-  
+
   }
 
   @media (max-width: 768px) {
-    .banner .banner-img,.banner-png{
-      display:none;
+    .banner .banner-img,
+    .banner-png {
+      display: none;
     }
-    .banner .banner-img.banner-img-mobile{
+    .banner .banner-img.banner-img-mobile {
       display: block;
-      right:0;
+      right: 0;
       height: auto;
     }
-    .heading-h1{
+    .heading-h1 {
       line-height: 1;
     }
-    .banner .banner-box .banner-content .banner-p{
+    .banner .banner-box .banner-content .banner-p {
       line-height: 2;
     }
-    .banner .banner-box .banner-content{
+    .banner .banner-box .banner-content {
       padding-top: 50px;
     }
-    .banner{
+    .banner {
       background-color: #f9f9f9 !important;
       background-image: unset;
     }
@@ -233,8 +242,8 @@
     }
   }
 
-  @media (max-width: 660px){
-    .banner .banner-box .banner-content .heading-h1{
+  @media (max-width: 660px) {
+    .banner .banner-box .banner-content .heading-h1 {
       font-size: 60px
     }
   }
@@ -256,11 +265,14 @@
     }
   }
 
-  /* @media (max-width: 409px) {
-    .banner-content {
-      padding-bottom: 250px;
-    }
-  } */
+
+  /*
+   @media (max-width: 409px) { 
+   .banner-content { 
+   padding-bottom: 250px; 
+   } 
+   }
+*/
 
   @media (max-width: 400px) {
     .banner .banner-box .banner-content .heading-h1 {
@@ -270,7 +282,7 @@
       font-size: 12px;
     }
   }
-  @media  (min-width: 320px) and (max-width:409px) {
+  @media (min-width: 320px) and (max-width: 409px) {
     .banner-content {
       padding-bottom: 250px !important;
     }

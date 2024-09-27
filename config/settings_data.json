@@ -61,7 +61,7 @@
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
     "logo_svg": "",
-    "logo": "shopify:\/\/shop_images\/logo_6_1.png",
+    "logo": "shopify:\/\/shop_images\/20200610_205048.jpg",
     "logo_retina": "",
     "logo_width": 75,
     "logos": "",
@@ -520,14 +520,15 @@
             "type": "link",
             "settings": {
               "tt_hd": "Iced Out Watches",
-              "url": "shopify:\/\/collections\/branded-moissanite-iced-out-watches",
+              "url": "shopify:\/\/collections\/rolex-watches-for-men-1",
               "open_link": "_self",
-              "menu": "iced-out-watches",
+              "menu": "moissanite-watches",
               "col": "4"
             }
           },
           "link_yR98UQ": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Plain Watches",
               "url": "shopify:\/\/collections\/audemars-piguet-moissanite-watches-for-men",
@@ -606,7 +607,6 @@
           },
           "link_EkTW3k": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "CHAINS",
               "url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain",
@@ -615,8 +615,19 @@
               "col": "2"
             }
           },
+          "link_8b383J": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Ready to Ship",
+              "url": "shopify:\/\/collections\/ready-to-ship-jewelry",
+              "open_link": "_self",
+              "menu": "ready-to-ship-jewelry",
+              "col": "2"
+            }
+          },
           "cat_Eb4iyb": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/MG_7408_50dee858-4653-47f9-a3c0-77d16372d16b.jpg",
               "cat_design": "1",
@@ -646,6 +657,7 @@
           },
           "link_Ac9yCt": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Ready To Ship Jewelry",
               "url": "shopify:\/\/collections\/ready-to-ship-jewelry",
@@ -730,6 +742,7 @@
           "link_7PemE7",
           "link_rDU7J8",
           "link_EkTW3k",
+          "link_8b383J",
           "cat_Eb4iyb",
           "mega_KtwzH7",
           "link_Ac9yCt",
@@ -752,7 +765,7 @@
           "1581507819652": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/logo_6_1.png",
+              "image": "shopify:\/\/shop_images\/20200610_205048.jpg",
               "logo_width": 115,
               "title": "",
               "content": "We are manufacturer of watches and jewelry. We make all kind of jewelry like Ring, Pendant, Necklace, Earrings, Bracelet etc.",
@@ -1306,6 +1319,103 @@
               "ls_mb_text": 0
             }
           },
+          "img_eha67E": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/04_-_002.jpg",
+              "image_mb": "shopify:\/\/shop_images\/03_c749bd1d-1707-443c-8d92-b7be99fda100.jpg",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 99,
+              "txt_align": "tc_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 50,
+              "txt_align_mb": "tc",
+              "cl_overlay": "#000000",
+              "cl_opacity": 10,
+              "ani_img": "tran_ef",
+              "ani_txt": "bottom_top",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "subhd_MdinLm": {
+            "type": "subhd",
+            "settings": {
+              "font": "f_heading",
+              "title": "Shine with Every Second",
+              "color": "#ffffff",
+              "fw_text": 500,
+              "fs_text": 31,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 20,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "space_grPwkT": {
+            "type": "space",
+            "settings": {
+              "sp": 15,
+              "sp_mb": 10
+            }
+          },
+          "hd_k6aJfK": {
+            "type": "hd",
+            "settings": {
+              "title": "<h1 class=\"cp2\">Moissanite Watch<\/h1>",
+              "color": "#ffffff",
+              "fw_text": 700,
+              "fs_text": 50,
+              "lh_text": 0,
+              "ls_text": 1,
+              "fs_mb_text": 25,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_YztKzx": {
+            "type": "space",
+            "settings": {
+              "sp": 15,
+              "sp_mb": 10
+            }
+          },
+          "btn_ahbLLT": {
+            "type": "btn",
+            "settings": {
+              "title": "Shop Now",
+              "btn_link": "shopify:\/\/collections",
+              "title2": "Start Project",
+              "btn_link2": "",
+              "btn_round": false,
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "rgba(0,0,0,0)",
+              "cl_bd": "#ffffff",
+              "fs_text": 18,
+              "fw_text": 600,
+              "h": 42,
+              "ls_text": 1,
+              "fs_mb_text": 16,
+              "h_mb": 40,
+              "ls_mb_text": 0
+            }
+          },
           "txt_GC9Mrh": {
             "type": "txt",
             "disabled": true,
@@ -1336,6 +1446,12 @@
           "hd_cwEPNL",
           "1585640466340",
           "1585640453760",
+          "img_eha67E",
+          "subhd_MdinLm",
+          "space_grPwkT",
+          "hd_k6aJfK",
+          "space_YztKzx",
+          "btn_ahbLLT",
           "txt_GC9Mrh"
         ],
         "settings": {
@@ -1347,7 +1463,7 @@
           "effect": "1",
           "loop": true,
           "autoplay": true,
-          "au_time": 8,
+          "au_time": 4,
           "au_hover": true,
           "button": false,
           "btn_vi": "2",
@@ -3065,6 +3181,13 @@
               "category_img": "shopify:\/\/shop_images\/Group_1000004576.png",
               "category_url": ""
             }
+          },
+          "img_h6UdqG": {
+            "type": "img",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/01.png",
+              "category_url": ""
+            }
           }
         },
         "block_order": [
@@ -3073,8 +3196,10 @@
           "img_MpicHX",
           "img_nK7RWr",
           "img_7gwyLX",
-          "img_FByQyT"
+          "img_FByQyT",
+          "img_h6UdqG"
         ],
+        "disabled": true,
         "settings": {
           "headingtext": "",
           "Bg_color": ""
@@ -3086,60 +3211,70 @@
           "text_4GxKwQ": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "ICED OUT WATCH",
-              "category_btns": "Go to Categories",
-              "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
+              "category_img": "shopify:\/\/shop_images\/04_fe1c5720-61e2-466c-a3d4-eb7673812df8.jpg",
+              "sub_text": "Collection",
+              "category_name": "RINGS",
+              "category_btns": "Explore More",
+              "category_url": "shopify:\/\/collections\/branded-moissanite-iced-out-watches"
             }
           },
           "text_pYmHYx": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "DESIGNER RING",
-              "category_btns": "Go to Categories",
+              "category_img": "shopify:\/\/shop_images\/id.jpg",
+              "sub_text": "Collection",
+              "category_name": "WATCHES",
+              "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
             }
           },
           "text_JhVjXM": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004568_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "CUSTOM NAMEPLATES",
-              "category_btns": "Go to Categories",
+              "category_img": "shopify:\/\/shop_images\/02_c3666908-e8d2-41b4-b036-40496b4f3db6.jpg",
+              "sub_text": "Collection",
+              "category_name": "BRACELETS",
+              "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-diamond-custom-nameplate-pendant"
             }
           },
           "text_FBARcN": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004569_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "MIAMI  CUBAN CHAIN",
-              "category_btns": "Go to Categories",
+              "category_img": "shopify:\/\/shop_images\/03_72ddd97b-2ad8-4625-819c-ad3b6f910c35.jpg",
+              "sub_text": "Collection",
+              "category_name": "EARRINGS",
+              "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
             }
           },
           "text_8gxzpY": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004566_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "ICED OUT WATCH",
-              "category_btns": "Go to Categories",
+              "category_img": "shopify:\/\/shop_images\/05_11a8366d-20bd-4645-8861-27cd40212fbd.jpg",
+              "sub_text": "Collection",
+              "category_name": "CHAINS",
+              "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
             }
           },
           "text_G7V99Y": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004567_1.png",
-              "sub_text": "CATEGORIES",
-              "category_name": "DESIGNER RING",
-              "category_btns": "Go to Categories",
+              "category_img": "shopify:\/\/shop_images\/06.jpg",
+              "sub_text": "Collection",
+              "category_name": "BRACELETS",
+              "category_btns": "Explore More",
+              "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
+            }
+          },
+          "text_9AF9pa": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/07.jpg",
+              "sub_text": "Collection",
+              "category_name": "CUSTOM JEWELRY",
+              "category_btns": "Explore More",
               "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
             }
           }
@@ -3150,7 +3285,8 @@
           "text_JhVjXM",
           "text_FBARcN",
           "text_8gxzpY",
-          "text_G7V99Y"
+          "text_G7V99Y",
+          "text_9AF9pa"
         ],
         "settings": {
           "Bg_color": ""
@@ -3244,7 +3380,7 @@
           "hd_dz393k": {
             "type": "hd",
             "settings": {
-              "title": "Timeless icedout1990 <br>for Every Occasion",
+              "title": "Timeless iced out 1990 <br>for Every Occasion",
               "color": "#a1baeb",
               "fw_text": 800,
               "fs_text": 30,
@@ -3308,6 +3444,7 @@
           "space_FPdbrr",
           "btn_WhjfWi"
         ],
+        "disabled": true,
         "settings": {
           "title": "Featured Products",
           "sub_title": "",
@@ -3434,6 +3571,7 @@
           "6_wzwfhj",
           "3_4f7QLN"
         ],
+        "disabled": true,
         "settings": {
           "se_height": "cus_h",
           "use_custom_h": "1",
@@ -4003,6 +4141,17 @@
           "image_ratio": "ratio_nt",
           "image_size": "nt_cover",
           "image_position": "8"
+        }
+      },
+      "accordian": {
+        "type": "accordian",
+        "settings": {
+          "bg_color": "#ffffff",
+          "title": "Collection",
+          "sub_title": "xxaSasaSAsASAsASAs",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1"
         }
       }
     },
