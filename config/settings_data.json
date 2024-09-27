@@ -56,12 +56,12 @@
     "c_2": "",
     "c_3": "",
     "c_4": "",
-    "placeholder_img": "shopify:\/\/shop_images\/brand-logo_1.jpg",
+    "placeholder_img": "shopify://shop_images/brand-logo_1.jpg",
     "enable_meta": true,
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
     "logo_svg": "",
-    "logo": "shopify:\/\/shop_images\/20200610_205048.jpg",
+    "logo": "shopify://shop_images/20200610_205048.jpg",
     "logo_retina": "",
     "logo_width": 75,
     "logos": "",
@@ -306,7 +306,7 @@
     "currency_format": "money_format",
     "round_currency": false,
     "notify_currency": true,
-    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"><\/span>, the checkout will use {{ currency }} at the most current exchange rate.",
+    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"></span>, the checkout will use {{ currency }} at the most current exchange rate.",
     "hover_currency": false,
     "custom_css": false,
     "global_css": "",
@@ -323,14 +323,14 @@
     "share_email": true,
     "share_telegram": true,
     "share_whatsapp": false,
-    "social_facebook_link": "https:\/\/facebook.com\/shopify",
-    "social_twitter_link": "https:\/\/twitter.com\/shopify",
-    "social_instagram_link": "https:\/\/instagram.com\/shopify",
-    "social_dribbble_link": "https:\/\/dribbble.com\/shopify",
+    "social_facebook_link": "https://facebook.com/shopify",
+    "social_twitter_link": "https://twitter.com/shopify",
+    "social_instagram_link": "https://instagram.com/shopify",
+    "social_dribbble_link": "https://dribbble.com/shopify",
     "social_linkedin_link": "",
-    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
+    "social_pinterest_link": "https://pinterest.com/shopify",
     "social_tumblr_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "social_youtube_link": "https://www.youtube.com/shopify",
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "favicon": "",
@@ -367,7 +367,7 @@
     "fv_txtcolor": "#ffffff",
     "enable_pro_pp": false,
     "operation_days": "Mon:1700-2100,Tue:1700-2100,Wed:1700-2200,Thu:1700-2200,Fri:1700-2300,Sat:1200-2300,Sun:1200-2100",
-    "timezones": "America\/Los_Angeles",
+    "timezones": "America/Los_Angeles",
     "sale_cl": "#ec0101",
     "color_body_text": "#555555",
     "color_price_sale": "#ec0101",
@@ -443,7 +443,7 @@
           "1596007070336": {
             "type": "text2",
             "settings": {
-              "text": "<p>Summer sale discount off <a href=\"#cr\" title=\"#cr\"><strong>50%<\/strong><\/a>! <a href=\"\/collections\/clothing\" title=\"Clothing\">Shop Now<\/a>;;;<\/p><p>The Best Shopify Themes.;;;<\/p><p>MADE WITH LOVE;;;<\/p><p>Customer support is second to none;;;<\/p><p>Fantastic theme! Beautifully designed!<\/p>",
+              "text": "<p>Summer sale discount off <a href=\"#cr\" title=\"#cr\"><strong>50%</strong></a>! <a href=\"/collections/clothing\" title=\"Clothing\">Shop Now</a>;;;</p><p>The Best Shopify Themes.;;;</p><p>MADE WITH LOVE;;;</p><p>Customer support is second to none;;;</p><p>Fantastic theme! Beautifully designed!</p>",
               "effect": "1",
               "au_time": 2.5,
               "hide": false,
@@ -490,7 +490,7 @@
             "disabled": true,
             "settings": {
               "title": "HOME",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -503,7 +503,7 @@
             "type": "mega",
             "settings": {
               "title": "WATCHES",
-              "url": "shopify:\/\/collections\/rolex-watches-for-men-1",
+              "url": "shopify://collections/rolex-watches-for-men-1",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -520,7 +520,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Iced Out Watches",
-              "url": "shopify:\/\/collections\/rolex-watches-for-men-1",
+              "url": "shopify://collections/rolex-watches-for-men-1",
               "open_link": "_self",
               "menu": "moissanite-watches",
               "col": "4"
@@ -531,7 +531,7 @@
             "disabled": true,
             "settings": {
               "tt_hd": "Plain Watches",
-              "url": "shopify:\/\/collections\/audemars-piguet-moissanite-watches-for-men",
+              "url": "shopify://collections/audemars-piguet-moissanite-watches-for-men",
               "open_link": "_self",
               "menu": "plain-watches",
               "col": "4"
@@ -540,7 +540,7 @@
           "cat_GHQfaQ": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1_a113df8b-ed67-490d-8ee0-b6132f6af841.jpg",
+              "image": "shopify://shop_images/1_a113df8b-ed67-490d-8ee0-b6132f6af841.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "rolex-watches-for-men-1",
@@ -552,7 +552,7 @@
             "type": "mega",
             "settings": {
               "title": "HIP HOP JEWELRY",
-              "url": "shopify:\/\/collections\/moissanite-miami-cuban-chain",
+              "url": "shopify://collections/moissanite-miami-cuban-chain",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -569,7 +569,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "RING",
-              "url": "shopify:\/\/collections\/925-sterling-silver-moissanite-ring-for-engagement",
+              "url": "shopify://collections/925-sterling-silver-moissanite-ring-for-engagement",
               "open_link": "_self",
               "menu": "ring",
               "col": "2"
@@ -579,7 +579,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "EARRINGS",
-              "url": "shopify:\/\/collections\/moissanite-diamond-earrings",
+              "url": "shopify://collections/moissanite-diamond-earrings",
               "open_link": "_self",
               "menu": "earrings",
               "col": "2"
@@ -589,7 +589,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PENDANTS",
-              "url": "shopify:\/\/collections\/moissanite-iced-out-3d-enamel-pendant",
+              "url": "shopify://collections/moissanite-iced-out-3d-enamel-pendant",
               "open_link": "_self",
               "menu": "pendants",
               "col": "2"
@@ -599,7 +599,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "BRACELETS",
-              "url": "shopify:\/\/collections\/moissanite-bracelet-for-women",
+              "url": "shopify://collections/moissanite-bracelet-for-women",
               "open_link": "_self",
               "menu": "bracelets",
               "col": "2"
@@ -609,7 +609,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "CHAINS",
-              "url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain",
+              "url": "shopify://collections/moissanite-diamond-hip-hop-chain",
               "open_link": "_self",
               "menu": "chains",
               "col": "2"
@@ -619,7 +619,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Ready to Ship",
-              "url": "shopify:\/\/collections\/ready-to-ship-jewelry",
+              "url": "shopify://collections/ready-to-ship-jewelry",
               "open_link": "_self",
               "menu": "ready-to-ship-jewelry",
               "col": "2"
@@ -629,7 +629,7 @@
             "type": "cat",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/MG_7408_50dee858-4653-47f9-a3c0-77d16372d16b.jpg",
+              "image": "shopify://shop_images/MG_7408_50dee858-4653-47f9-a3c0-77d16372d16b.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "moissanite-diamond-hip-hop-chain",
@@ -642,7 +642,7 @@
             "disabled": true,
             "settings": {
               "title": "READY TO SHIP",
-              "url": "shopify:\/\/collections\/earrings",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -660,7 +660,7 @@
             "disabled": true,
             "settings": {
               "tt_hd": "Ready To Ship Jewelry",
-              "url": "shopify:\/\/collections\/ready-to-ship-jewelry",
+              "url": "shopify://collections/ready-to-ship-jewelry",
               "open_link": "_self",
               "menu": "ready-to-ship-jewelry",
               "col": "4"
@@ -670,7 +670,7 @@
             "type": "cat",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/02_667d3a73-92c9-44a2-8c9e-09b4f0a3d8c4.jpg",
+              "image": "shopify://shop_images/02_667d3a73-92c9-44a2-8c9e-09b4f0a3d8c4.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "rolex-watches-for-men-1",
@@ -682,7 +682,7 @@
             "type": "cat",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/MG_7407_dbe40612-68e0-4d21-9161-fa3500c8d36e.jpg",
+              "image": "shopify://shop_images/MG_7407_dbe40612-68e0-4d21-9161-fa3500c8d36e.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "moissanite-bracelet-for-women",
@@ -694,7 +694,7 @@
             "type": "simple",
             "settings": {
               "title": "CUSTOM",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -707,7 +707,7 @@
             "type": "simple",
             "settings": {
               "title": "BLOGS",
-              "url": "shopify:\/\/blogs\/news",
+              "url": "shopify://blogs/news",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -720,7 +720,7 @@
             "type": "simple",
             "settings": {
               "title": "REVIEWS",
-              "url": "shopify:\/\/pages\/reviews",
+              "url": "shopify://pages/reviews",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -765,7 +765,7 @@
           "1581507819652": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/20200610_205048.jpg",
+              "image": "shopify://shop_images/20200610_205048.jpg",
               "logo_width": 115,
               "title": "",
               "content": "We are manufacturer of watches and jewelry. We make all kind of jewelry like Ring, Pendant, Necklace, Earrings, Bracelet etc.",
@@ -820,11 +820,11 @@
           "bg_size": "cover",
           "bg_att": "scroll",
           "bg_pos": "center center",
-          "image": "shopify:\/\/shop_images\/Rectangle_127.png",
+          "image": "shopify://shop_images/Rectangle_127.png",
           "cl_overlay": "#000000",
           "cl_opacity": 0,
           "social_mode": "3",
-          "text": "Copyright © [year] icedout1990.com  all rights reserved. Powered by <a href=\"mailto:codelock2021@gmail.com\" a=\"\">Codelock Solution<\/a>",
+          "text": "Copyright © [year] icedout1990.com  all rights reserved. Powered by <a href=\"mailto:codelock2021@gmail.com\" a=\"\">Codelock Solution</a>",
           "layout": "6"
         }
       },
@@ -834,7 +834,7 @@
           "1581507860120": {
             "type": "copy",
             "settings": {
-              "text": "Copyright © [year] <span class=\"cp\">Gecko<\/span> All Rights Reserved. Powered by <a href=\"https:\/\/the4.co\">The4<\/a>"
+              "text": "Copyright © [year] <span class=\"cp\">Gecko</span> All Rights Reserved. Powered by <a href=\"https://the4.co\">The4</a>"
             }
           },
           "1581507855652": {
@@ -1128,8 +1128,8 @@
           "1585640154849": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/02_-_01.jpg",
-              "image_mb": "shopify:\/\/shop_images\/01_54e0bb0a-4c12-4106-9046-7ddad76316dc.jpg",
+              "image": "shopify://shop_images/02_-_01.jpg",
+              "image_mb": "shopify://shop_images/01_54e0bb0a-4c12-4106-9046-7ddad76316dc.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1183,7 +1183,7 @@
           "1585640447349": {
             "type": "hd",
             "settings": {
-              "title": "<h1 class=\"cp2\">CUSTOM DESIGN<\/h1>",
+              "title": "<h1 class=\"cp2\">CUSTOM DESIGN</h1>",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -1205,7 +1205,7 @@
             "type": "btn",
             "settings": {
               "title": "Go to Categories",
-              "btn_link": "shopify:\/\/collections",
+              "btn_link": "shopify://collections",
               "title2": "Start Project",
               "btn_link2": "",
               "btn_round": false,
@@ -1225,8 +1225,8 @@
           "img_fkt7dt": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/01_Ok.jpg",
-              "image_mb": "shopify:\/\/shop_images\/02_e91f69c8-ed85-449d-831f-60365be4d03d.jpg",
+              "image": "shopify://shop_images/01_Ok.jpg",
+              "image_mb": "shopify://shop_images/02_e91f69c8-ed85-449d-831f-60365be4d03d.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1280,7 +1280,7 @@
           "hd_cwEPNL": {
             "type": "hd",
             "settings": {
-              "title": "<h1 class=\"cp2\">Collections<\/h1>",
+              "title": "<h1 class=\"cp2\">Collections</h1>",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -1302,7 +1302,7 @@
             "type": "btn",
             "settings": {
               "title": "Shop Now",
-              "btn_link": "shopify:\/\/collections",
+              "btn_link": "shopify://collections",
               "title2": "Start Project",
               "btn_link2": "",
               "btn_round": false,
@@ -1322,8 +1322,8 @@
           "img_eha67E": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/04_-_002.jpg",
-              "image_mb": "shopify:\/\/shop_images\/03_c749bd1d-1707-443c-8d92-b7be99fda100.jpg",
+              "image": "shopify://shop_images/04_-_002.jpg",
+              "image_mb": "shopify://shop_images/03_c749bd1d-1707-443c-8d92-b7be99fda100.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1377,7 +1377,7 @@
           "hd_k6aJfK": {
             "type": "hd",
             "settings": {
-              "title": "<h1 class=\"cp2\">Moissanite Watch<\/h1>",
+              "title": "<h1 class=\"cp2\">Moissanite Watch</h1>",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -1399,7 +1399,7 @@
             "type": "btn",
             "settings": {
               "title": "Shop Now",
-              "btn_link": "shopify:\/\/collections",
+              "btn_link": "shopify://collections",
               "title2": "Start Project",
               "btn_link2": "",
               "btn_round": false,
@@ -1483,9 +1483,9 @@
       "header_banner": {
         "type": "header_banner",
         "settings": {
-          "link": "shopify:\/\/collections\/trending",
-          "text": "Today deal sale off <strong>70% <\/strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"><\/i>",
-          "countdown": "2020\/12\/19",
+          "link": "shopify://collections/trending",
+          "text": "Today deal sale off <strong>70% </strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"></i>",
+          "countdown": "2020/12/19",
           "height": 41,
           "fontsize": 12,
           "cl": "#fff",
@@ -1620,7 +1620,7 @@
         ],
         "settings": {
           "shown": true,
-          "image": "shopify:\/\/shop_images\/27330ac8c9d7e0a9bc4f38af83b5e1de.jpg",
+          "image": "shopify://shop_images/27330ac8c9d7e0a9bc4f38af83b5e1de.jpg",
           "use_specify_image": false,
           "parallax": false,
           "color": "#000000",
@@ -2106,7 +2106,7 @@
           "cart_heading-0"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/27330ac8c9d7e0a9bc4f38af83b5e1de_45253a99-7d48-48a4-bf8a-6c031c90fb02.jpg",
+          "image": "shopify://shop_images/27330ac8c9d7e0a9bc4f38af83b5e1de_45253a99-7d48-48a4-bf8a-6c031c90fb02.jpg",
           "parallax": false,
           "color": "#000000",
           "overlay": 50,
@@ -2910,7 +2910,7 @@
           "hover": "hover_side_up",
           "bg": "#56cfe1",
           "cl_txt": "#ffffff",
-          "text": "<i class=\"las la-phone fs__14\"><\/i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"><\/i> <a class=\"cg\" href=\"mailto:Gecko@domain.com\">Gecko@domain.com<\/a>",
+          "text": "<i class=\"las la-phone fs__14\"></i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"></i> <a class=\"cg\" href=\"mailto:Gecko@domain.com\">Gecko@domain.com</a>",
           "shop_cat": true,
           "txt_cat": "SHOP BY CATEGORY",
           "bgcat": "#007e91",
@@ -3013,7 +3013,7 @@
           "us_heading-1": {
             "type": "2",
             "settings": {
-              "text": "<p>Follow your passion, and sucess will follow you<\/p>"
+              "text": "<p>Follow your passion, and sucess will follow you</p>"
             }
           }
         },
@@ -3039,7 +3039,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -3049,7 +3049,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -3059,7 +3059,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -3069,7 +3069,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -3117,7 +3117,7 @@
           "4143db8f-06cf-493a-ae3c-e9974cd2e53f": {
             "type": "6",
             "settings": {
-              "html": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.<\/p>",
+              "html": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.</p>",
               "cl": "12",
               "cl_mb": "12"
             }
@@ -3143,49 +3143,49 @@
           "img_BnMPrD": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004575.png",
+              "category_img": "shopify://shop_images/Group_1000004575.png",
               "category_url": ""
             }
           },
           "img_RQQPzj": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004576.png",
+              "category_img": "shopify://shop_images/Group_1000004576.png",
               "category_url": ""
             }
           },
           "img_MpicHX": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004577.png",
+              "category_img": "shopify://shop_images/Group_1000004577.png",
               "category_url": ""
             }
           },
           "img_nK7RWr": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004578.png",
+              "category_img": "shopify://shop_images/Group_1000004578.png",
               "category_url": ""
             }
           },
           "img_7gwyLX": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004575.png",
+              "category_img": "shopify://shop_images/Group_1000004575.png",
               "category_url": ""
             }
           },
           "img_FByQyT": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/Group_1000004576.png",
+              "category_img": "shopify://shop_images/Group_1000004576.png",
               "category_url": ""
             }
           },
           "img_h6UdqG": {
             "type": "img",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/01.png",
+              "category_img": "shopify://shop_images/01.png",
               "category_url": ""
             }
           }
@@ -3211,71 +3211,71 @@
           "text_4GxKwQ": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/04_fe1c5720-61e2-466c-a3d4-eb7673812df8.jpg",
+              "category_img": "shopify://shop_images/04_fe1c5720-61e2-466c-a3d4-eb7673812df8.jpg",
               "sub_text": "Collection",
               "category_name": "RINGS",
               "category_btns": "Explore More",
-              "category_url": "shopify:\/\/collections\/branded-moissanite-iced-out-watches"
+              "category_url": "shopify://collections/branded-moissanite-iced-out-watches"
             }
           },
           "text_pYmHYx": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/id.jpg",
+              "category_img": "shopify://shop_images/id.jpg",
               "sub_text": "Collection",
               "category_name": "WATCHES",
               "category_btns": "Explore More",
-              "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
+              "category_url": "shopify://collections/moissanite-ring-and-diamond-ring"
             }
           },
           "text_JhVjXM": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/02_c3666908-e8d2-41b4-b036-40496b4f3db6.jpg",
+              "category_img": "shopify://shop_images/02_c3666908-e8d2-41b4-b036-40496b4f3db6.jpg",
               "sub_text": "Collection",
               "category_name": "BRACELETS",
               "category_btns": "Explore More",
-              "category_url": "shopify:\/\/collections\/moissanite-diamond-custom-nameplate-pendant"
+              "category_url": "shopify://collections/moissanite-diamond-custom-nameplate-pendant"
             }
           },
           "text_FBARcN": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/03_72ddd97b-2ad8-4625-819c-ad3b6f910c35.jpg",
+              "category_img": "shopify://shop_images/03_72ddd97b-2ad8-4625-819c-ad3b6f910c35.jpg",
               "sub_text": "Collection",
               "category_name": "EARRINGS",
               "category_btns": "Explore More",
-              "category_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
+              "category_url": "shopify://collections/moissanite-diamond-hip-hop-chain"
             }
           },
           "text_8gxzpY": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/05_11a8366d-20bd-4645-8861-27cd40212fbd.jpg",
+              "category_img": "shopify://shop_images/05_11a8366d-20bd-4645-8861-27cd40212fbd.jpg",
               "sub_text": "Collection",
               "category_name": "CHAINS",
               "category_btns": "Explore More",
-              "category_url": "shopify:\/\/collections\/iced-out-audemars-pigute-watch-swiss-luxury-watches"
+              "category_url": "shopify://collections/iced-out-audemars-pigute-watch-swiss-luxury-watches"
             }
           },
           "text_G7V99Y": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/06.jpg",
+              "category_img": "shopify://shop_images/06.jpg",
               "sub_text": "Collection",
               "category_name": "BRACELETS",
               "category_btns": "Explore More",
-              "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
+              "category_url": "shopify://collections/moissanite-ring-and-diamond-ring"
             }
           },
           "text_9AF9pa": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/07.jpg",
+              "category_img": "shopify://shop_images/07.jpg",
               "sub_text": "Collection",
               "category_name": "CUSTOM JEWELRY",
               "category_btns": "Explore More",
-              "category_url": "shopify:\/\/collections\/moissanite-ring-and-diamond-ring"
+              "category_url": "shopify://collections/moissanite-ring-and-diamond-ring"
             }
           }
         },
@@ -3298,41 +3298,41 @@
           "text_kbtYGW": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify:\/\/shop_images\/Rectangle_101.png",
+              "bg_img": "shopify://shop_images/Rectangle_101.png",
               "collection_text": "Chains",
-              "collection_url": "shopify:\/\/collections\/moissanite-diamond-hip-hop-chain"
+              "collection_url": "shopify://collections/moissanite-diamond-hip-hop-chain"
             }
           },
           "text_XQfatd": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify:\/\/shop_images\/Rectangle_97.png",
+              "bg_img": "shopify://shop_images/Rectangle_97.png",
               "collection_text": "Rings",
-              "collection_url": "shopify:\/\/collections\/925-sterling-silver-moissanite-ring-for-engagement"
+              "collection_url": "shopify://collections/925-sterling-silver-moissanite-ring-for-engagement"
             }
           },
           "text_MQxQcJ": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify:\/\/shop_images\/Rectangle_98.png",
+              "bg_img": "shopify://shop_images/Rectangle_98.png",
               "collection_text": "Earrings",
-              "collection_url": "shopify:\/\/collections\/moissanite-diamond-earrings"
+              "collection_url": "shopify://collections/moissanite-diamond-earrings"
             }
           },
           "text_66dFFt": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify:\/\/shop_images\/Rectangle_99.png",
+              "bg_img": "shopify://shop_images/Rectangle_99.png",
               "collection_text": "Pendants",
-              "collection_url": "shopify:\/\/collections\/moissanite-iced-out-3d-enamel-pendant"
+              "collection_url": "shopify://collections/moissanite-iced-out-3d-enamel-pendant"
             }
           },
           "text_c6Q48A": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify:\/\/shop_images\/Rectangle_100.png",
+              "bg_img": "shopify://shop_images/Rectangle_100.png",
               "collection_text": "Bracelets",
-              "collection_url": "shopify:\/\/collections\/moissanite-bracelet-for-women"
+              "collection_url": "shopify://collections/moissanite-bracelet-for-women"
             }
           }
         },
@@ -3349,7 +3349,7 @@
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "Go to Collection",
-          "hip_collection_url": "shopify:\/\/collections",
+          "hip_collection_url": "shopify://collections",
           "style_title": "title_10"
         }
       },
@@ -3359,7 +3359,7 @@
           "img_axHqhW": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/0de1b5e39580eb8416c7642709e89955.jpg",
+              "image": "shopify://shop_images/0de1b5e39580eb8416c7642709e89955.jpg",
               "pos_img": "center center",
               "size_img": "contain",
               "link_img1": "",
@@ -3419,7 +3419,7 @@
             "type": "btn",
             "settings": {
               "title": "View All",
-              "btn_link": "shopify:\/\/collections\/925-sterling-silver-moissanite-ring-for-engagement",
+              "btn_link": "shopify://collections/925-sterling-silver-moissanite-ring-for-engagement",
               "title2": "Shop Now",
               "btn_link2": "",
               "btn_round": true,
@@ -3544,7 +3544,7 @@
             "type": "3",
             "settings": {
               "title": "About us",
-              "btn_link": "shopify:\/\/pages\/about-us",
+              "btn_link": "shopify://pages/about-us",
               "open_link": "_blank",
               "title2": "Shop Now 2",
               "btn_link2": "",
@@ -3578,7 +3578,7 @@
           "h_des": "600px",
           "h_tb": "500px",
           "h_mb": "400px",
-          "image": "shopify:\/\/shop_images\/27330ac8c9d7e0a9bc4f38af83b5e1de.jpg",
+          "image": "shopify://shop_images/27330ac8c9d7e0a9bc4f38af83b5e1de.jpg",
           "use_pr": false,
           "img_align": "center",
           "caption_w": "1",
@@ -3603,42 +3603,42 @@
             "type": "text",
             "settings": {
               "Question": "What is Iced Out Jewelry?",
-              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
             }
           },
           "text_PrJfkz": {
             "type": "text",
             "settings": {
               "Question": "Do you offer customization for Iced Out Jewelry?",
-              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
             }
           },
           "text_7cUpFP": {
             "type": "text",
             "settings": {
               "Question": "What is the significance of Moissanite in Iced Out Jewelry?",
-              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
             }
           },
           "text_HBkMPg": {
             "type": "text",
             "settings": {
               "Question": "How can I avail of the 10% discount on my first purchase?",
-              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
             }
           },
           "text_mzt6GK": {
             "type": "text",
             "settings": {
               "Question": "Where does Iced Out 1990 ship its jewelry products?",
-              "Answer": "<p>`Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+              "Answer": "<p>`Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
             }
           },
           "text_NkpxKc": {
             "type": "text",
             "settings": {
               "Question": "Where does Iced Out 1990 ship its jewelry products?",
-              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.<\/p>"
+              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
             }
           }
         },
@@ -3662,7 +3662,7 @@
       "email_yatRNc": {
         "type": "email",
         "settings": {
-          "email_img": "shopify:\/\/shop_images\/Rectangle_116.png",
+          "email_img": "shopify://shop_images/Rectangle_116.png",
           "email_h1": "Iced Out 1990 Jewels That Enchant",
           "email_p": "the essence of natural beauty. Whether you're seeking a pop of color or a harmonious blend, our Iced Out 1990.",
           "Btn_text": "Submit"
@@ -3674,7 +3674,7 @@
           "img_JU3kAi": {
             "type": "img",
             "settings": {
-              "shipping_img": "shopify:\/\/shop_images\/delivery.png",
+              "shipping_img": "shopify://shop_images/delivery.png",
               "shipping_h": "100% Certified a Free Shipping",
               "shipping_p": "Our jewellery always comes with a certificate of authentication."
             }
@@ -3682,7 +3682,7 @@
           "img_URijYp": {
             "type": "img",
             "settings": {
-              "shipping_img": "shopify:\/\/shop_images\/exchange.png",
+              "shipping_img": "shopify://shop_images/exchange.png",
               "shipping_h": "Lifetime Exchange",
               "shipping_p": "Excnange your old designs anytime you want an upgrade."
             }
@@ -3690,7 +3690,7 @@
           "img_cYPTfb": {
             "type": "img",
             "settings": {
-              "shipping_img": "shopify:\/\/shop_images\/cashback.png",
+              "shipping_img": "shopify://shop_images/cashback.png",
               "shipping_h": "15 Day Money-Back",
               "shipping_p": "Get 100% refund if you don't ike your jewellery."
             }
@@ -3698,7 +3698,7 @@
           "img_DBczKW": {
             "type": "img",
             "settings": {
-              "shipping_img": "shopify:\/\/shop_images\/sticker.png",
+              "shipping_img": "shopify://shop_images/sticker.png",
               "shipping_h": "One Year Warranty",
               "shipping_p": "If your jewellery has a defect, we will fix it."
             }
@@ -3866,7 +3866,7 @@
           "text_e98iew": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
               "testi_h": "Radiant Beauty",
               "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
               "testi_cname": "Emily, Client"
@@ -3875,7 +3875,7 @@
           "text_zTNDM3": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
               "testi_h": "Radiant Beauty",
               "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
               "testi_cname": "Emily, Client"
@@ -3884,7 +3884,7 @@
           "text_JRYUGy": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
               "testi_h": "Radiant Beauty",
               "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
               "testi_cname": "Emily, Client"
@@ -3893,7 +3893,7 @@
           "text_bfMN8F": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
               "testi_h": "Radiant Beauty",
               "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
               "testi_cname": "Emily, Client"
@@ -3902,7 +3902,7 @@
           "text_YYJxXi": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
               "testi_h": "Radiant Beauty",
               "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
               "testi_cname": "Emily, Client"
@@ -3911,7 +3911,7 @@
           "text_cQFyrG": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/Pngtree_golden_couple_ring_1233264_1.png",
+              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
               "testi_h": "Radiant Beauty",
               "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
               "testi_cname": "Emily, Client"
@@ -3940,31 +3940,31 @@
           "img_kmVF9e": {
             "type": "img",
             "settings": {
-              "Shipping_img": "shopify:\/\/shop_images\/rthrt_1.png"
+              "Shipping_img": "shopify://shop_images/rthrt_1.png"
             }
           },
           "img_CzEq7W": {
             "type": "img",
             "settings": {
-              "Shipping_img": "shopify:\/\/shop_images\/rthrt_2.png"
+              "Shipping_img": "shopify://shop_images/rthrt_2.png"
             }
           },
           "img_hAc7RX": {
             "type": "img",
             "settings": {
-              "Shipping_img": "shopify:\/\/shop_images\/rthrt_4.png"
+              "Shipping_img": "shopify://shop_images/rthrt_4.png"
             }
           },
           "img_yQjeJG": {
             "type": "img",
             "settings": {
-              "Shipping_img": "shopify:\/\/shop_images\/rthrt_5.png"
+              "Shipping_img": "shopify://shop_images/rthrt_5.png"
             }
           },
           "img_eFPwct": {
             "type": "img",
             "settings": {
-              "Shipping_img": "shopify:\/\/shop_images\/rthrt_3.png"
+              "Shipping_img": "shopify://shop_images/rthrt_3.png"
             }
           }
         },
@@ -3997,9 +3997,9 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Group_1000004722_180x_b57a2295-3864-434d-a192-c9b5e5071022.png",
+              "image": "shopify://shop_images/Group_1000004722_180x_b57a2295-3864-434d-a192-c9b5e5071022.png",
               "title": "Luxurious Presentation",
-              "text": "<p>Our premium packaging adds a touch of luxury to your purchase, making it a delight to unbox your new watch or jewelry.<br\/><\/p>",
+              "text": "<p>Our premium packaging adds a touch of luxury to your purchase, making it a delight to unbox your new watch or jewelry.<br/></p>",
               "button_label": "",
               "button_link": "",
               "open_link": "_blank",
@@ -4010,9 +4010,9 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Vector_4_180x_54a00b8e-5763-49a9-be9a-e848523adc33.png",
+              "image": "shopify://shop_images/Vector_4_180x_54a00b8e-5763-49a9-be9a-e848523adc33.png",
               "title": "Protection and Safety",
-              "text": "<p>We prioritize the safety of your items, utilizing multiple layers of packaging to prevent damage during transportation.<br\/><\/p>",
+              "text": "<p>We prioritize the safety of your items, utilizing multiple layers of packaging to prevent damage during transportation.<br/></p>",
               "button_label": "",
               "button_link": "",
               "open_link": "_blank",
@@ -4023,9 +4023,9 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Group_2_180x_456d7387-fc43-4cdf-aa14-bee823c0cdb1.png",
+              "image": "shopify://shop_images/Group_2_180x_456d7387-fc43-4cdf-aa14-bee823c0cdb1.png",
               "title": "Attention to Detail",
-              "text": "<p>From the branded watch box to the jewelry box and cleaning cloth, every detail is carefully considered to enhance your overall experience.<br\/><\/p>",
+              "text": "<p>From the branded watch box to the jewelry box and cleaning cloth, every detail is carefully considered to enhance your overall experience.<br/></p>",
               "button_label": "",
               "button_link": "",
               "open_link": "_blank",
@@ -4153,6 +4153,130 @@
           "btn_title": "See all products",
           "style_title": "title_1"
         }
+      },
+      "img-width-text": {
+        "type": "img-width-text",
+        "settings": {
+        }
+      },
+      "faqsection": {
+        "type": "faqsection",
+        "settings": {
+          "title": "",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "faq_des": "2",
+          "active_first": true,
+          "use_pr": false,
+          "layout": "nt_boxed",
+          "cl_bg": "#ffffff",
+          "cl_overlay": "#000",
+          "cl_opacity": 0,
+          "section_bg_color": "#ffffff",
+          "tt_cl": "#fff",
+          "hd_bg": "#fff",
+          "hd_cl": "#000",
+          "hd_bg_atc": "#8e672f",
+          "hd_cl_atc": "#fff",
+          "btn_bg": "#8e672f",
+          "btn_cl": "#fff",
+          "btn_bg_atc": "#fff",
+          "btn_cl_atc": "#8e672f",
+          "ct_bg": "#fff",
+          "ct_cl": "#222",
+          "bd_cl": "#f5f5f5",
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "youtube": {
+        "type": "youtube",
+        "blocks": {
+          "html_MdRkJW": {
+            "type": "html",
+            "settings": {
+              "youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLoCivLOqMs?si=XW4U2_42_C_JbQxf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>"
+            }
+          },
+          "html_BpzYJb": {
+            "type": "html",
+            "settings": {
+              "youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLoCivLOqMs?si=XW4U2_42_C_JbQxf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>"
+            }
+          },
+          "html_nYGWdR": {
+            "type": "html",
+            "settings": {
+              "youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLoCivLOqMs?si=XW4U2_42_C_JbQxf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>"
+            }
+          },
+          "html_GRPaRT": {
+            "type": "html",
+            "settings": {
+              "youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLoCivLOqMs?si=XW4U2_42_C_JbQxf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
+          }
+        },
+        "block_order": [
+          "html_MdRkJW",
+          "html_BpzYJb",
+          "html_nYGWdR",
+          "html_GRPaRT"
+        ],
+        "settings": {
+          "title": "Collection Grid",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1"
+        }
+      },
+      "manual_blog": {
+        "type": "manual_blog",
+        "settings": {
+          "title": "Blog posts",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "pencil-alt",
+          "show_clpr": false,
+          "layout_des": "1",
+          "art_des": "1",
+          "date": "date",
+          "col_pr": "4",
+          "col_pr_tb": "4",
+          "col_pr_mb": "12",
+          "show_cnt": true,
+          "show_au": true,
+          "show_dt": true,
+          "show_cm": false,
+          "show_rm": false,
+          "loop": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": true,
+          "image_ratio": "ratio4_3",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -4174,7 +4298,7 @@
     ],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
