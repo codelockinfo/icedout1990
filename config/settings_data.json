@@ -4231,6 +4231,31 @@
       },
       "manual_blog": {
         "type": "manual_blog",
+        "blocks": {
+          "article_kjV3PC": {
+            "type": "article",
+            "settings": {
+              "article": "news/what-accessories-to-wear-when-and-how"
+            }
+          },
+          "article_tqg6AP": {
+            "type": "article",
+            "settings": {
+              "article": "news/the-evolution-of-iced-out-watches-in-hip-hop-culture"
+            }
+          },
+          "article_YHU4H7": {
+            "type": "article",
+            "settings": {
+              "article": "about-jewelry/the-brilliance-of-moissanite-championship-rings-a-new-era-of-sporting-elegance"
+            }
+          }
+        },
+        "block_order": [
+          "article_kjV3PC",
+          "article_tqg6AP",
+          "article_YHU4H7"
+        ],
         "settings": {
           "title": "Blog posts",
           "sub_title": "Sub Text",
