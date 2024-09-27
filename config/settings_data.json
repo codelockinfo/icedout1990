@@ -4214,19 +4214,12 @@
             "settings": {
               "youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLoCivLOqMs?si=XW4U2_42_C_JbQxf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>"
             }
-          },
-          "html_GRPaRT": {
-            "type": "html",
-            "settings": {
-              "youtube": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLoCivLOqMs?si=XW4U2_42_C_JbQxf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-            }
           }
         },
         "block_order": [
           "html_MdRkJW",
           "html_BpzYJb",
-          "html_nYGWdR",
-          "html_GRPaRT"
+          "html_nYGWdR"
         ],
         "settings": {
           "title": "Collection Grid",
