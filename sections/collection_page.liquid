@@ -452,7 +452,7 @@ endif -%}
 
       {%- if collection.products.size == 0 -%}<div class="shopify-info cat_emty_noprs"><i class="facl facl-attention"></i>{{ 'collections.general.no_matches' | t }}</div>{%- endif -%}
       {%- if p_pages > 1 -%}
-      <div class="products-footer tc mt__40 mb__60">
+      <div class="products-footer tc mt__40 mb__40">
         {%- if paginate.next.is_link and use_pagination != 'default' -%}
           {%- if use_bar_lm -%}
           <div class="js_progress_bar" data-tt='{{results_count}}'>
