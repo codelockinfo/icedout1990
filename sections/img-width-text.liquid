@@ -1,0 +1,31 @@
+{%  if  collection.metafields.custom.image != blank %}
+<div class="img-with-text-section">
+    <div class="container">
+       <div class="img-with-main-box">
+        <div class="img-with-imgbox">
+            <img src="{{  collection.metafields.custom.image |img_url : 'master' }}" class="img-w-img" alt="">
+        </div>
+        <div class="img-with-contantbox">
+            <div class="meta-content">{{collection.metafields.custom.content| metafield_tag}}</div>
+        </div>
+       </div>
+    </div>
+</div>
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Image with text",
+    "settings": [
+      
+    ],
+    "presets": [
+      {
+        "name": "Image with text",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

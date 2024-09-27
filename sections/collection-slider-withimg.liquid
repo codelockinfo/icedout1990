@@ -1,0 +1,234 @@
+<div class="collection-with-slider-main">
+  <div class="container">
+    {%- render 'section_title', url: collection.url -%}
+    <div class="collection-img-main-box">
+      <div class="collection-img-box">
+        {% if section.settings.colimg != blank %}
+        <div class="collection-main-img">
+          <img src="{{section.settings.colimg | img_url:'master'}}" alt="" class="col-img">
+          <div class="colletion-img-content">
+            <div class="collection-sub">{{ section.settings.typedimond }}</div>
+            <a href="{{section.setting.colurl}}" class="collection-name">{{ section.settings.colname }}</a>
+          </div>
+        </div>
+       {% endif %}
+      </div>
+      <div class="collection-slider-box">
+        <div class="swiper collectionSwiper">
+          <div class="swiper-wrapper">
+            {% for product in section.settings.collectionproduct.products %}
+              <div class="swiper-slide">
+                <div class="image-collection">
+                  {% if product.featured_image != blank %}
+                    <a href="{{ product.url }}">
+                      <div class="product-img">
+                        <img src="{{  product.featured_image  | img_url: 'large' }}" class="main-img" loading="eager">
+                        <img src="{{  product.images[1]  | img_url: 'large' }}" class="hover-image " loading="eager">
+                      </div>
+                    </a>
+                  {% endif %}
+                  <div class="product-content-box">
+                    <div class="product-title">
+                      {{ product.title }}
+                    </div>
+                    <div class="pro-rate">
+                      <div class="product-price">
+                        <span class="grid-product__price--original"
+                          ><del>{{ product.compare_at_price | money }}</del></span
+                        ><ins>{{ product.price | money }}</ins>
+                      </div>
+                      <div class="jdgm-widget jdgm-preview-badge">
+                        {{ product.metafields.judgeme.badge }}
+                      </div>
+                    </div>
+                    {% comment %}
+                      <form method="post" action="/cart/add" class="add-to-cart">
+                        <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                        <input min="1" type="number" id="quantity" name="quantity" value="1" class="hide">
+                        <input type="submit" value="Add to cart" class="btn">
+                      </form>
+                    {% endcomment %}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection Slider-Image",
+  "class": "Slider-with-img",
+  "settings": [
+    {
+      "id": "collectionproduct",
+      "type": "collection",
+      "label": "Select collection"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Collection Grid"
+    },
+    {
+      "type": "textarea",
+      "id": "sub_title",
+      "label": "Sub Text"
+    },
+    {
+      "type": "select",
+      "id": "sub_font",
+      "default": "2",
+      "options": [
+        {
+          "value": "1",
+          "label": "Body font"
+        },
+        {
+          "value": "2",
+          "label": "Sub title font"
+        }
+      ],
+      "label": "Sub Text use font:"
+    },
+    {
+      "type": "text",
+      "id": "btn_title",
+      "label": "See All Title",
+      "info": "only working with design title 10",
+      "default": "See all products"
+    },
+    {
+      "type": "select",
+      "id": "style_title",
+      "options": [
+        {
+          "value": "title_1",
+          "label": "Design 1"
+        },
+        {
+          "value": "title_2",
+          "label": "Design 2"
+        },
+        {
+          "value": "title_3",
+          "label": "Design 3"
+        },
+        {
+          "value": "title_4",
+          "label": "Design 4"
+        },
+        {
+          "value": "title_5 lazyload",
+          "label": "Design 5"
+        },
+        {
+          "value": "title_6",
+          "label": "Design 6"
+        },
+        {
+          "value": "title_7 +la",
+          "label": "Design 7 (with line-awesome)"
+        },
+        {
+          "value": "title_8",
+          "label": "Design 8"
+        },
+        {
+          "value": "title_9",
+          "label": "Design 9"
+        },
+        {
+          "value": "title_10",
+          "label": "Design 10"
+        },
+        {
+          "value": "title_11",
+          "label": "Design 11"
+        },
+        {
+          "value": "title_12",
+          "label": "Design 12"
+        },
+        {
+          "value": "title_13",
+          "label": "Design 13"
+        },
+        {
+          "value": "title_14",
+          "label": "Design 14"
+        }
+      ],
+      "label": "Design Title:"
+    },
+    {
+      "type": "image_picker",
+      "id": "colimg",
+      "label": "Collection img"
+    },
+    {
+      "type": "text",
+      "id": "typedimond",
+      "label": "Collection sub title"
+    },
+    {
+      "type": "text",
+      "id": "colname",
+      "label": "Collection name"
+    },
+    {
+      "type": "url",
+      "id": "colurl",
+      "label": "Collection url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Slider-Image",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  var swiper = new Swiper('.collectionSwiper', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      430: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      649: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      991: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1100: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+  });
+</script>
