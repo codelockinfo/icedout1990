@@ -60,7 +60,7 @@ assign IsShowPRS = true -%}
 {%- if nav_up.size > 0 %}{% section 'sub-collections' %}{%- assign IsShowPRS = settings.show_pr_sub -%}{%- endif -%}
 {%- if IsShowPRS -%}
   {%- if cat_des == '2' %}<div class="cat_des_ntt4 container container_cat tc mt__40">{{ collection.description}}</div>{%- endif -%}
-  <div class="container container_cat {{settings.pop_style}} cat_{{settings.shop_layout}} mb__60">
+  <div class="container container_cat {{settings.pop_style}} cat_{{settings.shop_layout}} mb__20">
      {%- assign get_url = '' | link_to_remove_tag: '' | split:'href="' | last | split:'"' | first | remove:'?customer_posted=true' -%}
      {%- assign sy = collection.sort_by -%}
      {%- if collection.current_type or sy != blank or collection.current_vendor or get_url contains '?' -%} {%- assign get_url = get_url | append:'&' -%} {%- else -%} {%- assign get_url = get_url | append:'/?' -%} {%- endif -%}
