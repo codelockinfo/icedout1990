@@ -4162,7 +4162,7 @@
       "faqsection": {
         "type": "faqsection",
         "settings": {
-          "title": "",
+          "title": "FAQs",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
@@ -4171,7 +4171,7 @@
           "faq_des": "2",
           "active_first": true,
           "use_pr": false,
-          "layout": "nt_boxed",
+          "layout": "container",
           "cl_bg": "#ffffff",
           "cl_overlay": "#000000",
           "cl_opacity": 0,
