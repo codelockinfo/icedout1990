@@ -3895,18 +3895,9 @@
             "type": "text",
             "settings": {
               "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
-              "testi_h": "Radiant Beauty",
-              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
-              "testi_cname": "Emily, Client"
-            }
-          },
-          "text_YYJxXi": {
-            "type": "text",
-            "settings": {
-              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
-              "testi_h": "Radiant Beauty",
-              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
-              "testi_cname": "Emily, Client"
+              "testi_h": "Bracelets",
+              "testi_p": "I bought a bracelet for my wife, and he’s absolutely in love with it. The craftsmanship is flawless, and it fits his style perfectly. Couldn’t be happier with the purchase!",
+              "testi_cname": "Alex Dividson"
             }
           },
           "text_cQFyrG": {
@@ -3924,7 +3915,6 @@
           "text_zTNDM3",
           "text_JRYUGy",
           "text_bfMN8F",
-          "text_YYJxXi",
           "text_cQFyrG"
         ],
         "settings": {
