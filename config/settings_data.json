@@ -3620,13 +3620,6 @@
               "Answer": "<p>Usually, ready to ship products will dispatch within 24-48 hours. Made to order or custom products will take 1-2<br/>weeks for making.</p>"
             }
           },
-          "text_MBPUNR": {
-            "type": "text",
-            "settings": {
-              "Question": "",
-              "Answer": ""
-            }
-          },
           "text_HBkMPg": {
             "type": "text",
             "settings": {
@@ -3637,8 +3630,8 @@
           "text_mzt6GK": {
             "type": "text",
             "settings": {
-              "Question": "Where does Iced Out 1990 ship its jewelry products?",
-              "Answer": "<p>`Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
+              "Question": "What materials do you use?",
+              "Answer": "<p>We use solid 925 sterling silver, gold (yellow, rose or white) and cubic zirconia, moissanite, lab grown diamond and natural diamonds. </p>"
             }
           },
           "text_NkpxKc": {
@@ -3653,7 +3646,6 @@
           "text_9bnqXC",
           "text_PrJfkz",
           "text_7cUpFP",
-          "text_MBPUNR",
           "text_HBkMPg",
           "text_mzt6GK",
           "text_NkpxKc"
