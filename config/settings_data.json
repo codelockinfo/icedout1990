@@ -4310,6 +4310,21 @@
           "colname": "",
           "colurl": ""
         }
+      },
+      "collection_slider_withimg_7Gt9Ra": {
+        "type": "collection-slider-withimg",
+        "settings": {
+          "collectionproduct": "moissanite-iced-out-3d-enamel-pendant",
+          "title": "",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1",
+          "colimg": "shopify://shop_images/02_31de7633-6ac6-41b9-bef1-76a82d61d385.jpg",
+          "typedimond": "",
+          "colname": "",
+          "colurl": ""
+        }
       }
     },
     "content_for_index": [
@@ -4326,6 +4341,7 @@
       "custom_shipping_Hm9amk",
       "featured_collection_owl_pPqi3g",
       "collection_slider_withimg_YDgjTE",
+      "collection_slider_withimg_7Gt9Ra",
       "custom_testimonial_9ppya7",
       "accordian_YbqUkH",
       "our_shippingpartner_ihrWem"
