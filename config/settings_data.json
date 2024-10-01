@@ -3890,21 +3890,13 @@
               "testi_cname": "Oliver K"
             }
           },
-          "text_zemQrz": {
-            "type": "text",
-            "settings": {
-              "testi_h": "",
-              "testi_p": "",
-              "testi_cname": ""
-            }
-          },
           "text_JRYUGy": {
             "type": "text",
             "settings": {
               "testi_img": "shopify://shop_images/09.png",
               "testi_h": "Hip Hop Rings",
               "testi_p": "I’m beyond impressed! The men's hip hop ring looks even better in person and still shines just as brilliantly after a month.",
-              "testi_cname": "Jeson Christopher"
+              "testi_cname": "Jeson Clark"
             }
           },
           "text_bfMN8F": {
@@ -3929,7 +3921,6 @@
         "block_order": [
           "text_e98iew",
           "text_zTNDM3",
-          "text_zemQrz",
           "text_JRYUGy",
           "text_bfMN8F",
           "text_cQFyrG"
