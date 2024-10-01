@@ -4305,7 +4305,7 @@
           "sub_font": "2",
           "btn_title": "See all products",
           "style_title": "title_1",
-          "colimg": "shopify://shop_images/01_copy.jpg",
+          "colimg": "shopify://shop_images/03_099c37b8-ba80-4091-a7f5-c8b64252f11e.jpg",
           "typedimond": "",
           "colname": "",
           "colurl": ""
@@ -4321,6 +4321,21 @@
           "btn_title": "See all products",
           "style_title": "title_1",
           "colimg": "shopify://shop_images/02_copy.jpg",
+          "typedimond": "",
+          "colname": "",
+          "colurl": ""
+        }
+      },
+      "collection_slider_withimg_T6GwjR": {
+        "type": "collection-slider-withimg",
+        "settings": {
+          "collectionproduct": "iced-out-audemars-pigute-watch-swiss-luxury-watches",
+          "title": "",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1",
+          "colimg": "shopify://shop_images/01_copy.jpg",
           "typedimond": "",
           "colname": "",
           "colurl": ""
@@ -4341,6 +4356,7 @@
       "custom_shipping_Hm9amk",
       "featured_collection_owl_pPqi3g",
       "collection_slider_withimg_YDgjTE",
+      "collection_slider_withimg_T6GwjR",
       "collection_slider_withimg_7Gt9Ra",
       "custom_testimonial_9ppya7",
       "accordian_YbqUkH",
