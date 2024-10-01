@@ -3315,7 +3315,7 @@
             "type": "text",
             "settings": {
               "bg_img": "shopify://shop_images/04_b70a503e-884e-4f07-a8e4-cfbaf3b8f8ff.jpg",
-              "collection_text": "Custom Nameplates",
+              "collection_text": "Nameplates",
               "collection_url": "shopify://collections/moissanite-diamond-earrings"
             }
           },
@@ -3330,8 +3330,8 @@
           "text_c6Q48A": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify://shop_images/05_-_01_f7b3714a-0fae-4317-a761-f4c07dd5aec0.jpg",
-              "collection_text": "Bracelets",
+              "bg_img": "shopify://shop_images/06_671090c8-7848-4541-8705-b5912715a0dc.jpg",
+              "collection_text": "Championship Rings",
               "collection_url": "shopify://collections/moissanite-bracelet-for-women"
             }
           }
