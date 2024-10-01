@@ -3774,7 +3774,7 @@
       "featured_collection_owl_pxqWR6": {
         "type": "featured_collection_owl",
         "settings": {
-          "title": "Bright Diamond for Bright Women",
+          "title": "Latest Moissanite Earrings",
           "sub_title": "Sub Text",
           "sub_font": "2",
           "btn_title": "Go to Products",
@@ -3823,14 +3823,14 @@
       "featured_collection_owl_pPqi3g": {
         "type": "featured_collection_owl",
         "settings": {
-          "title": "Trending jewellery",
+          "title": "Trendy Moissanite Chains",
           "sub_title": "Sub Text",
           "sub_font": "2",
           "btn_title": "Go to Products",
           "style_title": "title_10",
           "ic_tt": "gem",
           "show_clpr": false,
-          "collection": "moissanite-diamond-earrings-for-women",
+          "collection": "moissanite-diamond-hip-hop-chain",
           "limit": 8,
           "space": 30,
           "use_pagination": "none",
@@ -3977,7 +3977,7 @@
         "settings": {
           "bg_color": "#ededed",
           "bg_color2": "#ffffff",
-          "title": "Collection Grid",
+          "title": "Shipping Partners",
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
