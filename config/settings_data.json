@@ -3663,8 +3663,8 @@
         "type": "email",
         "settings": {
           "email_img": "shopify://shop_images/Rectangle_116.png",
-          "email_h1": "Iced Out 1990 Jewels That Enchant",
-          "email_p": "the essence of natural beauty. Whether you're seeking a pop of color or a harmonious blend, our Iced Out 1990.",
+          "email_h1": "Icedout1990 Offers Your Layaway Plans",
+          "email_p": "We offer a 60-40% installment plan: pay 60% upfront to start your jewelry order, with the remaining 40% due before dispatch. For details, please contact us.",
           "Btn_text": "Submit"
         }
       },
@@ -3715,6 +3715,7 @@
       },
       "featured_collection_owl_XMhgek": {
         "type": "featured_collection_owl",
+        "disabled": true,
         "settings": {
           "title": "Featured Collection",
           "sub_title": "Sub Text",
