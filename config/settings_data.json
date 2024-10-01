@@ -4298,7 +4298,7 @@
       "collection_slider_withimg_YDgjTE": {
         "type": "collection-slider-withimg",
         "settings": {
-          "collectionproduct": "moissanite-diamond-custom-initial-ring",
+          "collectionproduct": "home-rings",
           "title": "",
           "sub_title": "",
           "sub_font": "2",
@@ -4313,7 +4313,7 @@
       "collection_slider_withimg_7Gt9Ra": {
         "type": "collection-slider-withimg",
         "settings": {
-          "collectionproduct": "moissanite-initial-pendant",
+          "collectionproduct": "home-pendants",
           "title": "",
           "sub_title": "",
           "sub_font": "2",
@@ -4328,7 +4328,7 @@
       "collection_slider_withimg_T6GwjR": {
         "type": "collection-slider-withimg",
         "settings": {
-          "collectionproduct": "iced-out-audemars-pigute-watch-swiss-luxury-watches",
+          "collectionproduct": "home-watch",
           "title": "",
           "sub_title": "",
           "sub_font": "2",
