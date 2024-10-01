@@ -619,6 +619,7 @@
 	line-height: 18px;
 	color: #898989;
 	margin: 5px 0 15px 0;
+    min-height: 108px;
 }
 
 .custom_testimonial .testi_cname {
