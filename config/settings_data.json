@@ -3699,8 +3699,8 @@
             "type": "img",
             "settings": {
               "shipping_img": "shopify://shop_images/sticker.png",
-              "shipping_h": "One Year Warranty",
-              "shipping_p": "If your jewellery has a defect, we will fix it."
+              "shipping_h": "Customer Support",
+              "shipping_p": "Get 24/7 custom support with us"
             }
           }
         },
