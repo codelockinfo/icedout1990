@@ -3715,6 +3715,7 @@
       },
       "featured_collection_owl_XMhgek": {
         "type": "featured_collection_owl",
+        "disabled": true,
         "settings": {
           "title": "Featured Collection",
           "sub_title": "Sub Text",
@@ -4348,6 +4349,9 @@
       "category_slider_QxJpWe",
       "1581505838591",
       "featured_collection_owl_XMhgek",
+      "collection_slider_withimg_T6GwjR",
+      "collection_slider_withimg_7Gt9Ra",
+      "collection_slider_withimg_YDgjTE",
       "hip_hop_collection_GzPMVX",
       "banner_collection_F8CiwD",
       "image_text_overlay_x64TQD",
@@ -4355,9 +4359,6 @@
       "email_yatRNc",
       "custom_shipping_Hm9amk",
       "featured_collection_owl_pPqi3g",
-      "collection_slider_withimg_YDgjTE",
-      "collection_slider_withimg_T6GwjR",
-      "collection_slider_withimg_7Gt9Ra",
       "custom_testimonial_9ppya7",
       "accordian_YbqUkH",
       "our_shippingpartner_ihrWem"
