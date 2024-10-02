@@ -3298,41 +3298,41 @@
           "text_kbtYGW": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify://shop_images/01_c7b024d6-6309-4b25-a723-97b47850cb00.jpg",
-              "collection_text": "Chains",
-              "collection_url": "shopify://collections/moissanite-diamond-hip-hop-chain"
+              "bg_img": "shopify://shop_images/02_38d87bfc-d68b-413d-886d-ec1ec405565c.jpg",
+              "collection_text": "BRACELETS",
+              "collection_url": "shopify://collections/moissanite-bracelet-for-women"
             }
           },
           "text_XQfatd": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify://shop_images/Rectangle_97.png",
-              "collection_text": "Rings",
-              "collection_url": "shopify://collections/925-sterling-silver-moissanite-ring-for-engagement"
+              "bg_img": "shopify://shop_images/04_97aafb2d-2407-4d75-9046-a24bd2312498.jpg",
+              "collection_text": "CHAINS",
+              "collection_url": "shopify://collections/moissanite-diamond-hip-hop-chain"
             }
           },
           "text_MQxQcJ": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify://shop_images/Rectangle_98.png",
-              "collection_text": "Earrings",
-              "collection_url": "shopify://collections/moissanite-diamond-earrings"
+              "bg_img": "shopify://shop_images/04_b70a503e-884e-4f07-a8e4-cfbaf3b8f8ff.jpg",
+              "collection_text": "NAMEPLATES",
+              "collection_url": "shopify://collections/moissanite-diamond-custom-nameplate-pendant"
             }
           },
           "text_66dFFt": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify://shop_images/Rectangle_99.png",
-              "collection_text": "Pendants",
-              "collection_url": "shopify://collections/moissanite-iced-out-3d-enamel-pendant"
+              "bg_img": "shopify://shop_images/05_-_01.jpg",
+              "collection_text": "EARRINGS",
+              "collection_url": "shopify://collections/moissanite-diamond-earrings"
             }
           },
           "text_c6Q48A": {
             "type": "text",
             "settings": {
-              "bg_img": "shopify://shop_images/Rectangle_100.png",
-              "collection_text": "Bracelets",
-              "collection_url": "shopify://collections/moissanite-bracelet-for-women"
+              "bg_img": "shopify://shop_images/06_f105cba0-4033-41f1-ad91-e6cde769e3ec.jpg",
+              "collection_text": "CHAMPIONSHIP",
+              "collection_url": "shopify://collections/moissanite-ring-and-diamond-ring"
             }
           }
         },
@@ -3345,9 +3345,9 @@
         ],
         "settings": {
           "bg_color": "#ebeff1",
-          "title": "Hip Hop Jewelry",
+          "title": "More Categories",
           "sub_title": "",
-          "sub_font": "2",
+          "sub_font": "1",
           "btn_title": "Go to Collection",
           "hip_collection_url": "shopify://collections",
           "style_title": "title_10"
@@ -3609,15 +3609,15 @@
           "text_PrJfkz": {
             "type": "text",
             "settings": {
-              "Question": "Do you offer customization for Iced Out Jewelry?",
-              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
+              "Question": "How to buy custom jewelry?",
+              "Answer": "<p><strong>How to buy custom jewelry?</strong></p><ul><li>Reach Out to US</li></ul><p><strong>Option 1: </strong>Send us a direct message on info.icedout1990@gmail.com</p><p><strong>Option 2: </strong>Fill out the customization form</p><p></p><ul><li>Discuss your requirements</li></ul><p>Send us pictures of your custom design so we can understand your requirements properly and help you to make<br/>your dream design. If you don't have any, we'll send you examples to help guide<br/>your choice of style.</p><p></p><ul><li>Review and confirm quote</li></ul><p>After discussing about the design we will provide you estimated quote for your jewelry.</p><p></p><ul><li>CAD (3D Digital File) Design</li></ul><p>Once you final your design, our designer team will design a 3D digital design for you so you can take look to your design how it will look. It will take 24-48 hours and it costs $20. This amount will be deducted from your total order amount.</p><p></p><ul><li>Jewelry Production</li></ul><p>After confirming the cad design, we will start making jewelry. </p><p></p><ul><li>Shipping</li></ul><p>Once your order is ready, we provide you pictures and videos. After getting confirmation from you we will dispatch your order and provide you trackable tracking number as well.</p>"
             }
           },
           "text_7cUpFP": {
             "type": "text",
             "settings": {
-              "Question": "What is the significance of Moissanite in Iced Out Jewelry?",
-              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
+              "Question": "How long does shipping take?",
+              "Answer": "<p>Usually, ready to ship products will dispatch within 24-48 hours. Made to order or custom products will take 1-2 weeks for making.</p>"
             }
           },
           "text_HBkMPg": {
@@ -3630,15 +3630,15 @@
           "text_mzt6GK": {
             "type": "text",
             "settings": {
-              "Question": "Where does Iced Out 1990 ship its jewelry products?",
-              "Answer": "<p>`Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
+              "Question": "What materials do you use?",
+              "Answer": "<p>We use solid 925 sterling silver, gold (yellow, rose or white) and cubic zirconia, moissanite, lab grown diamond and natural diamonds. </p>"
             }
           },
           "text_NkpxKc": {
             "type": "text",
             "settings": {
-              "Question": "Where does Iced Out 1990 ship its jewelry products?",
-              "Answer": "<p>Iced Out Jewelry refers to pieces adorned with numerous diamonds, creating a visually stunning and opulent appearance. At Iced Out 1990, we specialize in crafting exquisite jewelry embedded with Moissanite and Natural Diamond, including rings, pendants, necklaces, earrings, and bracelets, available in materials such as Silver and Gold. Our expertly crafted pieces are designed to exude luxury and elegance, making them ideal for those seeking to make a bold and glamorous statement.</p>"
+              "Question": "What is the difference between gold plated, gold vermeil & solid gold?",
+              "Answer": "<p><strong>Gold Plated:</strong></p><p>Gold plating involves a thin layer of gold over a base metal. These types of jewelry may wear off over time. Most<br/>affordable option.</p><p><strong>Gold Vermeil:</strong></p><p>Gold vermeil involves a thicker layer of gold over a base metal than gold plating. Expensive than gold plating. </p><p><strong>Solid Gold:</strong></p><p>Entirely made of gold, very durable.</p>"
             }
           }
         },
@@ -3662,9 +3662,9 @@
       "email_yatRNc": {
         "type": "email",
         "settings": {
-          "email_img": "shopify://shop_images/Rectangle_116.png",
-          "email_h1": "Iced Out 1990 Jewels That Enchant",
-          "email_p": "the essence of natural beauty. Whether you're seeking a pop of color or a harmonious blend, our Iced Out 1990.",
+          "email_img": "shopify://shop_images/05_-_01_93593c21-fc9b-4a56-8e28-6e46dd65d52e.jpg",
+          "email_h1": "Icedout1990 Offers Your Layaway Plans",
+          "email_p": "We offer a 60-40% installment plan: pay 60% upfront to start your jewelry order, with the remaining 40% due before dispatch. For details, please contact us.",
           "Btn_text": "Submit"
         }
       },
@@ -3675,32 +3675,32 @@
             "type": "img",
             "settings": {
               "shipping_img": "shopify://shop_images/delivery.png",
-              "shipping_h": "100% Certified a Free Shipping",
-              "shipping_p": "Our jewellery always comes with a certificate of authentication."
+              "shipping_h": "Free Shipping",
+              "shipping_p": "Get world wide free shipping on all products"
             }
           },
           "img_URijYp": {
             "type": "img",
             "settings": {
               "shipping_img": "shopify://shop_images/exchange.png",
-              "shipping_h": "Lifetime Exchange",
-              "shipping_p": "Excnange your old designs anytime you want an upgrade."
+              "shipping_h": "Payment Plans",
+              "shipping_p": "Get easy payment plan on every purchase"
             }
           },
           "img_cYPTfb": {
             "type": "img",
             "settings": {
               "shipping_img": "shopify://shop_images/cashback.png",
-              "shipping_h": "15 Day Money-Back",
-              "shipping_p": "Get 100% refund if you don't ike your jewellery."
+              "shipping_h": "Unbeateable Price",
+              "shipping_p": "Luxurious jewelry in your budget."
             }
           },
           "img_DBczKW": {
             "type": "img",
             "settings": {
               "shipping_img": "shopify://shop_images/sticker.png",
-              "shipping_h": "One Year Warranty",
-              "shipping_p": "If your jewellery has a defect, we will fix it."
+              "shipping_h": "Customer Support",
+              "shipping_p": "Get 24/7 custom support with us"
             }
           }
         },
@@ -3715,6 +3715,7 @@
       },
       "featured_collection_owl_XMhgek": {
         "type": "featured_collection_owl",
+        "disabled": true,
         "settings": {
           "title": "Featured Collection",
           "sub_title": "Sub Text",
@@ -3765,7 +3766,7 @@
       "featured_collection_owl_pxqWR6": {
         "type": "featured_collection_owl",
         "settings": {
-          "title": "Bright Diamond for Bright Women",
+          "title": "Latest Moissanite Earrings",
           "sub_title": "Sub Text",
           "sub_font": "2",
           "btn_title": "Go to Products",
@@ -3814,14 +3815,14 @@
       "featured_collection_owl_pPqi3g": {
         "type": "featured_collection_owl",
         "settings": {
-          "title": "Trending jewellery",
+          "title": "Trendy Moissanite Chains",
           "sub_title": "Sub Text",
           "sub_font": "2",
           "btn_title": "Go to Products",
           "style_title": "title_10",
           "ic_tt": "gem",
           "show_clpr": false,
-          "collection": "moissanite-diamond-earrings-for-women",
+          "collection": "moissanite-diamond-hip-hop-chain",
           "limit": 8,
           "space": 30,
           "use_pagination": "none",
@@ -3866,55 +3867,46 @@
           "text_e98iew": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
-              "testi_h": "Radiant Beauty",
-              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
-              "testi_cname": "Emily, Client"
+              "testi_img": "shopify://shop_images/07.png",
+              "testi_h": "Name Pendant",
+              "testi_p": "Beautifully made and arrived faster than expected. The name pendant feels luxurious and looks stunning. Highly recommend this shop!",
+              "testi_cname": "Gat Wilson"
             }
           },
           "text_zTNDM3": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
-              "testi_h": "Radiant Beauty",
-              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
-              "testi_cname": "Emily, Client"
+              "testi_img": "shopify://shop_images/08.png",
+              "testi_h": "Earrings",
+              "testi_p": "I had a wonderful experience! The jewelry quality is outstanding, and the packaging added a special touch. I've already recommended this shop.",
+              "testi_cname": "Oliver K"
             }
           },
           "text_JRYUGy": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
-              "testi_h": "Radiant Beauty",
-              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
-              "testi_cname": "Emily, Client"
+              "testi_img": "shopify://shop_images/09.png",
+              "testi_h": "Hip Hop Rings",
+              "testi_p": "I’m beyond impressed! The men's hip hop ring looks even better in person and still shines just as brilliantly after a month.",
+              "testi_cname": "Jeson Clark"
             }
           },
           "text_bfMN8F": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
-              "testi_h": "Radiant Beauty",
-              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
-              "testi_cname": "Emily, Client"
-            }
-          },
-          "text_YYJxXi": {
-            "type": "text",
-            "settings": {
-              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
-              "testi_h": "Radiant Beauty",
-              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
-              "testi_cname": "Emily, Client"
+              "testi_img": "shopify://shop_images/10.png",
+              "testi_h": "Bracelets",
+              "testi_p": "I bought a bracelet for my husband, and he loves it! The craftsmanship is flawless, it fits his style perfectly, and the customer service was fast.",
+              "testi_cname": "Alex Dividson"
             }
           },
           "text_cQFyrG": {
             "type": "text",
             "settings": {
-              "testi_img": "shopify://shop_images/Pngtree_golden_couple_ring_1233264_1.png",
-              "testi_h": "Radiant Beauty",
-              "testi_p": "Rqadiant Beauty is a term used to describe a state of exceptitional...",
-              "testi_cname": "Emily, Client"
+              "testi_img": "shopify://shop_images/11.png",
+              "testi_h": "Iced Out Watch",
+              "testi_p": "Found the perfect elegant yet affordable piece! Top-notch quality and design—I love wearing it for special occasions.",
+              "testi_cname": "Clara Smith"
             }
           }
         },
@@ -3923,7 +3915,6 @@
           "text_zTNDM3",
           "text_JRYUGy",
           "text_bfMN8F",
-          "text_YYJxXi",
           "text_cQFyrG"
         ],
         "settings": {
@@ -3978,7 +3969,7 @@
         "settings": {
           "bg_color": "#ededed",
           "bg_color2": "#ffffff",
-          "title": "Collection Grid",
+          "title": "Shipping Partners",
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
@@ -4299,7 +4290,7 @@
       "collection_slider_withimg_YDgjTE": {
         "type": "collection-slider-withimg",
         "settings": {
-          "collectionproduct": "iced-out-audemars-pigute-watch-swiss-luxury-watches",
+          "collectionproduct": "home-rings",
           "title": "",
           "sub_title": "",
           "sub_font": "2",
@@ -4308,13 +4299,13 @@
           "colimg": "shopify://shop_images/03_178c041b-08ab-4494-858c-05c2bef0119b.jpg",
           "typedimond": "",
           "colname": "",
-          "colurl": ""
+          "colurl": "shopify://collections/925-sterling-silver-moissanite-ring-for-engagement"
         }
       },
       "collection_slider_withimg_7Gt9Ra": {
         "type": "collection-slider-withimg",
         "settings": {
-          "collectionproduct": "moissanite-iced-out-3d-enamel-pendant",
+          "collectionproduct": "home-pendants",
           "title": "",
           "sub_title": "",
           "sub_font": "2",
@@ -4323,13 +4314,13 @@
           "colimg": "shopify://shop_images/02_copy.jpg",
           "typedimond": "",
           "colname": "",
-          "colurl": ""
+          "colurl": "shopify://collections/moissanite-iced-out-3d-enamel-pendant"
         }
       },
       "collection_slider_withimg_T6GwjR": {
         "type": "collection-slider-withimg",
         "settings": {
-          "collectionproduct": "iced-out-audemars-pigute-watch-swiss-luxury-watches",
+          "collectionproduct": "home-watch",
           "title": "",
           "sub_title": "",
           "sub_font": "2",
@@ -4338,26 +4329,26 @@
           "colimg": "shopify://shop_images/01_copy.jpg",
           "typedimond": "",
           "colname": "",
-          "colurl": ""
+          "colurl": "shopify://collections/branded-moissanite-iced-out-watches"
         }
       }
     },
     "content_for_index": [
       "1581505806578",
       "collection_slider_section_WcKXc6",
+      "hip_hop_collection_GzPMVX",
       "category_slider_QxJpWe",
       "1581505838591",
-      "featured_collection_owl_XMhgek",
-      "hip_hop_collection_GzPMVX",
+      "collection_slider_withimg_T6GwjR",
+      "collection_slider_withimg_7Gt9Ra",
+      "collection_slider_withimg_YDgjTE",
       "banner_collection_F8CiwD",
       "image_text_overlay_x64TQD",
+      "featured_collection_owl_XMhgek",
       "featured_collection_owl_pxqWR6",
       "email_yatRNc",
       "custom_shipping_Hm9amk",
       "featured_collection_owl_pPqi3g",
-      "collection_slider_withimg_YDgjTE",
-      "collection_slider_withimg_T6GwjR",
-      "collection_slider_withimg_7Gt9Ra",
       "custom_testimonial_9ppya7",
       "accordian_YbqUkH",
       "our_shippingpartner_ihrWem"
