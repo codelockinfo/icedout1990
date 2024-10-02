@@ -1694,6 +1694,10 @@ ul.nt_filter_styleck>li.active>a:before {
 .meta-content{
 	color: #000 !important;
 }
+.mb_cat_true .mb_nav_title{
+	flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
 
 /* media query  */
 @media (max-width: 1500px) {
