@@ -987,13 +987,26 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "menu_34nnNW": {
+            "type": "menu",
+            "settings": {
+              "title": "Watches",
+              "url": "",
+              "open_link": "_self",
+              "menu": "mobile-watches",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
           "mb_nav-3",
           "mb_nav-8",
           "menu_33wxyH",
-          "menu_9rhCJH"
+          "menu_9rhCJH",
+          "menu_34nnNW"
         ],
         "settings": {
         }
