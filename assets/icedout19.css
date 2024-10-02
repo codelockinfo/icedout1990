@@ -1849,6 +1849,13 @@ ul.nt_filter_styleck>li.active>a:before {
 		margin-top: 30px;
 		padding-left: 0;
 	}
+	.header__mid .icon_like{
+		display: block !important;
+	}
+	.header__mid .al_center {
+		justify-content: space-between !important;
+	}
+	
 	/* .footer_bottom .f_email  {
 		text-align: left;
 	}
@@ -1860,7 +1867,7 @@ ul.nt_filter_styleck>li.active>a:before {
 	.footer_bottom .f_social {
 		text-align: left	;
 	}
-} */
+ */
 
 }
 
@@ -1915,6 +1922,9 @@ ul.nt_filter_styleck>li.active>a:before {
 
 	.pa_txts.mb_v_pos50 {
 		top: 80% !important;
+	}
+	.header__mid .tc {
+		text-align: right !important;
 	}
 }
 
