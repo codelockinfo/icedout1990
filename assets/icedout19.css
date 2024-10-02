@@ -1,3 +1,4 @@
+
 /* .width-container{
 	max-width: 1440px;
 	margin: 0 auto;
@@ -1530,6 +1531,136 @@ ul.nt_filter_styleck>li.active>a:before {
 
 }
 
+
+/* BANNER COLLECTION  */
+.banner-with-collection .collection-with-slider-main {
+	padding-top: 50px;
+	background-color: #fff;
+}
+
+.banner-with-collection .collection-img-main-box {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.banner-with-collection .collection-img-box {
+	width: 40%;
+	padding-right: 15px;
+}
+
+.banner-with-collection .collection-slider-box {
+	width: 60%;
+	padding-left: 15px;
+}
+
+.banner-with-collection .swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.banner-with-collection .swiper-slide {
+	text-align: center;
+	font-size: 14px;
+	background: #fff;
+}
+
+.banner-with-collection .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.banner-with-collection .image-collection img {
+	width: 100%;
+
+}
+
+.banner-with-collection .image-collection {
+	padding: 10px;
+	border: 1px solid #eaeff2;
+}
+
+.banner-with-collection .image-collection .product-img {
+	position: relative;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+
+.banner-with-collection .hover-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	/* Initially hide the second image */
+	transition: opacity 0.3s ease;
+	/* Add a smooth transition effect */
+}
+
+.banner-with-collection .image-collection:hover .hover-image {
+	opacity: 1;
+}
+
+.banner-with-collection .pro-rate {
+	margin: 10px 0;
+}
+
+.banner-with-collection .pro-rate .product-price {
+	font-size: 14px;
+}
+
+.banner-with-collection .product-content-box {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.banner-with-collection .product-price ins {
+	color: #6B6B78 !important;
+	text-decoration: none !important;
+	margin-left: 6px;
+}
+
+.banner-with-collection .collection-main-img {
+	position: relative;
+}
+
+.banner-with-collection .collection-main-img .col-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.banner-with-collection .colletion-img-content {
+	/* position: absolute;
+	top: 0;
+	content: "";
+	left: 0;
+	background: linear-gradient(180deg, #fff0, #000);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	padding: 15px; */
+}
+
+.banner-with-collection .collection-sub {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: 'Montserrat Alternates' !important;
+}
+
+.banner-with-collection .collection-name {
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+
+}
+
+
+
+
+
 /* IMG WITH TEXT COLLECTION SECTION  */
 
 .img-with-text-section {
@@ -1861,6 +1992,13 @@ ul.nt_filter_styleck>li.active>a:before {
 	.lazyloaded .section-title {
 		margin-bottom: 10px;
 	}
+	.title_header_svg svg{
+		display: none;
+	}
+	.lazyloaded .section-title {
+		font-size: 30px;
+	}
+
 }
 
 @media (max-width:519px) {
