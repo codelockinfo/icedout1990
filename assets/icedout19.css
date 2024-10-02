@@ -2020,6 +2020,12 @@ ul.nt_filter_styleck>li.active>a:before {
 	.email_section .col-12 {
 		flex: 0 0 63%;
 	}
+	.footer-contact a.db{
+		text-align: center !important;
+	}
+	.footer-contact a.db img{
+		max-width: 90px !important;
+	}
 }
 
 @media (max-width:519px) {
