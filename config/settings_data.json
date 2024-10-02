@@ -965,6 +965,7 @@
           },
           "menu_33wxyH": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Menu",
               "url": "",
@@ -974,12 +975,25 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "menu_9rhCJH": {
+            "type": "menu",
+            "settings": {
+              "title": "Home",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
           "mb_nav-3",
           "mb_nav-8",
-          "menu_33wxyH"
+          "menu_33wxyH",
+          "menu_9rhCJH"
         ],
         "settings": {
         }
