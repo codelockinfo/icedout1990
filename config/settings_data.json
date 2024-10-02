@@ -1035,6 +1035,18 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "menu_Ab8epk": {
+            "type": "menu",
+            "settings": {
+              "title": "Blogs",
+              "url": "shopify://blogs/about-jewelry",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -1045,7 +1057,8 @@
           "menu_34nnNW",
           "menu_NUGxkQ",
           "menu_ncbRJz",
-          "menu_iQTbFC"
+          "menu_iQTbFC",
+          "menu_Ab8epk"
         ],
         "settings": {
         }
