@@ -2040,6 +2040,9 @@ ul.nt_filter_styleck>li.active>a:before {
 	.footer-contact a.db img{
 		max-width: 90px !important;
 	}
+	.hip_hop_main_box .hip-hop-img .hip_hop_name .hip_p {
+		font-size: 12px;
+	}
 }
 
 @media (max-width:519px) {
@@ -2081,6 +2084,9 @@ ul.nt_filter_styleck>li.active>a:before {
 	.cp2 {
 		font-size: 26px !important;
 		line-height: normal !important;
+	}
+	.hip_hop_main_box .hip-hop-img .hip_hop_name .hip_p{
+		font-size: 10px;
 	}
 }
 
