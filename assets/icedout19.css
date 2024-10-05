@@ -1815,12 +1815,12 @@ ul.nt_filter_styleck>li.active>a:before {
 		padding-right: 0;
 	}
   .banner-with-collection .collection-img-box {
-	width: 100%
-	padding-right: 15px;
+	width: 100%;
+	padding-right: 0;
 }
   .banner-with-collection .collection-slider-box {
 	width: 100%;
-	padding-left: 15px;
+	padding-left: 0;
 }
 }
 
