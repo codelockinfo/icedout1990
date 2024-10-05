@@ -4423,6 +4423,20 @@
           "colname": "",
           "colurl": "shopify://collections/branded-moissanite-iced-out-watches"
         }
+      },
+      "banner_with_collection_bUc4MU": {
+        "type": "banner-with-collection",
+        "settings": {
+          "collectionproduct": "iced-out-audemars-pigute-watch-swiss-luxury-watches",
+          "title": "",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1",
+          "typedimond": "",
+          "colname": "",
+          "colurl": ""
+        }
       }
     },
     "content_for_index": [
@@ -4435,6 +4449,7 @@
       "collection_slider_withimg_7Gt9Ra",
       "collection_slider_withimg_YDgjTE",
       "banner_collection_F8CiwD",
+      "banner_with_collection_bUc4MU",
       "image_text_overlay_x64TQD",
       "featured_collection_owl_XMhgek",
       "featured_collection_owl_pxqWR6",
