@@ -2041,6 +2041,9 @@ ul.nt_filter_styleck>li.active>a:before {
 	.hip_hop_main_box .hip-hop-img .hip_hop_name .hip_p {
 		font-size: 12px;
 	}
+  .custom_shipping .custom_shipping_main_box .ship_box{
+    text-align:center;
+  }
 }
 
 @media (max-width:519px) {
