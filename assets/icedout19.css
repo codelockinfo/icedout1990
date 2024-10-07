@@ -106,7 +106,7 @@
 }
 
 .nt_pr h3.product-title {
-	height: 55px !important;
+	height: 77px !important;
 	overflow: hidden;
 }
 
@@ -440,7 +440,7 @@
 
 /* email section  */
 .email_section {
-	background-color: #35384B;
+	background-color: #000;
 	padding: 100px 0;
 	margin-top: 220px;
 }
@@ -499,7 +499,7 @@
 }
 
 .email_section .email_main_box .email_content .submit-btn {
-	background: #354856;
+	background: #000;
 }
 
 .email_section .email_main_box .email_img_box {
@@ -525,12 +525,12 @@
 /* Custom shipping section  */
 .custom_shipping {
 	padding: 60px 0;
-	background: #35384B;
+	background: #000;
 	padding-bottom: 455px;
 }
 
 .custom_shipping .custom_shipping_main_box {
-	background: #35384B;
+	background: #000;
 	border: 1px solid;
 	display: flex;
 	flex-wrap: wrap;
