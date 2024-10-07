@@ -77,7 +77,7 @@
 
 .lazyloaded .section-title {
 	font-family: "Montserrat", sans-serif  !important;
-	font-size: 50px;
+	font-size: 46px;
 	font-weight: 800;
 	line-height: 75.14px;
 	/* text-align: left; */
@@ -466,12 +466,10 @@
 .email_section .email_main_box .email_content .email_h1 {
 	font-family: Raleway;
 	font-size: 50px;
-	font-weight: 800;
+	font-weight: bolder;
 	line-height: 50.14px;
 	text-align: left;
-	background: linear-gradient(90deg, #50727B 0%, #266AA9 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #000;
 }
 
 .email_section .email_main_box .email_content .email_p {
@@ -1997,6 +1995,7 @@ ul.nt_filter_styleck>li.active>a:before {
 
 	.custom_shipping .custom_shipping_main_box .ship_box .ship_h2 {
 		min-height: auto;
+		font-size: 16px;
 	}
 
 	.custom_shipping {
