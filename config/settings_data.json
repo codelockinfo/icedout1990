@@ -4389,6 +4389,7 @@
           "btn_title": "See all products",
           "style_title": "title_1",
           "colimg": "shopify://shop_images/03_178c041b-08ab-4494-858c-05c2bef0119b.jpg",
+          "colimgmobile": "shopify://shop_images/04_-_002.jpg",
           "typedimond": "",
           "colname": "",
           "colurl": "shopify://collections/925-sterling-silver-moissanite-ring-for-engagement"
@@ -4404,6 +4405,7 @@
           "btn_title": "See all products",
           "style_title": "title_1",
           "colimg": "shopify://shop_images/02_copy.jpg",
+          "colimgmobile": "shopify://shop_images/04_-_002.jpg",
           "typedimond": "",
           "colname": "",
           "colurl": "shopify://collections/moissanite-iced-out-3d-enamel-pendant"
@@ -4419,6 +4421,7 @@
           "btn_title": "See all products",
           "style_title": "title_1",
           "colimg": "shopify://shop_images/01_copy.jpg",
+          "colimgmobile": "shopify://shop_images/04_-_002.jpg",
           "typedimond": "",
           "colname": "",
           "colurl": "shopify://collections/branded-moissanite-iced-out-watches"
