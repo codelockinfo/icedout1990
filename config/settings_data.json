@@ -3754,7 +3754,7 @@
         "type": "email",
         "settings": {
           "email_img": "shopify://shop_images/05_-_01_93593c21-fc9b-4a56-8e28-6e46dd65d52e.jpg",
-          "mobileimg": "shopify://shop_images/02_-_M0_27fc2cea-9a3f-49e6-af63-b13ec4b7c7a4.jpg",
+          "mobileimg": "shopify://shop_images/05_-_01_M.jpg",
           "email_h1": "Icedout1990 Offers Your Layaway Plans",
           "email_p": "We offer a 60-40% installment plan: pay 60% upfront to start your jewelry order, with the remaining 40% due before dispatch. For details, please contact us.",
           "Btn_text": "Submit"
@@ -4433,7 +4433,7 @@
           "sub_font": "2",
           "btn_title": "See all products",
           "style_title": "title_1",
-          "colimg": "shopify://shop_images/id.jpg",
+          "colimg": "shopify://shop_images/01_49bea7cc-a05a-4df6-b937-1422631e2e3c.jpg",
           "colurl": "shopify://collections/iced-out-audemars-pigute-watch-swiss-luxury-watches"
         }
       }
