@@ -4434,7 +4434,8 @@
           "btn_title": "See all products",
           "style_title": "title_1",
           "colimg": "shopify://shop_images/01_49bea7cc-a05a-4df6-b937-1422631e2e3c.jpg",
-          "colurl": "shopify://collections/iced-out-audemars-pigute-watch-swiss-luxury-watches"
+          "colurl": "shopify://collections/iced-out-audemars-pigute-watch-swiss-luxury-watches",
+          "button_label": "Get a Quote"
         }
       }
     },
