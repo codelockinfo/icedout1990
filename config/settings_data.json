@@ -3388,7 +3388,6 @@
         "blocks": {
           "text_f4GyjR": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "bg_img": "shopify://shop_images/05_-_01.jpg",
               "collection_text": "EARRINGS",
