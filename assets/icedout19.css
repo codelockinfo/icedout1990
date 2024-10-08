@@ -273,6 +273,12 @@
 	left: 0;
 } */
 
+.hip_hop_main_box .swiper-c-class{
+  position:relative;
+}
+
+
+
 /* banner collection  */
 #b_btn_XnBzat {
 	border-radius: 100px !important;
