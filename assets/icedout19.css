@@ -1712,6 +1712,9 @@ ul.nt_filter_styleck>li.active>a:before {
 	flex: 0 0 100% !important;
   max-width: 100% !important;
 }
+.swiper-button-lock{
+  display:block !important;
+}
 
 /* media query  */
 @media (max-width: 1500px) {
