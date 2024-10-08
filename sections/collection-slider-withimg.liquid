@@ -5,12 +5,9 @@
       <div class="collection-img-box">
         {% if section.settings.colimg != blank %}
         <div class="collection-main-img">
-          <a href="{{section.settings.colurl}}" class="col-img"> <img src="{{section.setting.colimg | img_url:'master'}}" alt="" ></a>
-         <a href="{{section.setting.colurl}}"  class="col-img-mobile"> <img src="{{section.settings.colimgmobile | img_url:'master'}}" alt=""></a>
-          <!-- <div class="colletion-img-content">
-            <div class="collection-sub">{{ section.settings.typedimond }}</div>
-            <a href="{{section.setting.colurl}}" class="collection-name">{{ section.settings.colname }}</a>
-          </div> -->
+          <a href="{{section.settings.colurl}}" > <img src="{{section.setting.colimg | img_url:'master'}}" alt="" class="col-img" ></a>
+         <a href="{{section.setting.colurl}}" > <img src="{{section.settings.colimgmobile | img_url:'master'}}" alt=""  class="col-img-mobile"></a>
+          
         </div>
        {% endif %}
       </div>
