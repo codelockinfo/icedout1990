@@ -280,6 +280,10 @@
  font-size:16px ;
 color:#000;
 }
+.hip_hop_main_box  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+ font-size:16px ;
+color:#000;
+}
 .hip_hop_main_box .swiper-c-class .swiper-button-prev ,.swiper-c-class .swiper-button-next {
   position:absolute;
   top:67% !important;
