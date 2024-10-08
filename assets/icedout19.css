@@ -288,7 +288,12 @@ color:#000;
   position:absolute;
   top:67% !important;
 }
-
+.hip_hop_main_box .swiper-c-class .swiper-button-prev{
+  left:-5%;
+}
+.hip_hop_main_box .swiper-c-class .swiper-button-next{
+   right:-5%;
+}
 
 
 /* banner collection  */
