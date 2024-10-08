@@ -15,9 +15,11 @@
               {% endif %}
           </div>
         {% endfor %}
-        <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+       
       </div>
+        <!-- Arrows should be outside the swiper-wrapper -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
     </div>
   </div>
 </div>
@@ -168,51 +170,43 @@
 {% endschema %}
 
 <script>
-  var swiper = new Swiper('.hipslider', {
-    slidesPerView: 5,
-     loop: true,
-    autoplay: {
-    delay: 3000, 
+var swiper = new Swiper('.hipslider', {
+  slidesPerView: 5,
+  loop: true,
+  autoplay: {
+    delay: 3000,
     disableOnInteraction: false,
-    },
-    spaceBetween: 30,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-      navigation: {
+  },
+  spaceBetween: 30,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-    breakpoints: {
-      0: {
-        slidesPerView: 3.1,
-        spaceBetween: 10,
-      },
-      577: {
-        slidesPerView: 3,
-        spaceBetween: 10,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 20,
-      },
-      800: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      900: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      1020: {
-        slidesPerView: 4,
-        spaceBetween: 30,
-      },
-      1100: {
-        slidesPerView: 5,
-        spaceBetween: 30,
-      },
+  breakpoints: {
+    0: {
+      slidesPerView: 3.1,
+      spaceBetween: 10,
     },
-  });
+    577: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1020: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+    1100: {
+      slidesPerView: 5,
+      spaceBetween: 30,
+    },
+  },
+});
 </script>
