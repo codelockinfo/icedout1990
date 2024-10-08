@@ -168,8 +168,11 @@
 <script>
   var swiper = new Swiper('.hipslider', {
     slidesPerView: 5,
-    loop: true,
-    autoplay:true,
+     loop: true,
+    autoplay: {
+    delay: 3000, 
+    disableOnInteraction: false,
+    },
     spaceBetween: 30,
     pagination: {
       el: '.swiper-pagination',
