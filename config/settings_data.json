@@ -3386,6 +3386,14 @@
       "hip_hop_collection_GzPMVX": {
         "type": "hip-hop-collection",
         "blocks": {
+          "text_f4GyjR": {
+            "type": "text",
+            "settings": {
+              "bg_img": "shopify://shop_images/05_-_01.jpg",
+              "collection_text": "EARRINGS",
+              "collection_url": "shopify://collections/moissanite-diamond-earrings"
+            }
+          },
           "text_kbtYGW": {
             "type": "text",
             "settings": {
@@ -3428,6 +3436,7 @@
           }
         },
         "block_order": [
+          "text_f4GyjR",
           "text_kbtYGW",
           "text_XQfatd",
           "text_MQxQcJ",
