@@ -564,6 +564,7 @@ color:#000;
 .custom_shipping .custom_shipping_main_box .ship_box {
 	width: 25%;
 	padding: 20px;
+text-align:center;
 }
 
 .custom_shipping .custom_shipping_main_box .ship_box:hover {
