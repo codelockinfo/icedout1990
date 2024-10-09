@@ -3430,7 +3430,7 @@
             "type": "text",
             "settings": {
               "bg_img": "shopify://shop_images/DSC00676_7e9fe846-131e-4ecd-8d44-246211b00f17.jpg",
-              "collection_text": "Watches",
+              "collection_text": "WATCHES",
               "collection_url": "shopify://collections/rolex-watches-for-men-1"
             }
           }
@@ -3764,7 +3764,7 @@
         "settings": {
           "email_img": "shopify://shop_images/05_-_01_93593c21-fc9b-4a56-8e28-6e46dd65d52e.jpg",
           "mobileimg": "shopify://shop_images/05_-_02_M.jpg",
-          "email_h1": "Icedout1990 Offers Your Layaway Plans",
+          "email_h1": "Icedout1990 Offers You Layaway Plans",
           "email_p": "We offer a 60-40% installment plan: pay 60% upfront to start your jewelry order, with the remaining 40% due before dispatch. For details, please contact us.",
           "Btn_text": "Submit"
         }
