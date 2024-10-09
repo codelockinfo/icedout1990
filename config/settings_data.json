@@ -1296,7 +1296,7 @@
             "type": "btn",
             "settings": {
               "title": "Go to Categories",
-              "btn_link": "shopify://collections",
+              "btn_link": "shopify://collections/moissanite-iced-out-3d-enamel-pendant",
               "title2": "Start Project",
               "btn_link2": "",
               "btn_round": false,
@@ -1393,7 +1393,7 @@
             "type": "btn",
             "settings": {
               "title": "Shop Now",
-              "btn_link": "shopify://collections",
+              "btn_link": "/",
               "title2": "Start Project",
               "btn_link2": "",
               "btn_round": false,
@@ -1490,7 +1490,7 @@
             "type": "btn",
             "settings": {
               "title": "Shop Now",
-              "btn_link": "shopify://collections",
+              "btn_link": "shopify://collections/branded-moissanite-iced-out-watches",
               "title2": "Start Project",
               "btn_link2": "",
               "btn_round": false,
