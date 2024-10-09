@@ -3775,7 +3775,7 @@
           "img_JU3kAi": {
             "type": "img",
             "settings": {
-              "shipping_img": "shopify://shop_images/delivery.png",
+              "shipping_img": "shopify://shop_images/delivery_1c33740c-05ee-44de-bcaf-c533a6f9f737.png",
               "shipping_h": "Free Shipping",
               "shipping_p": "Get world wide free shipping on all products"
             }
@@ -3783,7 +3783,7 @@
           "img_URijYp": {
             "type": "img",
             "settings": {
-              "shipping_img": "shopify://shop_images/exchange.png",
+              "shipping_img": "shopify://shop_images/exchange_a9a516cc-a905-43df-9dbd-b7bfd8d5fa6f.png",
               "shipping_h": "Payment Plans",
               "shipping_p": "Get easy payment plan on every purchase"
             }
@@ -3791,7 +3791,7 @@
           "img_cYPTfb": {
             "type": "img",
             "settings": {
-              "shipping_img": "shopify://shop_images/cashback.png",
+              "shipping_img": "shopify://shop_images/cashback_5bb425a2-307e-4018-9c53-1fe3cd86c97b.png",
               "shipping_h": "Unbeateable Price",
               "shipping_p": "Luxurious jewelry in your budget."
             }
@@ -3799,7 +3799,7 @@
           "img_DBczKW": {
             "type": "img",
             "settings": {
-              "shipping_img": "shopify://shop_images/sticker.png",
+              "shipping_img": "shopify://shop_images/sticker_1f9ba7c8-dd82-4e5c-9346-699af9df904f.png",
               "shipping_h": "Customer Support",
               "shipping_p": "Get 24/7 custom support with us"
             }
