@@ -59,6 +59,7 @@
 
     {{ content_for_header }}
     <link rel="stylesheet" href="{{ 'icedout.css' |  asset_url }}"/>
+{% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
 </head>
 <body {{class_body_theme | strip_newlines-}}>
   {%- render 'lazypreload' -%}
