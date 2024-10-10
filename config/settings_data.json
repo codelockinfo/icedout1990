@@ -527,6 +527,7 @@
           },
           "link_yR98UQ": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Plain Watches",
               "url": "shopify://collections/audemars-piguet-moissanite-watches-for-men",
