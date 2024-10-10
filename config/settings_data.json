@@ -538,7 +538,6 @@
           },
           "cat_GHQfaQ": {
             "type": "cat",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/IMG_1623.jpg",
               "cat_design": "1",
