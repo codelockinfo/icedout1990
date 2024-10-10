@@ -540,8 +540,8 @@
             "type": "cat",
             "settings": {
               "image": "shopify://shop_images/IMG_1623.jpg",
-              "cat_design": "1",
-              "hoverz": true,
+              "cat_design": "2",
+              "hoverz": false,
               "collection": "moissanite-watch",
               "title": "",
               "col": "6"
