@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "general_layout": "full_width",
@@ -693,7 +693,7 @@
             "type": "simple",
             "settings": {
               "title": "CUSTOM",
-              "url": "/",
+              "url": "shopify://collections/custom-designs",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
