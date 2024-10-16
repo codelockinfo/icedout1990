@@ -693,7 +693,7 @@
             "type": "simple",
             "settings": {
               "title": "CUSTOM",
-              "url": "shopify://collections/custom-designs",
+              "url": "shopify://pages/custom-design",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2554,9 +2554,8 @@
           "pages_heading-0"
         ],
         "settings": {
-          "image": "",
           "parallax": false,
-          "color": "#000",
+          "color": "#000000",
           "overlay": 54,
           "padding": 50,
           "bg_pos": "center center",
@@ -4442,6 +4441,18 @@
           "colimg": "shopify://shop_images/01_49bea7cc-a05a-4df6-b937-1422631e2e3c.jpg",
           "colurl": "/",
           "button_label": "Get a Quote"
+        }
+      },
+      "password": {
+        "type": "password",
+        "settings": {
+          "use_platform": false,
+          "heading": "Coming Soon!",
+          "content": "We are about to go public so be sure to root on us and check back in anytime!<br> Can't wait to have you!",
+          "newsletter_placeholder": "Your email address",
+          "newsletter_button_text": "Notify me",
+          "signup_form_success": "We will send you an email right before we open!",
+          "social": "2"
         }
       }
     },
