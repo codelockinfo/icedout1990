@@ -2204,7 +2204,7 @@ header .tcount {
     justify-content: center;
 }
 
-.bg_color_rose,.bg_css_white-rose {
+.bg_color_rose,.bg_color_white-rose {
     background: linear-gradient(180deg, #F6C8AE 0%, #FEEEE6 50.5%, #F4BEA0 100%);
 }
 
