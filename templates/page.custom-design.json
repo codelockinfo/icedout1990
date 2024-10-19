@@ -12,8 +12,8 @@
     "featured_collection_owl_WwmtJe": {
       "type": "featured_collection_owl",
       "settings": {
-        "title": "Collection Slider",
-        "sub_title": "Sub Text",
+        "title": "Our Custom Pieces",
+        "sub_title": "",
         "sub_font": "2",
         "btn_title": "See all products",
         "style_title": "title_1",
@@ -29,7 +29,7 @@
         "col_pr": "3",
         "col_pr_tb": "3",
         "col_pr_mb": "6",
-        "pr_des": "1",
+        "pr_des": "2",
         "show_vendor": false,
         "use_cdt": false,
         "round_cd": false,
