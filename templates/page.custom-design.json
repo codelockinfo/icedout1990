@@ -60,7 +60,6 @@
     },
     "lookbook_img_JPELV9": {
       "type": "lookbook_img",
-      "disabled": true,
       "settings": {
         "title": "",
         "sub_title": "",
@@ -69,10 +68,11 @@
         "ic_tt": "gem",
         "show_clpr": false,
         "img_size": "2",
+        "image": "shopify://shop_images/ID_CUSTOM_SECTION.jpg",
         "hidden": false,
         "cp_code": false,
         "layout": "container",
-        "cl_bg": "#fff",
+        "cl_bg": "#ffffff",
         "hide_bgimg": false,
         "use_pr": false,
         "mg": "50px,,50px,",
