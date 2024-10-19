@@ -9,39 +9,6 @@
  */
 {
   "sections": {
-    "collabs": {
-      "type": "apps",
-      "blocks": {
-        "c752350a-6ea3-4992-8ff8-d4207704e816": {
-          "type": "shopify://apps/collabs/blocks/application-page/54758706-9f25-4fa9-a553-64720a4c998b",
-          "disabled": true,
-          "settings": {
-            "heading": "Join the icedout1990.com community",
-            "show_square_logo": true,
-            "show_partnership_info": true,
-            "button_text": "Apply now",
-            "number_of_images": "4",
-            "logo_position": "above",
-            "corner_style": "square",
-            "button_background_color": "#000000",
-            "button_label_color": "#ffffff",
-            "link_color": "#2c6ecb"
-          }
-        },
-        "powerful_form_builder_app_block_Fmf8ML": {
-          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-          "settings": {
-            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NjAwNjU=\"></div>"
-          }
-        }
-      },
-      "block_order": [
-        "c752350a-6ea3-4992-8ff8-d4207704e816",
-        "powerful_form_builder_app_block_Fmf8ML"
-      ],
-      "settings": {
-      }
-    },
     "featured_collection_owl_WwmtJe": {
       "type": "featured_collection_owl",
       "settings": {
@@ -90,10 +57,43 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "collabs": {
+      "type": "apps",
+      "blocks": {
+        "c752350a-6ea3-4992-8ff8-d4207704e816": {
+          "type": "shopify://apps/collabs/blocks/application-page/54758706-9f25-4fa9-a553-64720a4c998b",
+          "disabled": true,
+          "settings": {
+            "heading": "Join the icedout1990.com community",
+            "show_square_logo": true,
+            "show_partnership_info": true,
+            "button_text": "Apply now",
+            "number_of_images": "4",
+            "logo_position": "above",
+            "corner_style": "square",
+            "button_background_color": "#000000",
+            "button_label_color": "#ffffff",
+            "link_color": "#2c6ecb"
+          }
+        },
+        "powerful_form_builder_app_block_Fmf8ML": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NjAwNjU=\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "c752350a-6ea3-4992-8ff8-d4207704e816",
+        "powerful_form_builder_app_block_Fmf8ML"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "collabs",
-    "featured_collection_owl_WwmtJe"
+    "featured_collection_owl_WwmtJe",
+    "collabs"
   ]
 }
