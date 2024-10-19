@@ -58,6 +58,28 @@
         "pd_mb": ""
       }
     },
+    "lookbook_img_JPELV9": {
+      "type": "lookbook_img",
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "img_size": "1",
+        "hidden": false,
+        "cp_code": false,
+        "layout": "nt_full",
+        "cl_bg": "#fff",
+        "hide_bgimg": false,
+        "use_pr": false,
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "collabs": {
       "type": "apps",
       "blocks": {
@@ -94,6 +116,7 @@
   },
   "order": [
     "featured_collection_owl_WwmtJe",
+    "lookbook_img_JPELV9",
     "collabs"
   ]
 }
