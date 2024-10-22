@@ -1979,7 +1979,6 @@
           },
           "complementary_product_g3MjLw": {
             "type": "complementary_product",
-            "disabled": true,
             "settings": {
               "complementaryproductheading": "Matching Product",
               "complementaryproduct": "",
