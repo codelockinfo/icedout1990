@@ -707,7 +707,7 @@
             {%- endform -%}
 
             {% comment %} {{product.description}} {% endcomment %}
-            {% assign descriptioninformation = product.metafields.custom.description_information
+            {% comment %}{% assign descriptioninformation = product.metafields.custom.description_information
               | remove: '["'
               | remove: '"]'
             %}
@@ -744,7 +744,7 @@
                   {% endif %}
                 </div>
               {% endif %}
-            </div>
+            </div>{% endcomment %}
             {% comment %} {{product.description}} {% endcomment %}
             {%- assign uavailable_v = pr_variants | where: 'available', false -%}
             {%- if settings.use_notify_me and uavailable_v.size > 0 -%}

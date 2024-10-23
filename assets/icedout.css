@@ -31,6 +31,9 @@
     overflow:hidden;
     padding:20px;   */
   }
+  .custompanels .custompanel{
+    color: #354856;
+  }
   .custompanel{
     display:none;
     animation: fadein .8s;
