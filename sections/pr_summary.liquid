@@ -827,7 +827,8 @@
       %}
         <div class="customtabs">
           <label class="customtab" id="one-tab" for="one">
-            {%- if product.metafields.custom.tabdescription != blank %}Description {% endif -%}
+            {% if product.description %}Description{% endif %}
+            {% comment %} {%- if product.metafields.custom.tabdescription != blank %}Description {% endif -%} {% endcomment %}
           </label>
           <label class="customtab" id="two-tab" for="two">
             {%- if product.metafields.custom.diamonddetails != blank %}Diamond Detail{% endif -%}
@@ -841,7 +842,8 @@
         </div>
         <div class="custompanels mb__40">
           <div class="custompanel" id="one-panel">
-            {{ product.metafields.custom.tabdescription }}
+            {{ product.description }}
+            {% comment %} {{ product.metafields.custom.tabdescription }} {% endcomment %}
           </div>
           <div class="custompanel" id="two-panel">
             {{ product.metafields.custom.diamonddetails }}
