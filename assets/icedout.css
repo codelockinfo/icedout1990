@@ -116,3 +116,7 @@
   bottom: 0;
   top: unset;
 }
+.product-images  .flickity-button{
+  color: #fff;
+  border: 1px solid #fff7f7;
+}
