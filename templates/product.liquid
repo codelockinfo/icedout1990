@@ -303,32 +303,34 @@
 </script>
 
 <script>
-  $(document).ready(function() {
-      var $slider = $('.theiaStickySidebar.theiaStickySidebarProduct');
-      var $content = $('.product-infors');
-      
-      var offsetTop = $slider.offset().top;
-      var contentHeight = $content.height();
-      var sliderHeight = $slider.height();
-      
-      if ($(window).width() >= 768) {
-        $(window).scroll(function() {
-          var scrollTop = $(window).scrollTop();
-          var imagedivwidth = $slider.width();
-          $slider.css('width',imagedivwidth);
-          var contentBottom = offsetTop + contentHeight;
-          
-          // Stick the slider when scrolling
-          if (scrollTop > offsetTop && contentBottom >= scrollTop  + sliderHeight) {
-            $slider.addClass('sticky');
-            $slider.removeClass('slider-absolute');
-          }else if(contentBottom <= scrollTop  + sliderHeight){
-            $slider.addClass('slider-absolute');
-          } else {
-            $slider.removeClass('slider-absolute');
-            $slider.removeClass('sticky');
-          }
-        });
-      }
-  });
+ $(document).ready(function() {
+    var $slider = $('.theiaStickySidebar.theiaStickySidebarProduct');
+    var $content = $('.product-infors');
+    
+    var offsetTop = $slider.offset().top;
+    var contentHeight = $content.height();
+    var sliderHeight = $slider.height();
+    
+    if ($(window).width() >= 768) {
+      $(window).scroll(function() {
+        var scrollTop = $(window).scrollTop();
+        var imagedivwidth = $slider.width();
+        $slider.css('width',imagedivwidth);
+        var contentBottom = offsetTop + contentHeight;
+        
+        // Stick the slider when scrolling
+        if (scrollTop > offsetTop && contentBottom >= scrollTop  + sliderHeight) {
+          $slider.addClass('sticky');
+          $slider.removeClass('slider-absolute');
+        }else if(contentBottom <= scrollTop  + sliderHeight){
+          $slider.addClass('slider-absolute');
+        } else {
+          $slider.removeClass('slider-absolute');
+          $slider.removeClass('sticky');
+        }
+      });
+    }
+    
+});
+
 </script>
