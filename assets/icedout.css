@@ -115,9 +115,7 @@
     bottom: 0;
     top: unset;
 }
-.row.theiaStickySidebar {
-    width: 100%; /* Ensure sidebar width is maintained */
-}
+
 
 .product-images  .flickity-button{
   color: #fff;
