@@ -124,3 +124,4 @@
 .product-images .flickity-prev-next-button.previous {
   left: 15px;
 }
+.row.theiaStickySidebar.sticky{transition:all 0.5s;position:fixed;top:100px;z-index:99}
