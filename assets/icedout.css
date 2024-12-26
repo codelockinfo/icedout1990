@@ -112,7 +112,7 @@
   z-index:99;
 }
 .row.theiaStickySidebar.slider-absolute{
-  /* position: absolute; */
+  position: absolute;
   bottom: 0;
   top: unset;
 }
