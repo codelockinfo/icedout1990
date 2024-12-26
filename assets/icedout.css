@@ -111,12 +111,7 @@
   top: 100px;
   z-index:99;
 }
-.row.theiaStickySidebar.sticky {
-    transition: all .5s;
-    position: fixed;
-    top: 100px;
-    z-index: 99;
-}
+.row.theiaStickySidebar.slider-absolute{position:absolute;bottom:0;top:unset}
 .product-images  .flickity-button{
   color: #fff;
   border: 1px solid #fff7f7;
